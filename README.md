@@ -145,7 +145,7 @@ The entire model is **numerically reproducible** and developed in a continuum fi
   author       = {Ivan Salines},
   title        = {Unified Theory of Motion: Organized Motion and Stable Toroidal Configurations},
   year         = {2025},
-  url          = {https://github.com/USER/unified-theory-of-motion},
+  url          = {https://github.com/ivansalines/unified-theory-of-motion},
   doi          = {TO_BE_ASSIGNED}
 }
 ```

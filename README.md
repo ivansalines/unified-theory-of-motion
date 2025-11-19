@@ -162,7 +162,6 @@ For academic correspondence:
 # 🟦 License
 
 Recommended: **CC-BY 4.0**  
-You may alternatively choose MIT or “All rights reserved”.
 
 ---
 

@@ -89,6 +89,8 @@ Each document expands the unified framework into a specific physical domain.
 ## ✨ 04 — Special
 - The_Toroidal_Law_of_Organized_Motion.pdf  
   Formal geometric law describing stationary organized motion.
+- Binary Interaction of Self-Organized Solitons
+in a One-Dimensional Effective Model of Motion
 
 - Legacy versions and preliminary drafts (for historical completeness).
 

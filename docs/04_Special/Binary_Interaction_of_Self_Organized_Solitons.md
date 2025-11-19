@@ -209,5 +209,5 @@ Future directions:
 
 ## 10. Source Code
 
-The numerical engine for this study is included here:
+The numerical engine for this study is included here: docs/04_Special/src/binary_soliton_simulation.py
 

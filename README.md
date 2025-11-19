@@ -138,8 +138,6 @@ The entire model is **numerically reproducible** and developed in a continuum fi
 
 # 📜 Citation
 
-(To be updated when Zenodo DOI is assigned)
-
 ```
 @misc{salines2025_unified_motion,
   author       = {Ivan Salines},

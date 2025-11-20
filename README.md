@@ -105,6 +105,8 @@ Each document expands the unified framework into a specific physical domain.
   Formal geometric law describing stationary organized motion.
 - Binary Interaction of Self-Organized Solitons
 in a One-Dimensional Effective Model of Motion
+   - No previous Q-ball, oscillon, Hopfion, or kink–antikink study combines all these features in
+such a simple scalar model.
 
 - Legacy versions and preliminary drafts (for historical completeness).
 

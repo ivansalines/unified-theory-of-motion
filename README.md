@@ -7,6 +7,20 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17653903.svg)](https://doi.org/10.5281/zenodo.17653903)
 
 
+
+“When motion is free to organize itself according to continuity and minimal action, it spontaneously assumes the form capable of containing itself. Geometry does not precede motion; it is its consequence. And when motion finds equilibrium, form becomes harmony.”
+
+$$
+\mathcal{L}(\rho,\theta)
+=\frac12(\partial_\mu\rho)^2
++\frac12\rho^2(\partial_\mu\theta)^2
+-U(\rho)
+$$
+
+
+“Geometry is not a constraint on motion.
+It is the shape motion reveals.”
+
 ---
 
 ## 📘 Overview

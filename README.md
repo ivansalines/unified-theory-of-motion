@@ -137,6 +137,10 @@ python code/relaxation_solver.py
 Figures are stored in:
 
 ```
+/figures
+
+```
+
 ---
 
 # 🔬 Observations and Outcomes

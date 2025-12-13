@@ -1,14 +1,13 @@
 # Unified Theory of Motion
-### *A Framework of Organized Motion and Stable Toroidal Configurations*  
+### *A Research Framework on Organized Motion and Stable Toroidal Configurations*  
 **Author: Ivan Salines — Independent Researcher**  
 📧 ivan.salines@gmail.com
 
-
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17653903.svg)](https://doi.org/10.5281/zenodo.17653903)
 
-
-
-“When motion is free to organize itself according to continuity and minimal action, it spontaneously assumes the form capable of containing itself. Geometry does not precede motion; it is its consequence. And when motion finds equilibrium, form becomes harmony.”
+“When motion is free to organize itself according to continuity and minimal action,
+it may assume forms capable of sustaining themselves.
+Geometry does not precede motion; it can emerge from it.”
 
 $$
 \mathcal{L}(\rho,\theta)
@@ -17,25 +16,24 @@ $$
 -U(\rho)
 $$
 
-
-“Geometry is not a constraint on motion.
-It is the shape motion reveals.”
+“Geometry is not imposed on motion.
+It is a form motion may reveal under equilibrium conditions.”
 
 ---
 
 ## 📘 Overview
 
-This repository contains the complete set of documents, numerical simulations, and computational tools that constitute the **Unified Theory of Motion** — a framework in which **mass, energy, geometry, and particle-like structures** arise from *organized, stationary patterns of motion* in a continuous field.
+This repository collects a structured set of documents, numerical experiments,
+and computational tools developed within an ongoing research program referred to
+here as the *Unified Theory of Motion*.
 
-The work develops:
+The term is used as a **working designation**, describing an exploratory framework
+that investigates how organized, stationary patterns of motion may give rise to
+mass, geometry, and particle-like structures in continuous field models.
 
-- a decomposition of motion into **density** and **phase**,  
-- mass as **stationary organized motion**,  
-- stable **toroidal solitons** as geometric quanta of motion,  
-- the natural emergence of **quantized geometry**,  
-- and a unified bridge between **Relativity, quantum behavior, and field theory**.
+The materials are organized progressively, from conceptual foundations to more
+advanced theoretical and numerical explorations.
 
-All documents are organized in progressive order, from the foundational insight to advanced theoretical phenomenology.
 
 ---
 
@@ -52,69 +50,70 @@ docs/
 
 ---
 
+
 ## 🌱 01 — Foundation
-Conceptual origin of the entire theory.
+Conceptual origins and guiding ideas of the research framework.
 
 - 1___The_Unified_Theory_of_Motion__A_Continuum_Bridge_Between_Relativity_and_Wave_Particle_Duality.pdf
 
-This document introduces the fundamental idea:
+This document introduces the central working hypothesis:
 
-> Motion is the primary substance of physical reality,  
-> and mass/energy/geometry arise from its organization.
+> Organized motion may be treated as a primary object of study,
+> with mass, energy, and geometry emerging from its stationary configurations.
 
 ---
 
 ## 🌳 02 — Framework
-Mathematical formulation and numerical construction of toroidal solitons.
+Mathematical formulation and numerical investigation of toroidal configurations
+in scalar field models.
 
 Includes:
 
 - A_Unified_Framework_of_Organized_Motion__Stable_Toroidal_Configurations_in_a_Complex_Scalar_Field.pdf  
-- Documents 2–6, covering:
-  - scalar field formulation  
-  - toroidal Q-ball solutions  
-  - numerical relaxation  
-  - internal phase winding  
-  - stability and validation  
+- Documents 2–6, addressing:
+  - density–phase scalar field formulations  
+  - toroidal soliton-like configurations  
+  - numerical relaxation procedures  
+  - internal phase winding mechanisms  
+  - stability properties within the explored models  
 
-This is the **core technical body** of the theory.
+These documents constitute the **core technical body** of the framework.
 
 ---
 
 ## 🌌 03 — Advanced
-Extensions into fundamental physics.
+Extensions and exploratory applications to broader areas of fundamental physics.
 
-Documents 7–17 include:
+Documents 7–17 explore, among others:
 
-- gravitational phenomenology  
-- electromagnetic structure  
-- nonlinear stability  
-- quantum soliton spectrum  
-- statistical mechanics  
-- coupling to General Relativity  
-- effective field theory  
-- soliton interaction with black holes  
-- semiclassical and loop-like gravitation  
+- gravitational phenomenology in effective descriptions  
+- electromagnetic structure in organized motion models  
+- nonlinear stability and interaction regimes  
+- semiclassical and statistical considerations  
+- couplings to General Relativity in simplified settings  
+- effective field-theoretic interpretations  
 
-Each document expands the unified framework into a specific physical domain.
+Each document examines a specific domain within the limits and assumptions of the
+underlying models.
 
 ---
 
 ## ✨ 04 — Special
-- The_Toroidal_Law_of_Organized_Motion.pdf  
-  Formal geometric law describing stationary organized motion.
-- Binary Interaction of Self-Organized Solitons
-in a One-Dimensional Effective Model of Motion
-   - No previous Q-ball, oscillon, Hopfion, or kink–antikink study combines all these features in
-such a simple scalar model.
+Focused studies and complementary material.
 
-- Legacy versions and preliminary drafts (for historical completeness).
+- *The_Toroidal_Law_of_Organized_Motion.pdf*  
+  A formal analysis of stationary organized motion in toroidal configurations.
+
+- *Binary Interaction of Self-Organized Solitons in a One-Dimensional Effective Model of Motion*  
+  An exploratory study of interacting soliton-like structures in reduced models.
+
+- Legacy versions and preliminary drafts, retained for historical completeness.
 
 ---
 
 # 🧮 Numerical Simulations
 
-Full reproducible Python code is available in:
+Reproducible Python code used in the numerical investigations is available in:
 
 ```
 /code
@@ -138,39 +137,60 @@ python code/relaxation_solver.py
 Figures are stored in:
 
 ```
-/figures
-```
+---
+
+# 🔬 Observations and Outcomes
+
+Within the explored models, the following outcomes are observed:
+
+- the emergence of long-lived toroidal soliton-like configurations
+  during numerical relaxation of a complex scalar field;
+
+- confinement mechanisms associated with internal phase winding,
+  leading to self-sustained geometric structures;
+
+- stationary energy configurations interpretable as equilibria
+  of internal motion;
+
+- binary interactions exhibiting metastable bound states
+  through nonlinear energy exchange;
+
+- discrete families of configurations labeled by an integer
+  winding number \( n \);
+
+- effective attractive behavior associated with phase gradients,
+  explored as a possible low-energy gravitational analogue;
+
+- consistency with known GR and QFT descriptions in appropriate
+  infrared regimes, discussed as emergent or effective limits.
+
+All results are obtained within simplified continuum models and
+are intended as controlled explorations rather than definitive
+physical claims.
 
 ---
 
-# 🔬 Scientific Highlights
+# 🤝 Invitation to Collaboration
 
-The Unified Theory of Motion demonstrates:
+This repository is shared in the spirit of **open scientific inquiry**.
 
-- **Natural formation of stable toroidal solitons**,  
-  arising directly from relaxation of a complex scalar field.
+Researchers, students, and independent scholars interested in
+self-organization, nonlinear dynamics, field theory, or numerical modeling
+are welcome to **examine, test, extend, or challenge** the material presented here.
 
-- **Confinement generated by phase winding**,  
-  where internal circulation organizes the geometry into a torus.
+Contributions may include:
+- independent verification of numerical results,
+- alternative analytical approaches,
+- extensions of the models to related physical systems,
+- critical feedback on assumptions or interpretations,
+- or exploratory applications in adjacent domains.
 
-- **Mass as an organized equilibrium of internal motion**,  
-  replacing the notion of “substance” with structured dynamics.
+No prior agreement with the framework is expected.
+Constructive disagreement and falsification are considered
+integral parts of the research process.
 
-- **Binary interactions producing long-lived bound states**,  
-  forming “molecules of motion” through nonlinear exchange of energy.
+For discussion or collaboration, feel free to get in touch.
 
-- **Geometric quantization via the winding number \( n \)**,  
-  yielding discrete, stable toroidal configurations.
-
-- **Emergent gravitational behavior from phase gradients**,  
-  where attraction and curvature arise as effective low-energy phenomena.
-
-- **Compatibility with GR and QFT in their infrared limits**,  
-  recovered as emergent descriptions of organized motion.
-
-The entire framework is **numerically reproducible**,  
-built through transparent relaxation–evolution pipelines  
-in a continuum field-theoretic model with no external constraints.
 
 ---
 
@@ -196,11 +216,14 @@ For academic correspondence:
 
 # 🟦 License
 
-Recommended: **CC-BY 4.0**  
+Recommended: **CC-BY 4.0**
 
 ---
 
 # 🌟 Purpose
 
-This repository consolidates the entire theoretical and numerical development of the Unified Theory of Motion into a clear, reproducible, and publicly accessible scientific framework.  
-Its objective is to support open collaboration and independent verification.
+The purpose of this repository is to document and organize an extended research
+process, making its assumptions, methods, and numerical procedures openly accessible.
+
+The material is intended to support further analysis, independent verification,
+and critical discussion, rather than to present a finalized or closed theoretical system.

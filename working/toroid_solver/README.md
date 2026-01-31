@@ -1,0 +1,1 @@
+Tabula Minimum Aequilibrium

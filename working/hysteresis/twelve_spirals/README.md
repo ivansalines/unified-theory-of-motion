@@ -1,4 +1,4 @@
-'''
+```
 python3.13 test_hysteresis_twelve_spirals_english.py 
 n=10; Q: 400 -> 1200 -> 400
 Radial damping gamma_rho = 0.3
@@ -21,4 +21,4 @@ Per Q: 1 reference periods for settling + 2 reference periods for measurement
 Phase portraits saved to: /nfs-mount/elab1/hysteresis/twelve_spirals/twelve_phase_spirals.png
 Adiabatic transition panels saved to: /nfs-mount/elab1/hysteresis/twelve_spirals/twelve_adiabatic_transition_panels.png
 Hysteresis plot saved to: /nfs-mount/elab1/hysteresis/twelve_spirals/hysteresis_test.png
-'''
+```

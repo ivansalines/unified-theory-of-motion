@@ -1,4 +1,4 @@
-'''
+```
 python3.13 test_hysteresis_diagnostic_english_v2.py 
 Script version: 2026-07-31-layout-fix-v2
 n=10; Q: 400 -> 1200 -> 400
@@ -27,4 +27,32 @@ Maximum matched |Δx_std|              = 5.614111e-03
 Diagnostic summary saved to: /nfs-mount/elab1/hysteresis/diagnostic/diagnostic_summary.png
 Phase portraits saved to: /nfs-mount/elab1/hysteresis/diagnostic/diagnostic_phase_spirals.png
 Adiabatic transition panels saved to: /nfs-mount/elab1/hysteresis/diagnostic/diagnostic_adiabatic_transition_panels.png
-'''
+```
+
+12 phase spirals
+6 on the upward branch,
+6 on the downward branch,
+color-coded by local time.
+12 adiabatic transition panels
+each one shows:
+settling window,
+measurement window,
+local x(t) response.
+What it is saying already
+
+In the demo, the strongest contraction signal lands at the low-Q entrance, around:
+
+Q?400
+
+So the main transition, with the current parameters, looks like a rapid collapse right at the beginning of the upward sweep, then a long regime of much thinner loops.
+
+Run
+python test_hysteresis_diagnostic_english.py
+
+If you want explicit outputs:
+
+python test_hysteresis_diagnostic_english.py \
+  --summary-output diagnostic_summary.png \
+  --spirals-output diagnostic_phase_spirals.png \
+  --transition-output diagnostic_adiabatic_transition_panels.png
+

@@ -1,3 +1,4 @@
+```
 python3.13 test_hopf_amplitude_scaling_english.py 
 Script version            = 2026-07-31-hopf-amplitude-scaling-v1
 Measured Qc               = 522.030000
@@ -156,4 +157,4 @@ Free-intercept fit R^2   = 0.986544200
 Critical exponent beta   = 0.416415365
 Log-log fit R^2          = 0.998695424
 Supercritical Hopf-like expectation: beta approximately 0.5.
-
+```

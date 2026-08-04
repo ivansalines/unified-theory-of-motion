@@ -1,0 +1,136 @@
+Script version: 2026-08-01-support-local-energy-audit-q550-v1
+
+CONFIGURATION
+-------------
+state archive        = /root/elab1/hysteresis/q550_bistability_states_1000T.npz
+Q target             = 550.000000000000
+kappa0                = 1.666666666667e-01
+reference period     = 12.566370614359
+LOW periods          = 400
+HIGH periods         = 200
+samples per period   = 160
+
+LOW full
+--------
+period window                 = [0, 400]
+mean support power            = 1.587231729448e-12
+mean dissipation power        = 1.581569009666e-12
+mean net local power          = 5.662719782188e-15
+mean |support power|          = 3.909498866696e-12
+net/gross rectification       = 4.059936538080e-01
+net power / dissipation       = 3.580444323061e-03
+support work                  = 7.978296865246e-09
+positive support work         = 1.381479076769e-08
+negative support work         = -5.836493902440e-09
+gross alternating work        = 1.965128467013e-08
+dissipated work               = 7.949832931059e-09
+net local work                = 2.846393418730e-11
+transfer alignment            = 2.677985375426e-01
+
+LOW late
+--------
+period window                 = [350, 400]
+mean support power            = 5.892486807535e-12
+mean dissipation power        = 5.869591421657e-12
+mean net local power          = 2.289538587824e-14
+mean |support power|          = 1.451462242490e-11
+net/gross rectification       = 4.059690038804e-01
+net power / dissipation       = 3.900677957543e-03
+support work                  = 3.702358653186e-09
+positive support work         = 6.411082444562e-09
+negative support work         = -2.708723791376e-09
+gross alternating work        = 9.119806235937e-09
+dissipated work               = 3.687973057970e-09
+net local work                = 1.438559521524e-11
+transfer alignment            = 2.678174470996e-01
+
+HIGH full
+---------
+period window                 = [0, 200]
+mean support power            = 7.043811193285e-09
+mean dissipation power        = 7.020944778880e-09
+mean net local power          = 2.286641440514e-11
+mean |support power|          = 1.734902675018e-08
+net/gross rectification       = 4.060061290303e-01
+net power / dissipation       = 3.256885665007e-03
+support work                  = 1.770302839848e-05
+positive support work         = 3.065294419336e-05
+negative support work         = -1.294991579488e-05
+gross alternating work        = 4.360285998825e-05
+dissipated work               = 1.764555883087e-05
+net local work                = 5.746956760730e-08
+transfer alignment            = 2.678119188010e-01
+
+HIGH late
+---------
+period window                 = [150, 200]
+mean support power            = 1.287831465137e-08
+mean dissipation power        = 1.283893833208e-08
+mean net local power          = 3.937631928936e-11
+mean |support power|          = 3.171743588733e-08
+net/gross rectification       = 4.060326533681e-01
+net power / dissipation       = 3.066945122011e-03
+support work                  = 8.091683739869e-06
+positive support work         = 1.401016822737e-05
+negative support work         = -5.918484487499e-06
+gross alternating work        = 1.992865271487e-05
+dissipated work               = 8.066942868788e-06
+net local work                = 2.474087108097e-08
+transfer alignment            = 2.677703912420e-01
+
+LOW ENERGY CLOSURE
+------------------
+final support work             = 7.978296865246e-09
+final dissipated work          = 7.949832931059e-09
+final net work                 = 2.846393418730e-11
+measured local energy change   = 2.820893518773e-11
+energy-balance residual        = -2.549989995616e-13
+relative closure residual      = 3.196158326377e-05
+global transfer alignment      = 2.677985375426e-01
+phase-locking value |<e^iΔ>|   = 9.999999679432e-01
+
+LOW PHASE MODULATION
+--------------------
+phase harmonic fit R^2          = 0.145381565
+mean term c0                    = 9.521788418194e-06
+first harmonic amplitude        = 3.808714915275e-06
+first harmonic preferred phase  = 3.141591100 rad
+first harmonic / |mean|         = 3.999999525e-01
+second harmonic amplitude       = 1.333050333351e-05
+second harmonic preferred phase = 1.570796209 rad
+
+HIGH ENERGY CLOSURE
+-------------------
+final support work             = 1.770302839848e-05
+final dissipated work          = 1.764555883087e-05
+final net work                 = 5.746956760730e-08
+measured local energy change   = 5.743276587644e-08
+energy-balance residual        = -3.680173085864e-11
+relative closure residual      = 2.078838153014e-06
+global transfer alignment      = 2.678119188010e-01
+phase-locking value |<e^iΔ>|   = 9.998578572284e-01
+
+HIGH PHASE MODULATION
+---------------------
+phase harmonic fit R^2          = 0.103219034
+mean term c0                    = 7.123294391693e-05
+first harmonic amplitude        = 7.846431306651e-05
+first harmonic preferred phase  = -0.002809874 rad
+first harmonic / |mean|         = 1.101517202e+00
+second harmonic amplitude       = 7.231894549157e-06
+second harmonic preferred phase = -0.007594227 rad
+
+READING GUIDE
+-------------
+P_support = mu_x * rho1 * rho2 * sin(Delta) * x_dot.
+A nonzero mean P_support is net work from the rotating support.
+A large mean |P_support| with a small mean P_support indicates strong
+alternating exchange with weak rectification, not a neutral support.
+The transfer-alignment coefficient measures the phase alignment
+between activity and x_dot. The phase-bin curves show where in Delta
+the support feeds or brakes the local motion.
+
+dashboard  = /root/elab1/hysteresis/support_local_energy_audit_q550.png
+period CSV = /root/elab1/hysteresis/support_local_energy_audit_q550_periods.csv
+phase CSV  = /root/elab1/hysteresis/support_local_energy_audit_q550_phase_bins.csv
+raw NPZ    = /root/elab1/hysteresis/support_local_energy_audit_q550_raw.npz

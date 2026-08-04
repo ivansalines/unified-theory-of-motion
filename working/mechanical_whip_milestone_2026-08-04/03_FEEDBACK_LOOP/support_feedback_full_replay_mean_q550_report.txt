@@ -1,0 +1,63 @@
+Script version: 2026-08-01-full-replay-mean-q550-v1
+
+CONFIGURATION
+-------------
+state archive             = /root/elab1/hysteresis/q550_bistability_states_1000T.npz
+replay archive            = /root/elab1/hysteresis/support_local_energy_audit_q550_raw.npz
+Q target                  = 550.000000000000
+kappa0                     = 1.666666666667e-01
+reference period          = 12.566370614359
+analyzed periods          = 400
+replay samples per period = 160
+initial-state mismatch    = 2.273736754432e-13
+mean replay activity      = 2.945377680685e-08
+RMS replay activity       = 5.162491865750e-05
+
+FULL: CLOSED FEEDBACK LOOP
+--------------------------
+lambda_FULL               = +6.199075606542e-03 per reference period
+fit R^2                   = 0.999999739
+fit interval              = 7 - 398 periods
+fit points                = 392
+initial paired amplitude  = 3.676515801877e-07
+final paired amplitude    = 6.552425191050e-08
+
+REPLAY: RECORDED SUPPORT, OPEN FEEDBACK LOOP
+-------------------------------------------
+lambda_REPLAY             = -1.884893388147e+00 per reference period
+standard error            = 1.750908404741e-03
+discarded alignment time  = 10 periods
+
+MEAN: TIME-INDEPENDENT SUPPORT BIAS
+-----------------------------------
+lambda_MEAN               = -1.884475516306e+00 per reference period
+standard error            = 1.739863418338e-03
+discarded alignment time  = 10 periods
+
+OPERATIONAL CONTRASTS
+---------------------
+FULL - REPLAY             = +1.891092463753e+00 per reference period
+REPLAY - MEAN             = -4.178718404619e-04 per reference period
+
+REPLAY CLOSURE CHECK
+--------------------
+x RMSE                     = 7.452268237511e-11
+x maximum absolute error   = 1.435557561713e-09
+x-dot RMSE                 = 1.156122865083e-10
+x RMSE / recorded scale    = 1.132811050165e-05
+
+PRIMARY READING
+---------------
+FULL is unstable while REPLAY is conditionally stable. The measured instability therefore requires closure of the x <-> support feedback loop; the recorded support waveform alone does not reproduce the positive local exponent.
+
+CAUTION
+-------
+FULL - REPLAY and REPLAY - MEAN are controlled diagnostic contrasts.
+They should not be interpreted as universally additive forces outside
+the local linear regime. A poor replay-closure error would invalidate
+the open-loop comparison and should be fixed before interpretation.
+
+dashboard       = /root/elab1/hysteresis/support_feedback_full_replay_mean_q550.png
+summary CSV     = /root/elab1/hysteresis/support_feedback_full_replay_mean_q550_summary.csv
+time-series CSV = /root/elab1/hysteresis/support_feedback_full_replay_mean_q550_timeseries.csv
+raw NPZ         = /root/elab1/hysteresis/support_feedback_full_replay_mean_q550_raw.npz

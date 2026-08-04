@@ -1,0 +1,81 @@
+Script version: 2026-08-01-continuous-feedback-gain-map-q550-v1
+
+CONFIGURATION
+-------------
+state archive               = /root/elab1/hysteresis/q550_bistability_states_1000T.npz
+recorded central orbit      = /root/elab1/hysteresis/support_local_energy_audit_q550_raw.npz
+Q target                    = 550.000000000000
+kappa0                       = 1.666666666667e-01
+reference period            = 12.566370614359
+analyzed periods            = 400
+RK4 steps per period        = 80
+coarse phase points         = 13
+coarse kappa points         = 17
+discarded periods           = 50
+boundary bisection steps    = 10
+initial-state mismatch      = 2.273736754432e-13
+
+FOUR-CORNER VALIDATION
+----------------------
+OPEN
+  expected lambda           = -1.885014249453e+00
+  measured lambda           = -1.884917550727e+00
+  absolute mismatch         = 9.669872564677e-05
+PHASE_ONLY
+  expected lambda           = +2.994986622482e-03
+  measured lambda           = +2.964498770277e-03
+  absolute mismatch         = 3.048785220535e-05
+KAPPA_ONLY
+  expected lambda           = -4.410734329812e-02
+  measured lambda           = -4.413133476066e-02
+  absolute mismatch         = 2.399146254016e-05
+FULL
+  expected lambda           = +6.181778686724e-03
+  measured lambda           = +6.193989609193e-03
+  absolute mismatch         = 1.221092246935e-05
+anchor tolerance             = 5.000000000000e-03
+all anchors passed           = True
+
+REFINED NEUTRAL CURVE
+---------------------
+valid kappa columns          = 17/17
+maximum |lambda residual|    = 1.959212272329e-06
+maximum phase bracket width  = 8.138020833337e-05
+critical phase at min kappa  = 9.375406901042e-01
+critical phase at max kappa  = 8.828531901042e-01
+phase margin at min kappa    = 6.245930989583e-02
+phase margin at max kappa    = 1.171468098958e-01
+minimum local dλ/deta_phase  = 4.718802526812e-02
+maximum local dλ/deta_phase  = 5.159153645825e-02
+
+QUADRATIC DESCRIPTION OF THE CURTAIN
+------------------------------------
+eta_phase_critical ≈ c0 + c1*eta_kappa + c2*eta_kappa^2
+c0                         = +9.374179059302e-01
+c1                         = -4.637832037969e-02
+c2                         = -8.108122635018e-03
+quadratic boundary R^2     = 0.999986563162
+
+EDGE READINGS
+-------------
+eta_phase=0 lambda range    = [-1.884917550727e+00, -4.413133476066e-02]
+eta_phase=1 lambda range    = [+2.964498770277e-03, +6.193989609193e-03]
+
+PRIMARY READING
+---------------
+The neutral curve exists across the full sampled kappa range.
+PHASE is the sign-changing return. KAPPA lowers the amount of
+phase feedback required to cross the local stability curtain.
+critical-phase reduction from eta_kappa=0 to 1 = 5.468750000000e-02
+
+CAUTION
+-------
+The map is local to the recorded LOW-history Q=550 orbit. The
+two gains scale tangent return paths while leaving the central
+orbit fixed. They are diagnostic loop gains, not independent
+physical control parameters of the original nonlinear model.
+
+dashboard    = /root/elab1/hysteresis/support_feedback_gain_map_q550.png
+map CSV      = /root/elab1/hysteresis/support_feedback_gain_map_q550_map.csv
+boundary CSV = /root/elab1/hysteresis/support_feedback_gain_map_q550_boundary.csv
+raw NPZ      = /root/elab1/hysteresis/support_feedback_gain_map_q550_raw.npz

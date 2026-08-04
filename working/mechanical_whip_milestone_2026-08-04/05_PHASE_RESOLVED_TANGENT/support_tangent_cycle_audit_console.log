@@ -1,0 +1,132 @@
+Script version       = 2026-08-03-phase-resolved-tangent-cycle-audit-v1
+analysis periods     = 80
+steps per period     = 160
+cases:
+  Q=522.25: support_feedback_q_curtain_focus_cache/q_522p25_orbit.npz
+  Q=550: support_feedback_q_curtain_cache/q_550_orbit.npz
+
+Q=522.25: orbit periods=900, alignment=820, analysis=80
+  Q=522.25: [   1/900] period log=-9.920836e-01
+  Q=522.25: [ 100/900] period log=-5.749273e-02
+  Q=522.25: [ 200/900] period log=-4.675616e-04
+  Q=522.25: [ 300/900] period log=+5.869845e-02
+  Q=522.25: [ 400/900] period log=-1.177685e-01
+  Q=522.25: [ 500/900] period log=+1.600478e-01
+  Q=522.25: [ 600/900] period log=-2.004218e-01
+  Q=522.25: [ 700/900] period log=+2.179087e-01
+  Q=522.25: [ 800/900] period log=-2.224266e-01
+  Q=522.25: [ 900/900] period log=+2.117610e-01
+
+Q=550: orbit periods=400, alignment=320, analysis=80
+  Q=550: [   1/400] period log=-1.072511e+00
+  Q=550: [ 100/400] period log=-1.516250e-02
+  Q=550: [ 200/400] period log=-1.651078e-01
+  Q=550: [ 300/400] period log=-1.806523e-01
+  Q=550: [ 400/400] period log=-6.566737e-02
+
+Script version: 2026-08-03-phase-resolved-tangent-cycle-audit-v1
+
+PURPOSE
+-------
+Resolve the leading FULL tangent mode through one reference cycle,
+using an ensemble average over many late aligned cycles.
+
+EXACT INSTANTANEOUS DECOMPOSITION
+---------------------------------
+g_FULL = g_OPEN + g_PHASE + g_KAPPA
+
+Q=522.25
+  source orbit                    = /root/elab1/hysteresis/support_feedback_q_curtain_focus_cache/q_522p25_orbit.npz
+  orbit periods                   = 900
+  alignment periods               = 820
+  phase-averaged periods          = 80
+  lambda FULL                     = +1.120398848636e-03
+  lambda FULL standard error      = 1.787992735390e-02
+  lambda OPEN contribution        = -5.033221230302e-02
+  lambda PHASE contribution       = +4.620556726674e-02
+  lambda KAPPA contribution       = +5.248323744841e-03
+  branch closure residual         = -1.279859922283e-06
+  FULL positive phase fraction    = 0.512500000
+  FULL zero crossings             = 18
+
+  PHASE alternation
+    positive area                 = +4.620556726674e-02
+    negative area                 = +0.000000000000e+00
+    zero crossings                = 0
+    strongest feed phase          = 0.428125000
+    strongest brake phase         = 0.584375000
+
+  KAPPA alternation
+    positive area                 = +5.248323744841e-03
+    negative area                 = +0.000000000000e+00
+    zero crossings                = 0
+    strongest feed phase          = 0.653125000
+    strongest brake phase         = 0.584375000
+
+  Mean tangent-norm shares
+    LOCAL                         = 0.002242736
+    RADIAL                        = 0.002088814
+    ROTATING                      = 0.995668449
+
+  Phases of maximum occupancy
+    LOCAL                         = 0.878125000
+    RADIAL                        = 0.146875000
+    ROTATING                      = 0.809375000
+
+Q=550
+  source orbit                    = /root/elab1/hysteresis/support_feedback_q_curtain_cache/q_550_orbit.npz
+  orbit periods                   = 400
+  alignment periods               = 320
+  phase-averaged periods          = 80
+  lambda FULL                     = +7.096186761203e-03
+  lambda FULL standard error      = 1.575759375492e-02
+  lambda OPEN contribution        = -4.152030122855e-02
+  lambda PHASE contribution       = +4.449107654504e-02
+  lambda KAPPA contribution       = +4.127182411738e-03
+  branch closure residual         = -1.770967024610e-06
+  FULL positive phase fraction    = 0.725000000
+  FULL zero crossings             = 8
+
+  PHASE alternation
+    positive area                 = +4.449107654504e-02
+    negative area                 = +0.000000000000e+00
+    zero crossings                = 0
+    strongest feed phase          = 0.915625000
+    strongest brake phase         = 0.321875000
+
+  KAPPA alternation
+    positive area                 = +4.127182411738e-03
+    negative area                 = +0.000000000000e+00
+    zero crossings                = 0
+    strongest feed phase          = 0.896875000
+    strongest brake phase         = 0.759375000
+
+  Mean tangent-norm shares
+    LOCAL                         = 0.002039194
+    RADIAL                        = 0.001578738
+    ROTATING                      = 0.996382069
+
+  Phases of maximum occupancy
+    LOCAL                         = 0.009375000
+    RADIAL                        = 0.796875000
+    ROTATING                      = 0.559375000
+
+READING GUIDE
+-------------
+The branch curves may contain large positive and negative arcs even
+when their cycle integral is small. That alternation is the local
+choreography of feeding and braking. The norm-share curves show
+where the perturbation is carried while those exchanges occur.
+
+The near-curtain case is not interpreted from one period: every
+profile is the phase-conditioned average of the requested number
+of late aligned periods.
+
+comparison PNG = /root/elab1/hysteresis/support_tangent_cycle_audit_comparison.png
+profiles CSV   = /root/elab1/hysteresis/support_tangent_cycle_audit_phase_profiles.csv
+periods CSV    = /root/elab1/hysteresis/support_tangent_cycle_audit_periods.csv
+summary CSV    = /root/elab1/hysteresis/support_tangent_cycle_audit_summary.csv
+raw NPZ        = /root/elab1/hysteresis/support_tangent_cycle_audit_raw.npz
+case_Q522p25 PNG = /root/elab1/hysteresis/support_tangent_cycle_audit_Q522p25.png
+case_Q550 PNG = /root/elab1/hysteresis/support_tangent_cycle_audit_Q550.png
+

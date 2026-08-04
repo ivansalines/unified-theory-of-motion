@@ -1,0 +1,78 @@
+Script version: 2026-08-01-feedback-branch-split-q550-v1
+
+CONFIGURATION
+-------------
+state archive                  = /root/elab1/hysteresis/q550_bistability_states_1000T.npz
+recorded central orbit         = /root/elab1/hysteresis/support_local_energy_audit_q550_raw.npz
+Q target                       = 550.000000000000
+kappa0                          = 1.666666666667e-01
+reference period               = 12.566370614359
+analyzed periods               = 400
+recorded samples per period    = 160
+integration samples per period = 64
+symmetric x perturbation       = +/- 1.000000000000e-06
+local x frequency scale        = 1.549193338485e+00
+initial central-state mismatch = 2.273736754432e-13
+
+ASYMPTOTIC LOOP EXPONENTS
+-------------------------
+FULL
+  phase feedback enabled = True
+  kappa feedback enabled = True
+  lambda                 = +5.853006374971e-03 per reference period
+  standard error         = 1.188220422612e-02
+  median local factor    = +1.793216342717e-02
+  discarded periods      = 30
+PHASE_ONLY
+  phase feedback enabled = True
+  kappa feedback enabled = False
+  lambda                 = +3.660070285030e-03 per reference period
+  standard error         = 1.188272290554e-02
+  median local factor    = +3.437376852815e-03
+  discarded periods      = 30
+KAPPA_ONLY
+  phase feedback enabled = False
+  kappa feedback enabled = True
+  lambda                 = -4.389874425905e-02 per reference period
+  standard error         = 1.189690519364e-02
+  median local factor    = -4.707376948514e-02
+  discarded periods      = 30
+OPEN
+  phase feedback enabled = False
+  kappa feedback enabled = False
+  lambda                 = -1.722098154384e-02 per reference period
+  standard error         = 1.226069562335e-02
+  median local factor    = -4.100151614648e-02
+  discarded periods      = 30
+
+OPEN-LOOP DAMPING CHECK
+-----------------------
+expected -gamma_x*T_ref/(2*m_x) = -1.884955592154e+00
+measured lambda_OPEN             = -1.722098154384e-02
+OPEN minus expected              = +1.867734610610e+00
+
+OPERATIONAL EFFECTS ON THE SAME CENTRAL ORBIT
+---------------------------------------------
+PHASE_ONLY - OPEN                 = +2.088105182887e-02
+KAPPA_ONLY - OPEN                 = -2.667776271521e-02
+FULL - OPEN                       = +2.307398791882e-02
+FULL - PHASE_ONLY                 = +2.192936089941e-03
+FULL - KAPPA_ONLY                 = +4.975175063403e-02
+interaction / synergy             = +2.887069880515e-02
+
+PRIMARY READING
+---------------
+The sign pattern is not one of the canonical cases. Read the four exponents and the operational synergy together; repeat with a smaller perturbation if any result lies within its uncertainty of zero.
+
+CAUTION
+-------
+Every mode follows the same recorded central orbit. Only the return
+of the perturbation through Theta_dot and/or kappa_eff is changed.
+The reported contrasts and synergy are local diagnostic quantities
+for this orbit. They are not assumed to be globally additive away
+from the infinitesimal perturbation regime.
+
+dashboard       = /root/elab1/hysteresis/support_feedback_branch_split_q550.png
+summary CSV     = /root/elab1/hysteresis/support_feedback_branch_split_q550_summary.csv
+time-series CSV = /root/elab1/hysteresis/support_feedback_branch_split_q550_timeseries.csv
+raw NPZ         = /root/elab1/hysteresis/support_feedback_branch_split_q550_raw.npz

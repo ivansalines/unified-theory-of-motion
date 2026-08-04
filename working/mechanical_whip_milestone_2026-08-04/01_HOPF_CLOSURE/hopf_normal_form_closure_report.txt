@@ -1,0 +1,41 @@
+Script version: 2026-08-01-hopf-normal-form-closure-v1
+
+LOCAL GROWTH LAW
+----------------
+lambda(Q) = a * (Q - Qc)
+a              = 2.514457591518e-04 per reference period per Q
+Qc             = 522.039048925052
+local fit R^2  = 0.999934526
+selected Q     = 521, 522, 523, 524
+
+SATURATED AMPLITUDE
+-------------------
+A^2 = b1 * mu + b2 * mu^2, mu = Q - Qc
+b1                = 1.361830023650e-08
+b2                = -1.646394796914e-10
+quadratic fit R^2 = 0.999498566
+critical exponent beta = 0.415365266
+log-log fit R^2        = 0.998746155
+
+Q=550 PREDICTION FROM THE THRESHOLD LAW
+---------------------------------------
+lambda(550)                    = 7.030662569645e-03 per reference period
+linear e-folding time 1/lambda = 142.234105 reference periods
+cycle relaxation 1/(2 lambda)  = 71.117053 reference periods
+
+Q=550 TRANSIENT CHECK
+---------------------
+late high-history amplitude A_inf = 5.027782941964e-04
+observed low-history lambda        = 6.202780283878e-03
+transient logit-fit R^2            = 0.999999579
+observed/predicted lambda ratio    = 0.882246904
+
+INTERPRETATION
+--------------
+If lambda(Q) is linear, A_inf^2 follows lambda/g, and the Q=550
+transient grows with the same lambda, the apparent hysteresis is
+primarily dynamical memory: different histories enter the same
+oscillatory branch at very different positions along its slow transient.
+
+Plot written to   : /root/elab1/hysteresis/hopf_normal_form_closure.png
+Summary written to: /root/elab1/hysteresis/hopf_normal_form_closure_summary.csv

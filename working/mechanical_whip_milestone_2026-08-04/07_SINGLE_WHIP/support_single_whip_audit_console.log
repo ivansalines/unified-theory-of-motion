@@ -1,0 +1,138 @@
+Script version          = 2026-08-03-single-whip-tangent-audit-v1
+tail periods            = 70
+steps per period        = 160
+samples per rotation    = 720
+line-period search      = [0.12, 0.32]
+stroke segments         = 120
+stroke bins             = 240
+cases:
+  Q=522.25: support_feedback_q_curtain_focus_cache/q_522p25_orbit.npz
+  Q=550: support_feedback_q_curtain_cache/q_550_orbit.npz
+
+Q=522.25: orbit=900 periods, tail=70 periods
+  Q=522.25: [   1/900]
+  Q=522.25: [ 100/900]
+  Q=522.25: [ 200/900]
+  Q=522.25: [ 300/900]
+  Q=522.25: [ 400/900]
+  Q=522.25: [ 500/900]
+  Q=522.25: [ 600/900]
+  Q=522.25: [ 700/900]
+  Q=522.25: [ 800/900]
+  Q=522.25: [ 900/900]
+
+Q=550: orbit=400 periods, tail=70 periods
+  Q=550: [   1/400]
+  Q=550: [ 100/400]
+  Q=550: [ 200/400]
+  Q=550: [ 300/400]
+  Q=550: [ 400/400]
+
+Script version: 2026-08-03-single-whip-tangent-audit-v1
+
+PURPOSE
+-------
+Isolate one recurrent tangent-line stroke and two consecutive signed
+strokes on the true rotating clock s=Theta/(2*pi).
+
+Q=522.25
+  source orbit                       = /root/elab1/hysteresis/support_feedback_q_curtain_focus_cache/q_522p25_orbit.npz
+
+  Mechanical recurrence
+    tangent-line period              = 0.223611111111 support rotations
+    oriented-vector period           = 0.448611111111 support rotations
+    line overlap at line period      = +9.999857885312e-01
+    signed overlap at line period    = -9.999857885312e-01
+    line overlap at oriented period  = +9.999587905838e-01
+    signed overlap oriented period   = +9.999587905838e-01
+
+  Mechanical contraction-release inside one stroke
+    strongest contraction phase       = 0.000000000 by construction
+    strongest release phase          = 0.443750000
+    contraction -> release distance  = 0.099227430556 rotations
+    strongest |delta x| foot phase   = 0.285416667
+    minimum cumulative growth        = -9.588883201321e-02
+
+  Log-growth carried by one stroke
+    FULL                              = +8.134926202330e-05
+    OPEN                              = -1.144521078849e-02
+    PHASE                             = +1.035085702139e-02
+    KAPPA                             = +1.175703029121e-03
+    branch closure residual           = +8.023096076393e-18
+
+  Stroke-to-stroke identity
+    mean line overlap                = +9.999857858192e-01
+    mean signed overlap              = -9.999857858192e-01
+    fraction sign-flipped to align   = 0.500000000
+
+  Selected signed-component phases
+    delta x positive peak            = 0.735416667
+    delta x negative peak            = 0.285416667
+    delta Theta positive peak        = 0.731250000
+    delta Delta positive peak        = 0.222916667
+    delta rho symmetric pos. peak    = 0.002083333
+    delta activity positive peak     = 0.731250000
+
+Q=550
+  source orbit                       = /root/elab1/hysteresis/support_feedback_q_curtain_cache/q_550_orbit.npz
+
+  Mechanical recurrence
+    tangent-line period              = 0.227777777778 support rotations
+    oriented-vector period           = 0.454166666667 support rotations
+    line overlap at line period      = +9.999789456993e-01
+    signed overlap at line period    = -9.999789456993e-01
+    line overlap at oriented period  = +9.999732366678e-01
+    signed overlap oriented period   = +9.999732366678e-01
+
+  Mechanical contraction-release inside one stroke
+    strongest contraction phase       = 0.000000000 by construction
+    strongest release phase          = 0.452083333
+    contraction -> release distance  = 0.102974537037 rotations
+    strongest |delta x| foot phase   = 0.289583333
+    minimum cumulative growth        = -8.936228876488e-02
+
+  Log-growth carried by one stroke
+    FULL                              = +6.599067622173e-04
+    OPEN                              = -1.039705253315e-02
+    PHASE                             = +1.011834891882e-02
+    KAPPA                             = +9.386103765504e-04
+    branch closure residual           = -4.662069341688e-18
+
+  Stroke-to-stroke identity
+    mean line overlap                = +9.999782134594e-01
+    mean signed overlap              = -9.999782134594e-01
+    fraction sign-flipped to align   = 0.500000000
+
+  Selected signed-component phases
+    delta x positive peak            = 0.289583333
+    delta x negative peak            = 0.856250000
+    delta Theta positive peak        = 0.227083333
+    delta Delta positive peak        = 0.856250000
+    delta rho symmetric pos. peak    = 0.856250000
+    delta activity positive peak     = 0.227083333
+
+READING GUIDE
+-------------
+The raw two-stroke figure preserves continuous tangent orientation.
+If the second stroke is the negative of the first, the line has
+returned while its arrow has reversed.
+
+The aligned-stroke figure identifies w and -w. It therefore shows
+the shared geometry of the stroke rather than its alternating
+orientation.
+
+comparison PNG = /root/elab1/hysteresis/support_single_whip_audit_comparison.png
+profiles CSV   = /root/elab1/hysteresis/support_single_whip_audit_profiles.csv
+recurrence CSV = /root/elab1/hysteresis/support_single_whip_audit_recurrence.csv
+segments CSV   = /root/elab1/hysteresis/support_single_whip_audit_segments.csv
+summary CSV    = /root/elab1/hysteresis/support_single_whip_audit_summary.csv
+raw NPZ        = /root/elab1/hysteresis/support_single_whip_audit_raw.npz
+two_Q522p25 PNG = /root/elab1/hysteresis/support_single_whip_audit_Q522p25_two_signed_strokes.png
+aligned_Q522p25 PNG = /root/elab1/hysteresis/support_single_whip_audit_Q522p25_aligned_stroke.png
+growth_Q522p25 PNG = /root/elab1/hysteresis/support_single_whip_audit_Q522p25_growth.png
+recurrence_Q522p25 PNG = /root/elab1/hysteresis/support_single_whip_audit_Q522p25_recurrence.png
+two_Q550 PNG = /root/elab1/hysteresis/support_single_whip_audit_Q550_two_signed_strokes.png
+aligned_Q550 PNG = /root/elab1/hysteresis/support_single_whip_audit_Q550_aligned_stroke.png
+growth_Q550 PNG = /root/elab1/hysteresis/support_single_whip_audit_Q550_growth.png
+recurrence_Q550 PNG = /root/elab1/hysteresis/support_single_whip_audit_Q550_recurrence.png
+

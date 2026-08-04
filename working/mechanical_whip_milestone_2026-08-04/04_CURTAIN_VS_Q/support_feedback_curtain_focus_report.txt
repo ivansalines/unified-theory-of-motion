@@ -1,0 +1,134 @@
+Script version: 2026-08-01-feedback-curtain-vs-q-v1.1-endpoint-fix
+
+CONFIGURATION
+-------------
+Q values                         = 521.25, 521.5, 521.75, 522, 522.25, 522.5, 522.75
+eta_kappa values                 = 0, 1
+phase minimum                    = 0.960000000000
+coarse phase points above minimum = 5
+phase bisection iterations       = 7
+warm-up periods                  = 30
+ramp steps                       = 240
+ramp periods per step            = 1
+base recorded periods            = 900
+maximum recorded periods         = 900
+orbit samples per period         = 160
+tangent RK4 steps per period     = 80
+cache directory                  = /root/elab1/hysteresis/support_feedback_q_curtain_focus_cache
+
+LOCAL GROWTH REFERENCE
+----------------------
+source                           = /root/elab1/hysteresis/q_growth_threshold_refined.csv
+lambda(Q) slope                  = 2.513900218426e-04
+direct Qc                        = 522.038382088724
+local fit R^2                    = 0.999934830
+
+PER-Q VALIDATION
+----------------
+OPEN validations passed          = 7/7
+Q=521.25
+  periods / discard              = 900 / 112
+  OPEN lambda                    = -1.884792328467e+00
+  OPEN mismatch                  = 1.632636866464e-04
+  OPEN passed                    = True
+  FULL lambda                    = -1.519241153879e-04
+  growth-reference lambda        = -1.981913905047e-04
+  eta_phase_c at eta_kappa=1     = nan
+Q=521.5
+  periods / discard              = 900 / 112
+  OPEN lambda                    = -1.884792328467e+00
+  OPEN mismatch                  = 1.632636866238e-04
+  OPEN passed                    = True
+  FULL lambda                    = -3.931755974023e-04
+  growth-reference lambda        = -1.353438850440e-04
+  eta_phase_c at eta_kappa=1     = nan
+Q=521.75
+  periods / discard              = 900 / 112
+  OPEN lambda                    = -1.884792328467e+00
+  OPEN mismatch                  = 1.632636866016e-04
+  OPEN passed                    = True
+  FULL lambda                    = -5.031387191664e-05
+  growth-reference lambda        = -7.249637958336e-05
+  eta_phase_c at eta_kappa=1     = nan
+Q=522
+  periods / discard              = 900 / 112
+  OPEN lambda                    = -1.884792328467e+00
+  OPEN mismatch                  = 1.632636865752e-04
+  OPEN passed                    = True
+  FULL lambda                    = -2.408842050074e-04
+  growth-reference lambda        = -9.648874122694e-06
+  eta_phase_c at eta_kappa=1     = nan
+Q=522.25
+  periods / discard              = 900 / 112
+  OPEN lambda                    = -1.884792328467e+00
+  OPEN mismatch                  = 1.632636865503e-04
+  OPEN passed                    = True
+  FULL lambda                    = +1.042488626397e-04
+  growth-reference lambda        = +5.319863133797e-05
+  eta_phase_c at eta_kappa=1     = 9.979296875000e-01
+Q=522.5
+  periods / discard              = 900 / 112
+  OPEN lambda                    = -1.884792328467e+00
+  OPEN mismatch                  = 1.632636865188e-04
+  OPEN passed                    = True
+  FULL lambda                    = +1.643981195254e-05
+  growth-reference lambda        = +1.160461367986e-04
+  eta_phase_c at eta_kappa=1     = 9.997265625000e-01
+Q=522.75
+  periods / discard              = 900 / 112
+  OPEN lambda                    = -1.884792328467e+00
+  OPEN mismatch                  = 1.632636864908e-04
+  OPEN passed                    = True
+  FULL lambda                    = +2.937095038251e-04
+  growth-reference lambda        = +1.788936422593e-04
+  eta_phase_c at eta_kappa=1     = 9.941015625000e-01
+
+TOP-EDGE TOUCH CURVE
+--------------------
+eta_kappa=0.000000
+  valid                           = False
+  Q_touch                         = nan
+  local d lambda / dQ             = nan
+  fit R^2                         = nan
+  sign bracket                    = [nan, nan]
+eta_kappa=1.000000
+  valid                           = True
+  Q_touch                         = 522.320397003186
+  local d lambda / dQ             = 2.181576477019e-04
+  fit R^2                         = 0.230848439
+  sign bracket                    = [522.000000000, 522.250000000]
+
+PHYSICAL PERFORATION
+--------------------
+physical eta_kappa index          = 1.000000000000
+physical Q_touch valid            = True
+physical Q_touch                  = 522.320397003186
+direct growth Qc                  = 522.038382088724
+touch minus direct Qc             = +2.820149144617e-01
+
+CURTAIN RANGE
+-------------
+minimum resolved eta_phase_c      = 0.994101562500
+maximum resolved eta_phase_c      = 0.999726562500
+maximum top-edge lambda           = +2.937095038251e-04
+minimum top-edge lambda           = -3.654761638488e-03
+
+PRIMARY READING
+---------------
+The physical corner eta_phase=1, eta_kappa=1 pierces the moving stability curtain at the reported physical Q_touch. Compare its difference from the independently measured local-growth Qc.
+
+CAUTION
+-------
+Every Q slice uses a separately prepared LOW-history central orbit.
+The eta gains scale tangent return paths while leaving that central
+orbit fixed. Q_touch is therefore a local loop-stability boundary,
+not a replacement for a global nonlinear bifurcation continuation.
+
+critical phase map PNG   = /root/elab1/hysteresis/support_feedback_curtain_focus_critical_phase_map.png
+critical curves PNG      = /root/elab1/hysteresis/support_feedback_curtain_focus_critical_phase_vs_q.png
+top-edge lambda PNG      = /root/elab1/hysteresis/support_feedback_curtain_focus_top_edge_lambda_vs_q.png
+touch curve PNG          = /root/elab1/hysteresis/support_feedback_curtain_focus_q_touch_vs_kappa.png
+point CSV                = /root/elab1/hysteresis/support_feedback_curtain_focus_points.csv
+Q summary CSV            = /root/elab1/hysteresis/support_feedback_curtain_focus_q_summary.csv
+touch CSV                = /root/elab1/hysteresis/support_feedback_curtain_focus_touch.csv
+raw NPZ                  = /root/elab1/hysteresis/support_feedback_curtain_focus_raw.npz

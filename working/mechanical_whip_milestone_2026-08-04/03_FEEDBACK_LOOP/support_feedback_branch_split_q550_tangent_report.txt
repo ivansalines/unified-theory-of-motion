@@ -1,0 +1,103 @@
+Script version: 2026-08-01-feedback-branch-split-q550-tangent-v2
+
+CONFIGURATION
+-------------
+state archive                  = /root/elab1/hysteresis/q550_bistability_states_1000T.npz
+recorded central orbit         = /root/elab1/hysteresis/support_local_energy_audit_q550_raw.npz
+Q target                       = 550.000000000000
+kappa0                          = 1.666666666667e-01
+reference period               = 12.566370614359
+analyzed periods               = 400
+recorded samples per period    = 160
+tangent output samples/period  = 32
+initial central-state mismatch = 2.273736754432e-13
+
+ANALYTIC JACOBIAN SELF-CHECK
+----------------------------
+FULL         max absolute error = 3.150055105650e-09
+PHASE_ONLY   max absolute error = 3.150055105650e-09
+KAPPA_ONLY   max absolute error = 3.150055105650e-09
+OPEN         max absolute error = 3.150055105650e-09
+
+RETAINED TANGENT EXPONENTS
+--------------------------
+FULL
+  phase feedback enabled = True
+  kappa feedback enabled = True
+  lambda retained        = +6.181778686724e-03
+  block standard error   = 1.733422154870e-04
+  median local factor    = +8.598868182563e-03
+  first-half lambda      = +5.539118027525e-03
+  second-half lambda     = +6.824439345922e-03
+  second - first drift   = +1.285321318397e-03
+  discarded periods      = 50
+PHASE_ONLY
+  phase feedback enabled = True
+  kappa feedback enabled = False
+  lambda retained        = +2.994986622482e-03
+  block standard error   = 4.612158772284e-06
+  median local factor    = +5.196930961073e-03
+  first-half lambda      = +2.990309777861e-03
+  second-half lambda     = +2.999663467103e-03
+  second - first drift   = +9.353689241871e-06
+  discarded periods      = 50
+KAPPA_ONLY
+  phase feedback enabled = False
+  kappa feedback enabled = True
+  lambda retained        = -4.410734329812e-02
+  block standard error   = 2.883636695303e-04
+  median local factor    = -4.829062108090e-02
+  first-half lambda      = -4.429368100469e-02
+  second-half lambda     = -4.392100559155e-02
+  second - first drift   = +3.726754131403e-04
+  discarded periods      = 50
+OPEN
+  phase feedback enabled = False
+  kappa feedback enabled = False
+  lambda retained        = -1.885014249453e+00
+  block standard error   = 7.683868348305e-04
+  median local factor    = -1.885214847029e+00
+  first-half lambda      = -1.885433412946e+00
+  second-half lambda     = -1.884595085959e+00
+  second - first drift   = +8.383269864738e-04
+  discarded periods      = 50
+
+MANDATORY OPEN VALIDATION
+-------------------------
+expected OPEN damping     = -1.884955592154e+00
+measured OPEN lambda      = -1.885014249453e+00
+OPEN absolute mismatch    = 5.865729876708e-05
+OPEN tolerance            = 5.000000000000e-03
+OPEN validation passed    = True
+
+INDEPENDENT FULL CHECK
+----------------------
+expected FULL lambda      = +6.199075606542e-03
+measured FULL lambda      = +6.181778686724e-03
+FULL absolute mismatch    = 1.729691981833e-05
+
+OPERATIONAL EFFECTS ON THE SAME CENTRAL ORBIT
+---------------------------------------------
+PHASE_ONLY - OPEN         = +1.888009236075e+00
+KAPPA_ONLY - OPEN         = +1.840906906155e+00
+FULL - OPEN               = +1.891196028139e+00
+FULL - PHASE_ONLY         = +3.186792064241e-03
+FULL - KAPPA_ONLY         = +5.028912198485e-02
+interaction / synergy     = -1.837720114090e+00
+
+PRIMARY READING
+---------------
+PHASE_ONLY is sufficient for a positive mode; KAPPA_ONLY is not. The difference FULL - PHASE_ONLY measures how KAPPA modifies the already active phase-return instability.
+
+CAUTION
+-------
+The branch contrasts are interpreted only if OPEN passes its
+independent damping check. Every mode uses the same recorded
+central orbit; only the tangent return through Theta_dot and/or
+kappa_eff is changed. The synergy is a local interaction contrast
+for this orbit, not a global additive decomposition.
+
+dashboard       = /root/elab1/hysteresis/support_feedback_branch_split_q550_tangent.png
+summary CSV     = /root/elab1/hysteresis/support_feedback_branch_split_q550_tangent_summary.csv
+time-series CSV = /root/elab1/hysteresis/support_feedback_branch_split_q550_tangent_timeseries.csv
+raw NPZ         = /root/elab1/hysteresis/support_feedback_branch_split_q550_tangent_raw.npz

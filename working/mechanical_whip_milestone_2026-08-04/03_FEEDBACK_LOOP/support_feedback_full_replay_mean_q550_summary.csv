@@ -1,0 +1,4 @@
+mode,lambda_per_reference_period,uncertainty_or_fit_r_squared,fit_or_discard_start_period,fit_end_period,number_of_periods_or_fit_points
+FULL,0.006199075606541764,0.9999997391833486,7.0,398.0,392
+REPLAY,-1.8848933881467556,0.0017509084047409372,10,400.0,390
+MEAN,-1.8844755163062936,0.0017398634183380163,10,400.0,390

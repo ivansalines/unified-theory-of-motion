@@ -1,0 +1,164 @@
+Script version: 2026-08-03-rotating-phase-memory-audit-v1
+
+ROTATING CLOCK
+--------------
+phi_rot = Theta mod 2*pi
+
+EXACT GROWTH DENSITY
+--------------------
+H_FULL(phi) = H_OPEN(phi) + H_PHASE(phi) + H_KAPPA(phi)
+Integral over one complete phi rotation = log-growth per rotation.
+
+Q=522.25
+  source orbit                         = /root/elab1/hysteresis/support_feedback_q_curtain_focus_cache/q_522p25_orbit.npz
+  available orbit periods              = 900
+  retained complete Theta rotations    = 60
+
+  Growth per support rotation
+    FULL                                = -1.440473012532e-04
+    OPEN                                = -5.163083127179e-02
+    PHASE                               = +4.623513498856e-02
+    KAPPA                               = +5.251648981975e-03
+    branch closure residual             = -6.938893903907e-18
+
+  Mechanical contraction-release stroke
+    strongest contraction phase         = 0.652777778
+    strongest release phase             = 0.808333333
+    contraction -> release forward lag  = 0.155555556 rotations
+    minimum cumulative-growth phase     = 0.019444444
+    minimum cumulative growth           = -2.698495637830e-04
+    positive rotating-phase fraction    = 0.505555556
+    FULL zero crossings                  = 20
+
+  Mechanical handoff: peak phases
+    |delta x|                            = 0.758333333
+    |delta Theta|                        = 0.513888889
+    |delta Delta|                        = 0.513888889
+    ||delta rho||                        = 0.669444444
+    |delta activity|                     = 0.513888889
+    |delta kappa_eff|                    = 0.758333333
+
+  Forward peak lags from |delta x|
+    to |delta Theta|                     = 0.755555556
+    to |delta Delta|                     = 0.755555556
+    to ||delta rho||                     = 0.911111111
+    to |delta activity|                  = 0.755555556
+    to |delta kappa_eff|                 = 0.000000000
+
+  Cross-correlation lags from |delta x|
+    to |delta Theta|                     = 0.977777778
+    to |delta Delta|                     = 0.977777778
+    to ||delta rho||                     = 0.916666667
+    to |delta activity|                  = 0.977777778
+
+  Tangent-norm relay
+    LOCAL mean share                     = 2.243310122555e-03
+    RADIAL mean share                    = 2.088780858779e-03
+    ROTATING mean share                  = 9.956679090187e-01
+    LOCAL peak phase                     = 0.558333333
+    RADIAL peak phase                    = 0.858333333
+    ROTATING peak phase                  = 0.625000000
+
+  Mother form
+    mean signed consecutive overlap      = 1.094934771400e-01
+    mean tangent-line overlap            = 1.585191289771e-01
+    minimum tangent-line overlap         = 1.554644202619e-01
+    weakest mother-form phase            = 0.686111111
+
+  Tangent continuity
+    signed overlap at one rotation       = 1.094934771400e-01
+    line overlap at one rotation         = 1.585191289771e-01
+    first lag below 1/2                  = 0.077777778
+    first lag below 1/e                  = 0.088888889
+
+Q=550
+  source orbit                         = /root/elab1/hysteresis/support_feedback_q_curtain_cache/q_550_orbit.npz
+  available orbit periods              = 400
+  retained complete Theta rotations    = 60
+
+  Growth per support rotation
+    FULL                                = +7.130996232383e-03
+    OPEN                                = -4.149136990860e-02
+    PHASE                               = +4.449483122314e-02
+    KAPPA                               = +4.127534917842e-03
+    branch closure residual             = -1.734723475977e-17
+
+  Mechanical contraction-release stroke
+    strongest contraction phase         = 0.363888889
+    strongest release phase             = 0.508333333
+    contraction -> release forward lag  = 0.144444444 rotations
+    minimum cumulative-growth phase     = 0.002777778
+    minimum cumulative growth           = +5.051811800907e-05
+    positive rotating-phase fraction    = 0.722222222
+    FULL zero crossings                  = 8
+
+  Mechanical handoff: peak phases
+    |delta x|                            = 0.252777778
+    |delta Theta|                        = 0.458333333
+    |delta Delta|                        = 0.458333333
+    ||delta rho||                        = 0.852777778
+    |delta activity|                     = 0.458333333
+    |delta kappa_eff|                    = 0.252777778
+
+  Forward peak lags from |delta x|
+    to |delta Theta|                     = 0.205555556
+    to |delta Delta|                     = 0.205555556
+    to ||delta rho||                     = 0.600000000
+    to |delta activity|                  = 0.205555556
+    to |delta kappa_eff|                 = 0.000000000
+
+  Cross-correlation lags from |delta x|
+    to |delta Theta|                     = 0.977777778
+    to |delta Delta|                     = 0.977777778
+    to ||delta rho||                     = 0.916666667
+    to |delta activity|                  = 0.977777778
+
+  Tangent-norm relay
+    LOCAL mean share                     = 2.039269855936e-03
+    RADIAL mean share                    = 1.578878122264e-03
+    ROTATING mean share                  = 9.963818520218e-01
+    LOCAL peak phase                     = 0.925000000
+    RADIAL peak phase                    = 0.808333333
+    ROTATING peak phase                  = 0.113888889
+
+  Mother form
+    mean signed consecutive overlap      = 3.102033780983e-01
+    mean tangent-line overlap            = 3.102033780983e-01
+    minimum tangent-line overlap         = 3.068416149694e-01
+    weakest mother-form phase            = 0.208333333
+
+  Tangent continuity
+    signed overlap at one rotation       = 3.102033780983e-01
+    line overlap at one rotation         = 3.102033780983e-01
+    first lag below 1/2                  = 0.077777778
+    first lag below 1/e                  = 0.088888889
+
+READING GUIDE
+-------------
+C_line uses the absolute tangent overlap: a direction and its
+negative are treated as the same geometric tangent line.
+
+The peak lag is a simple phase-of-maximum reading. The circular
+cross-correlation lag uses the complete waveform and is therefore
+the more robust staffetta indicator when profiles contain several
+local maxima.
+
+The growth curves are densities on the actual Theta rotation.
+They are not blurred by the slow drift between Theta and t/T_ref.
+
+memory comparison PNG       = /root/elab1/hysteresis/support_rotating_memory_audit_memory_comparison.png
+growth comparison PNG       = /root/elab1/hysteresis/support_rotating_memory_audit_growth_comparison.png
+rotation growth PNG         = /root/elab1/hysteresis/support_rotating_memory_audit_rotation_growth.png
+phase profiles CSV          = /root/elab1/hysteresis/support_rotating_memory_audit_phase_profiles.csv
+continuity CSV              = /root/elab1/hysteresis/support_rotating_memory_audit_continuity.csv
+rotations CSV               = /root/elab1/hysteresis/support_rotating_memory_audit_rotations.csv
+summary CSV                 = /root/elab1/hysteresis/support_rotating_memory_audit_summary.csv
+raw NPZ                     = /root/elab1/hysteresis/support_rotating_memory_audit_raw.npz
+growth_Q522p25 PNG = /root/elab1/hysteresis/support_rotating_memory_audit_Q522p25_growth.png
+staffetta_Q522p25 PNG = /root/elab1/hysteresis/support_rotating_memory_audit_Q522p25_staffetta.png
+shares_Q522p25 PNG = /root/elab1/hysteresis/support_rotating_memory_audit_Q522p25_shares.png
+mother_Q522p25 PNG = /root/elab1/hysteresis/support_rotating_memory_audit_Q522p25_mother_form.png
+growth_Q550 PNG = /root/elab1/hysteresis/support_rotating_memory_audit_Q550_growth.png
+staffetta_Q550 PNG = /root/elab1/hysteresis/support_rotating_memory_audit_Q550_staffetta.png
+shares_Q550 PNG = /root/elab1/hysteresis/support_rotating_memory_audit_Q550_shares.png
+mother_Q550 PNG = /root/elab1/hysteresis/support_rotating_memory_audit_Q550_mother_form.png

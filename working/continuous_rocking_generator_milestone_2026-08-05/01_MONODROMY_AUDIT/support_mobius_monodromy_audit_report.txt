@@ -1,0 +1,123 @@
+Script version: 2026-08-04-mobius-monodromy-audit-v1
+
+PURPOSE
+-------
+Distinguish a genuine Z2/Möbius tangent-line return from a negative
+transport multiplier, half-cycle antiperiodicity, or gauge artifact.
+
+DECISION REQUIREMENTS
+---------------------
+coefficient closure tolerance       = 1.000000000000e-02
+minimum tangent-line overlap        = 0.990000000000
+minimum signed return magnitude     = 0.990000000000
+
+Q=522.25
+  source orbit                         = /root/elab1/hysteresis/support_feedback_q_curtain_focus_cache/q_522p25_orbit.npz
+
+  Recurrent line
+    P_line                              = 0.223611111111 rotations
+    P_oriented                          = 0.448611111111 rotations
+    median line overlap at P            = 9.999868970359e-01
+    median signed overlap at P          = -9.999868970359e-01
+    median line overlap at 2P           = 9.999480899784e-01
+    median signed overlap at 2P         = +9.999480899784e-01
+    negative return fraction at P       = 1.000000000
+    positive return fraction at 2P      = 1.000000000
+
+  Reduced coefficient-loop closure
+    median mismatch at P                = 7.470020842611e-05
+    maximum mismatch at P               = 8.643966707728e-05
+    median mismatch at 2P               = 3.898792890820e-07
+    maximum mismatch at 2P              = 4.541442056064e-07
+    coefficient loop closed at P        = True
+    coefficient loop closed at 2P       = True
+
+  Central reduced-base closure
+    median normalized mismatch at P     = 1.903277782795e+00
+    median normalized mismatch at 2P    = 1.182313170984e-02
+
+  Fundamental transport
+    median transport-vs-observed line P = 9.999999981571e-01
+    median transport-vs-observed 2P     = 9.999999939017e-01
+    median signed gain at P             = -1.000081825336e+00
+    median signed gain at 2P            = +1.000154174637e+00
+
+  Robustness
+    gauge max absolute error            = 1.387778780781e-17
+    gauge max relative error            = 2.205269358649e-19
+    metric sign disagreements at P      = 0.000000000
+    metric sign disagreements at 2P     = 0.000000000
+    transport resolution error at P     = 8.693448657065e-10
+    transport resolution error at 2P    = 1.475224554156e-09
+    gauge invariance passed             = True
+    metric-sign invariance passed       = True
+    resolution check passed             = True
+
+  Topological classification
+    Z2 value                             = -1.0
+    classification                       = Z2=-1 Möbius-line-bundle candidate supported on the P_line coefficient loop.
+
+Q=550
+  source orbit                         = /root/elab1/hysteresis/support_feedback_q_curtain_cache/q_550_orbit.npz
+
+  Recurrent line
+    P_line                              = 0.227777777778 rotations
+    P_oriented                          = 0.454166666667 rotations
+    median line overlap at P            = 9.999780378247e-01
+    median signed overlap at P          = -9.999780378247e-01
+    median line overlap at 2P           = 9.999359806637e-01
+    median signed overlap at 2P         = +9.999359806637e-01
+    negative return fraction at P       = 1.000000000
+    positive return fraction at 2P      = 1.000000000
+
+  Reduced coefficient-loop closure
+    median mismatch at P                = 8.448614885378e-04
+    maximum mismatch at P               = 9.794954487166e-04
+    median mismatch at 2P               = 5.271719791710e-06
+    maximum mismatch at 2P              = 5.954182491032e-06
+    coefficient loop closed at P        = True
+    coefficient loop closed at 2P       = True
+
+  Central reduced-base closure
+    median normalized mismatch at P     = 2.271425138851e+00
+    median normalized mismatch at 2P    = 1.653420936999e-02
+
+  Fundamental transport
+    median transport-vs-observed line P = 9.999999965797e-01
+    median transport-vs-observed 2P     = 9.999999995965e-01
+    median signed gain at P             = -1.001302380214e+00
+    median signed gain at 2P            = +1.002631749092e+00
+
+  Robustness
+    gauge max absolute error            = 8.673617379884e-19
+    gauge max relative error            = 1.361699861541e-20
+    metric sign disagreements at P      = 0.000000000
+    metric sign disagreements at 2P     = 0.000000000
+    transport resolution error at P     = 1.050292973699e-09
+    transport resolution error at 2P    = 1.601512249626e-09
+    gauge invariance passed             = True
+    metric-sign invariance passed       = True
+    resolution check passed             = True
+
+  Topological classification
+    Z2 value                             = -1.0
+    classification                       = Z2=-1 Möbius-line-bundle candidate supported on the P_line coefficient loop.
+
+CAUTION
+-------
+A negative tangent return alone is not a Möbius proof.  The same
+interval must close the reduced tangent coefficient loop.  If the
+loop closes only after 2 P_line, the correct statement is a
+negative half-cycle transport / antiperiodic mode, not a Möbius
+bundle over the shorter interval.
+
+decision PNG   = /root/elab1/hysteresis/support_mobius_monodromy_audit_decision.png
+recurrence PNG = /root/elab1/hysteresis/support_mobius_monodromy_audit_recurrence.png
+anchors CSV    = /root/elab1/hysteresis/support_mobius_monodromy_audit_anchors.csv
+spectra CSV    = /root/elab1/hysteresis/support_mobius_monodromy_audit_spectra.csv
+summary CSV    = /root/elab1/hysteresis/support_mobius_monodromy_audit_summary.csv
+raw NPZ        = /root/elab1/hysteresis/support_mobius_monodromy_audit_raw.npz
+anchor_Q522p25 PNG = /root/elab1/hysteresis/support_mobius_monodromy_audit_Q522p25_anchors.png
+spectrum_Q522p25 PNG = /root/elab1/hysteresis/support_mobius_monodromy_audit_Q522p25_spectrum.png
+anchor_Q550 PNG = /root/elab1/hysteresis/support_mobius_monodromy_audit_Q550_anchors.png
+spectrum_Q550 PNG = /root/elab1/hysteresis/support_mobius_monodromy_audit_Q550_spectrum.png

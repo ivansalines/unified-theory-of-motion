@@ -1,0 +1,88 @@
+Script version: 2026-08-05-stride-involution-audit-v1
+
+ALTERNATING-STRIDE / ANTIPODAL-INVOLUTION AUDIT
+================================================
+
+The audit uses the centered moving part of the actual reduced 9x9
+matrices B(s).  It does not normalize loop closure by the large static
+Frobenius norm of the complete matrix.
+
+Tested relations:
+
+    B(s + P_line) - C  ~= -[B(s) - C]
+    B(s + 2 P_line) - C ~=  [B(s) - C]
+    w(s + P_line)       ~= -w(s)
+    w(s + 2 P_line)     ~=  w(s)
+
+Q=522.25
+  source orbit                         = /root/elab1/hysteresis/support_feedback_q_curtain_focus_cache/q_522p25_orbit.npz
+  P_line                               = 0.223611111111
+  P_oriented                           = 0.448611111111
+  median antipodal cosine              = +9.999959995290e-01
+  minimum antipodal cosine             = +9.999729855959e-01
+  median antipodal residual            = 2.600289982377e-03
+  maximum antipodal residual           = 5.915673195891e-03
+  median antipodal amplitude ratio     = 1.000029292114e+00
+  median 2P return cosine              = +9.999509291597e-01
+  minimum 2P return cosine             = +9.998902754765e-01
+  median 2P return residual            = 7.434118881240e-03
+  maximum 2P return residual           = 1.048209820830e-02
+  median 2P amplitude ratio            = 1.000038393786e+00
+  median pair-midpoint drift           = 1.834115536214e-03
+  median affine-center/cycle-mean diff = 1.614202794376e-11
+  median tangent signed return P       = -9.999868512860e-01
+  median tangent signed return 2P      = +9.999476524222e-01
+  PC1+PC2 cumulative variance          = 9.999999922747e-01
+  active-plane map determinant         = +1.000000000000e+00
+  active-plane map trace               = -1.999975453075e+00
+  active-plane distance to -I          = 4.954485351192e-03
+  active-plane rotation angle degrees  = 180.283871391
+  antipodal test passed                = True
+  full-return test passed              = True
+  tangent alternation passed           = True
+  active-plane half-turn passed        = True
+  classification                       = Alternating two-stroke affine involution supported: the active matrix geometry executes an approximately antipodal half-turn at P_line and closes at 2 P_line, while the tangent orientation reverses and then returns.
+
+Q=550
+  source orbit                         = /root/elab1/hysteresis/support_feedback_q_curtain_cache/q_550_orbit.npz
+  P_line                               = 0.227777777778
+  P_oriented                           = 0.454166666667
+  median antipodal cosine              = +9.999915059311e-01
+  minimum antipodal cosine             = +9.999503503676e-01
+  median antipodal residual            = 3.509554122961e-03
+  maximum antipodal residual           = 7.475967750216e-03
+  median antipodal amplitude ratio     = 1.000488013288e+00
+  median 2P return cosine              = +9.999369535560e-01
+  minimum 2P return cosine             = +9.998534151342e-01
+  median 2P return residual            = 8.696685794966e-03
+  maximum 2P return residual           = 1.238639659285e-02
+  median 2P amplitude ratio            = 1.002833067208e+00
+  median pair-midpoint drift           = 2.495075995937e-03
+  median affine-center/cycle-mean diff = 2.037146640953e-12
+  median tangent signed return P       = -9.999782413836e-01
+  median tangent signed return 2P      = +9.999315894540e-01
+  PC1+PC2 cumulative variance          = 9.999986133537e-01
+  active-plane map determinant         = +1.000000000000e+00
+  active-plane map trace               = -1.999968352091e+00
+  active-plane distance to -I          = 5.625647395833e-03
+  active-plane rotation angle degrees  = 180.322326278
+  antipodal test passed                = True
+  full-return test passed              = True
+  tangent alternation passed           = True
+  active-plane half-turn passed        = True
+  classification                       = Alternating two-stroke affine involution supported: the active matrix geometry executes an approximately antipodal half-turn at P_line and closes at 2 P_line, while the tangent orientation reverses and then returns.
+
+FILES
+-----
+profiles CSV             = /root/elab1/hysteresis/support_stride_involution_audit_profiles.csv
+summary CSV              = /root/elab1/hysteresis/support_stride_involution_audit_summary.csv
+raw NPZ                  = /root/elab1/hysteresis/support_stride_involution_audit_raw.npz
+report                   = /root/elab1/hysteresis/support_stride_involution_audit_report.txt
+Q=522.25 embedding PNG   = /root/elab1/hysteresis/support_stride_involution_audit_Q522p25_embedding.png
+Q=522.25 residuals PNG   = /root/elab1/hysteresis/support_stride_involution_audit_Q522p25_residuals.png
+Q=522.25 overlaps PNG    = /root/elab1/hysteresis/support_stride_involution_audit_Q522p25_overlaps.png
+Q=522.25 half-map PNG    = /root/elab1/hysteresis/support_stride_involution_audit_Q522p25_half_map.png
+Q=550 embedding PNG      = /root/elab1/hysteresis/support_stride_involution_audit_Q550_embedding.png
+Q=550 residuals PNG      = /root/elab1/hysteresis/support_stride_involution_audit_Q550_residuals.png
+Q=550 overlaps PNG       = /root/elab1/hysteresis/support_stride_involution_audit_Q550_overlaps.png
+Q=550 half-map PNG       = /root/elab1/hysteresis/support_stride_involution_audit_Q550_half_map.png

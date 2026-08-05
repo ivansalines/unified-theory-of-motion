@@ -1,0 +1,144 @@
+Script version = 2026-08-05-stride-generator-audit-v1
+Input archive  = /root/elab1/hysteresis/support_stride_involution_audit_raw.npz
+Cases:
+  Q=522.25
+  Q=550
+==============================================================================
+Continuous rocking generator audit for Q=522.25
+  active-plane variance       = 9.999999922743e-01
+  fundamental energy fraction = 9.999941225405e-01
+  even-harmonic fraction      = 4.209524143438e-06
+  omega measured / expected   = 1.404899032138e+01 / 1.404935845084e+01
+  exp(P G) error to -I        = 9.177095346124e-05
+  classification              = Continuous planar rocking generator supported: the centered B(s) stride is overwhelmingly first-harmonic and odd under a half cycle, while one constant two-dimensional generator produces an approximately pi rotation over P_line and identity over 2 P_line.
+==============================================================================
+Continuous rocking generator audit for Q=550
+  active-plane variance       = 9.999986135771e-01
+  fundamental energy fraction = 9.999901671777e-01
+  even-harmonic fraction      = 7.430106135986e-06
+  omega measured / expected   = 1.379202461969e+01 / 1.379235799137e+01
+  exp(P G) error to -I        = 8.540179981999e-05
+  classification              = Continuous planar rocking generator supported: the centered B(s) stride is overwhelmingly first-harmonic and odd under a half cycle, while one constant two-dimensional generator produces an approximately pi rotation over P_line and identity over 2 P_line.
+
+Script version: 2026-08-05-stride-generator-audit-v1
+
+CONTINUOUS ROCKING GENERATOR AUDIT
+==================================
+
+Source raw archive: /root/elab1/hysteresis/support_stride_involution_audit_raw.npz
+
+The analysis uses the actual centered reduced 9x9 matrices B(s) over
+two consecutive P_line strokes. No nonlinear orbit is regenerated.
+
+Tested model:
+
+    R(s) = B(s) - C
+    dR/ds ~= G R
+    R(s) ~= A cos(phi) + D sin(phi)
+    phi(s + P_line) ~= phi(s) + pi
+
+Q=522.25
+  P_line                                = 0.223611111111
+  P_oriented                            = 0.448611111111
+  active-plane variance                 = 9.999999922743e-01
+  PC1 explained                         = 6.645310134079e-01
+  PC2 explained                         = 3.354689788665e-01
+  median first-harmonic R^2             = 9.999941225405e-01
+  median first-three-harmonic R^2       = 9.999981615688e-01
+  median fundamental energy fraction    = 9.999941225405e-01
+  median even-harmonic energy fraction  = 4.209524143438e-06
+
+  fitted active-plane generator G
+    [+1.016760597149e-16  +9.981910455317e+00]
+    [-1.977318169040e+01  -1.313034386512e-15]
+  generator offset norm                 = 4.618527784681e-14
+  generator trace                       = -1.211358326797e-15
+  generator determinant                 = +1.973741290502e+02
+  measured omega                        = 1.404899032138e+01
+  expected pi/P_line                    = 1.404935845084e+01
+  omega relative error                  = 2.620258121264e-05
+  global derivative-fit residual        = 3.165170720491e-02
+  normalized J^2 + I error              = 9.612554423369e-17
+  exp(P_line G) distance to -I          = 9.177095346124e-05
+  exp(2 P_line G) distance to I         = 1.835419062228e-04
+  mean inferred phase speed             = 1.402636136974e+01
+  inferred phase-speed relative error   = 1.636877667872e-03
+  phase-speed coefficient of variation  = 1.718686881851e-03
+  continuous-generator test passed      = True
+  classification                        = Continuous planar rocking generator supported: the centered B(s) stride is overwhelmingly first-harmonic and odd under a half cycle, while one constant two-dimensional generator produces an approximately pi rotation over P_line and identity over 2 P_line.
+
+  strongest fundamental matrix couplings
+     1. d(v2)/ds <- delta omega2: amplitude=1.915387047228e-03, relative=1.000000
+     2. d(omega2)/ds <- delta v2: amplitude=1.915387047228e-03, relative=1.000000
+     3. d(v2)/ds <- delta Delta: amplitude=1.069972438425e-03, relative=0.558619
+     4. d(omega2)/ds <- delta y1: amplitude=1.069972438425e-03, relative=0.558619
+     5. d(omega2)/ds <- delta y2: amplitude=1.069972438425e-03, relative=0.558619
+     6. d(omega2)/ds <- delta z: amplitude=5.349862192468e-04, relative=0.279310
+     7. d(v2)/ds <- delta y2: amplitude=2.478315747374e-04, relative=0.129390
+     8. d(omega2)/ds <- delta omega2: amplitude=6.168241648805e-05, relative=0.032204
+     9. d(v1)/ds <- delta y1: amplitude=6.040869282610e-05, relative=0.031539
+    10. d(v2)/ds <- delta v2: amplitude=5.740942988746e-05, relative=0.029973
+
+Q=550
+  P_line                                = 0.227777777778
+  P_oriented                            = 0.454166666667
+  active-plane variance                 = 9.999986135771e-01
+  PC1 explained                         = 6.709934042639e-01
+  PC2 explained                         = 3.290052093132e-01
+  median first-harmonic R^2             = 9.999901671777e-01
+  median first-three-harmonic R^2       = 9.999973227192e-01
+  median fundamental energy fraction    = 9.999901671777e-01
+  median even-harmonic energy fraction  = 7.430106135986e-06
+
+  fitted active-plane generator G
+    [+5.226766201349e-16  -9.657623829597e+00]
+    [+1.969635041357e+01  -1.586170055698e-15]
+  generator offset norm                 = 3.552779116297e-15
+  generator trace                       = -1.063493435563e-15
+  generator determinant                 = +1.902199431102e+02
+  measured omega                        = 1.379202461969e+01
+  expected pi/P_line                    = 1.379235799137e+01
+  omega relative error                  = 2.417075301117e-05
+  global derivative-fit residual        = 3.565434789607e-02
+  normalized J^2 + I error              = 2.383792500704e-16
+  exp(P_line G) distance to -I          = 8.540179981999e-05
+  exp(2 P_line G) distance to I         = 1.708035990482e-04
+  mean inferred phase speed             = 1.381824146501e+01
+  inferred phase-speed relative error   = 1.876653263901e-03
+  phase-speed coefficient of variation  = 1.988802846398e-03
+  continuous-generator test passed      = True
+  classification                        = Continuous planar rocking generator supported: the centered B(s) stride is overwhelmingly first-harmonic and odd under a half cycle, while one constant two-dimensional generator produces an approximately pi rotation over P_line and identity over 2 P_line.
+
+  strongest fundamental matrix couplings
+     1. d(v2)/ds <- delta omega2: amplitude=2.172974306800e-02, relative=1.000000
+     2. d(omega2)/ds <- delta v2: amplitude=2.172974306800e-02, relative=1.000000
+     3. d(v2)/ds <- delta Delta: amplitude=1.195950667905e-02, relative=0.550375
+     4. d(omega2)/ds <- delta y1: amplitude=1.195950667905e-02, relative=0.550375
+     5. d(omega2)/ds <- delta y2: amplitude=1.195950667905e-02, relative=0.550375
+     6. d(omega2)/ds <- delta z: amplitude=5.979753330742e-03, relative=0.275187
+     7. d(v2)/ds <- delta y2: amplitude=2.663190370176e-03, relative=0.122560
+     8. d(v1)/ds <- delta y1: amplitude=6.211561956930e-04, relative=0.028586
+     9. d(omega2)/ds <- delta omega2: amplitude=6.036164649708e-04, relative=0.027778
+    10. d(v2)/ds <- delta v2: amplitude=5.572465116188e-04, relative=0.025644
+
+FILES
+-----
+summary CSV       = /root/elab1/hysteresis/support_stride_generator_audit_summary.csv
+anatomy CSV       = /root/elab1/hysteresis/support_stride_generator_audit_anatomy.csv
+profiles CSV      = /root/elab1/hysteresis/support_stride_generator_audit_profiles.csv
+harmonics CSV     = /root/elab1/hysteresis/support_stride_generator_audit_harmonics.csv
+comparison CSV    = /root/elab1/hysteresis/support_stride_generator_audit_comparison.csv
+raw NPZ            = /root/elab1/hysteresis/support_stride_generator_audit_raw.npz
+Q=522.25 phase plane PNG    = /root/elab1/hysteresis/support_stride_generator_audit_Q522p25_phase_plane.png
+Q=522.25 phase speed PNG    = /root/elab1/hysteresis/support_stride_generator_audit_Q522p25_phase_speed.png
+Q=522.25 harmonics PNG      = /root/elab1/hysteresis/support_stride_generator_audit_Q522p25_harmonics.png
+Q=522.25 anatomy PNG        = /root/elab1/hysteresis/support_stride_generator_audit_Q522p25_anatomy.png
+Q=522.25 top couplings PNG  = /root/elab1/hysteresis/support_stride_generator_audit_Q522p25_top_couplings.png
+Q=522.25 generator PNG      = /root/elab1/hysteresis/support_stride_generator_audit_Q522p25_generator.png
+Q=550 phase plane PNG    = /root/elab1/hysteresis/support_stride_generator_audit_Q550_phase_plane.png
+Q=550 phase speed PNG    = /root/elab1/hysteresis/support_stride_generator_audit_Q550_phase_speed.png
+Q=550 harmonics PNG      = /root/elab1/hysteresis/support_stride_generator_audit_Q550_harmonics.png
+Q=550 anatomy PNG        = /root/elab1/hysteresis/support_stride_generator_audit_Q550_anatomy.png
+Q=550 top couplings PNG  = /root/elab1/hysteresis/support_stride_generator_audit_Q550_top_couplings.png
+Q=550 generator PNG      = /root/elab1/hysteresis/support_stride_generator_audit_Q550_generator.png
+

@@ -1,0 +1,46 @@
+Script version: 2026-08-04-direct-B-loop-embedding-v2-python313-import-fix
+
+DIRECT B(s) MATRIX LOOP EMBEDDING
+=================================
+
+The PCA input consists of the actual reduced 9x9 rotation-time
+coefficient matrices B(s), flattened to 81 dimensions.
+
+Q=522.25
+  source orbit                = /root/elab1/hysteresis/support_feedback_q_curtain_focus_cache/q_522p25_orbit.npz
+  P_line                      = 0.223611111111
+  P_oriented                  = 0.448611111111
+  anchors                     = 9
+  phase points per loop       = 241
+  median direct closure       = 7.412524233345e-05
+  maximum direct closure      = 8.630811573738e-05
+  PC1 explained               = 6.644989994523e-01
+  PC2 explained               = 3.355009928254e-01
+  PC3 explained               = 5.558099013083e-09
+  PC1+PC2 cumulative          = 9.999999922777e-01
+  PC1+PC2+PC3 cumulative      = 9.999999978358e-01
+
+Q=550
+  source orbit                = /root/elab1/hysteresis/support_feedback_q_curtain_cache/q_550_orbit.npz
+  P_line                      = 0.227777777778
+  P_oriented                  = 0.454166666667
+  anchors                     = 9
+  phase points per loop       = 241
+  median direct closure       = 8.567760585263e-04
+  maximum direct closure      = 9.808127735901e-04
+  PC1 explained               = 6.717768534144e-01
+  PC2 explained               = 3.282217574038e-01
+  PC3 explained               = 1.031734862860e-06
+  PC1+PC2 cumulative          = 9.999986108182e-01
+  PC1+PC2+PC3 cumulative      = 9.999996425531e-01
+
+FILES
+-----
+matrices CSV       = /root/elab1/hysteresis/support_direct_B_loop_embedding_matrices.csv
+embedding CSV      = /root/elab1/hysteresis/support_direct_B_loop_embedding_embedding.csv
+components CSV     = /root/elab1/hysteresis/support_direct_B_loop_embedding_components.csv
+summary CSV        = /root/elab1/hysteresis/support_direct_B_loop_embedding_summary.csv
+raw NPZ            = /root/elab1/hysteresis/support_direct_B_loop_embedding_raw.npz
+embedding PNG      = /root/elab1/hysteresis/support_direct_B_loop_embedding_embedding.png
+variance PNG       = /root/elab1/hysteresis/support_direct_B_loop_embedding_variance.png
+report             = /root/elab1/hysteresis/support_direct_B_loop_embedding_report.txt

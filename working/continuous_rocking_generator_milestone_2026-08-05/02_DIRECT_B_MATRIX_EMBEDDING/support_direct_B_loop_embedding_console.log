@@ -1,0 +1,90 @@
+Script version = 2026-08-04-direct-B-loop-embedding-v2-python313-import-fix
+Audit script   = /root/elab1/hysteresis/test_support_mobius_monodromy_audit.py
+==============================================================================
+Direct B(s) export for Q=522.25
+
+Q=522.25: orbit=900 periods, tail=70 periods
+  Q=522.25: [   1/900]
+  Q=522.25: [ 100/900]
+  Q=522.25: [ 200/900]
+  Q=522.25: [ 300/900]
+  Q=522.25: [ 400/900]
+  Q=522.25: [ 500/900]
+  Q=522.25: [ 600/900]
+  Q=522.25: [ 700/900]
+  Q=522.25: [ 800/900]
+  Q=522.25: [ 900/900]
+  Q=522.25: anchor 1/9, direct closure=7.938028e-05
+  Q=522.25: anchor 2/9, direct closure=8.611216e-05
+  Q=522.25: anchor 3/9, direct closure=7.314057e-05
+  Q=522.25: anchor 4/9, direct closure=6.145856e-05
+  Q=522.25: anchor 5/9, direct closure=7.412524e-05
+  Q=522.25: anchor 6/9, direct closure=8.630812e-05
+  Q=522.25: anchor 7/9, direct closure=7.852528e-05
+  Q=522.25: anchor 8/9, direct closure=6.266631e-05
+  Q=522.25: anchor 9/9, direct closure=6.864308e-05
+==============================================================================
+Direct B(s) export for Q=550
+
+Q=550: orbit=400 periods, tail=70 periods
+  Q=550: [   1/400]
+  Q=550: [ 100/400]
+  Q=550: [ 200/400]
+  Q=550: [ 300/400]
+  Q=550: [ 400/400]
+  Q=550: anchor 1/9, direct closure=7.178006e-04
+  Q=550: anchor 2/9, direct closure=6.936853e-04
+  Q=550: anchor 3/9, direct closure=8.567761e-04
+  Q=550: anchor 4/9, direct closure=9.663310e-04
+  Q=550: anchor 5/9, direct closure=8.997863e-04
+  Q=550: anchor 6/9, direct closure=7.315160e-04
+  Q=550: anchor 7/9, direct closure=7.027407e-04
+  Q=550: anchor 8/9, direct closure=8.670727e-04
+  Q=550: anchor 9/9, direct closure=9.808128e-04
+Script version: 2026-08-04-direct-B-loop-embedding-v2-python313-import-fix
+
+DIRECT B(s) MATRIX LOOP EMBEDDING
+=================================
+
+The PCA input consists of the actual reduced 9x9 rotation-time
+coefficient matrices B(s), flattened to 81 dimensions.
+
+Q=522.25
+  source orbit                = /root/elab1/hysteresis/support_feedback_q_curtain_focus_cache/q_522p25_orbit.npz
+  P_line                      = 0.223611111111
+  P_oriented                  = 0.448611111111
+  anchors                     = 9
+  phase points per loop       = 241
+  median direct closure       = 7.412524233345e-05
+  maximum direct closure      = 8.630811573738e-05
+  PC1 explained               = 6.644989994523e-01
+  PC2 explained               = 3.355009928254e-01
+  PC3 explained               = 5.558099013083e-09
+  PC1+PC2 cumulative          = 9.999999922777e-01
+  PC1+PC2+PC3 cumulative      = 9.999999978358e-01
+
+Q=550
+  source orbit                = /root/elab1/hysteresis/support_feedback_q_curtain_cache/q_550_orbit.npz
+  P_line                      = 0.227777777778
+  P_oriented                  = 0.454166666667
+  anchors                     = 9
+  phase points per loop       = 241
+  median direct closure       = 8.567760585263e-04
+  maximum direct closure      = 9.808127735901e-04
+  PC1 explained               = 6.717768534144e-01
+  PC2 explained               = 3.282217574038e-01
+  PC3 explained               = 1.031734862860e-06
+  PC1+PC2 cumulative          = 9.999986108182e-01
+  PC1+PC2+PC3 cumulative      = 9.999996425531e-01
+
+FILES
+-----
+matrices CSV       = /root/elab1/hysteresis/support_direct_B_loop_embedding_matrices.csv
+embedding CSV      = /root/elab1/hysteresis/support_direct_B_loop_embedding_embedding.csv
+components CSV     = /root/elab1/hysteresis/support_direct_B_loop_embedding_components.csv
+summary CSV        = /root/elab1/hysteresis/support_direct_B_loop_embedding_summary.csv
+raw NPZ            = /root/elab1/hysteresis/support_direct_B_loop_embedding_raw.npz
+embedding PNG      = /root/elab1/hysteresis/support_direct_B_loop_embedding_embedding.png
+variance PNG       = /root/elab1/hysteresis/support_direct_B_loop_embedding_variance.png
+report             = /root/elab1/hysteresis/support_direct_B_loop_embedding_report.txt
+

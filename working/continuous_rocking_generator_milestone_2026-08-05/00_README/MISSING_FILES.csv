@@ -1,0 +1,3 @@
+group,file,reason
+NONLINEAR_ORBIT_CACHES,support_feedback_q_curtain_focus_cache/q_522p25_orbit.npz,"Required for full direct-B, stride-involution, and monodromy reruns; not present in the active source directory."
+NONLINEAR_ORBIT_CACHES,support_feedback_q_curtain_cache/q_550_orbit.npz,"Required for full direct-B, stride-involution, and monodromy reruns; not present in the active source directory."

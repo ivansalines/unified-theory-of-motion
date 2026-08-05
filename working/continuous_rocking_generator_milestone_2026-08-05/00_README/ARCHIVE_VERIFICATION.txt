@@ -1,0 +1,11 @@
+ARCHIVE VERIFICATION
+====================
+
+Milestone: continuous_rocking_generator_milestone_2026-08-05
+Created: 2026-08-05T07:58:22.499639+00:00
+Files copied from active source set: 57
+Metadata files created: 9
+Declared missing source entries: 2
+
+The ZIP is created only after all included files are hashed.
+The ZIP is subsequently opened and tested with ZipFile.testzip().

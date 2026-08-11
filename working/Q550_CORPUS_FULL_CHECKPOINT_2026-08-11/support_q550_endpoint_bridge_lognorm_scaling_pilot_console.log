@@ -1,0 +1,156 @@
+
+Q=550: orbit=400 periods, tail=70 periods
+  Q=550: [   1/400]
+  Q=550: [ 100/400]
+  Q=550: [ 200/400]
+  Q=550: [ 300/400]
+  Q=550: [ 400/400]
+Script version       = 2026-08-06-q550-endpoint-bridge-lognorm-scaling-pilot-v1
+seed center          = 67/80
+dense gap            = 1.527048611111468e-01
+subdivision sweep    = [32, 128, 512]
+transports           = oriented, two_line
+==============================================================================
+subdivisions=32
+      forward-oriented-m32: [    1/32] radius=8.309e-03 residual=6.192e-01 mu=+1.866e+01
+      forward-oriented-m32: [    4/32] radius=2.104e-02 residual=6.215e-01 mu=+1.866e+01
+      forward-oriented-m32: [    8/32] radius=4.431e-02 residual=6.223e-01 mu=+1.866e+01
+      forward-oriented-m32: [   12/32] radius=7.754e-02 residual=6.219e-01 mu=+1.866e+01
+      forward-oriented-m32: [   16/32] radius=1.250e-01 residual=6.211e-01 mu=+1.866e+01
+      forward-oriented-m32: [   20/32] radius=1.927e-01 residual=6.219e-01 mu=+1.866e+01
+      forward-oriented-m32: [   24/32] radius=2.894e-01 residual=6.227e-01 mu=+1.866e+01
+      forward-oriented-m32: [   28/32] radius=4.275e-01 residual=6.227e-01 mu=+1.866e+01
+      forward-oriented-m32: [   32/32] radius=6.247e-01 residual=6.212e-01 mu=+1.866e+01
+      forward-two_line-m32: [    1/32] radius=8.379e-03 residual=6.199e-01 mu=+1.866e+01
+      forward-two_line-m32: [    4/32] radius=2.114e-02 residual=6.222e-01 mu=+1.866e+01
+      forward-two_line-m32: [    8/32] radius=4.447e-02 residual=6.230e-01 mu=+1.866e+01
+      forward-two_line-m32: [   12/32] radius=7.779e-02 residual=6.226e-01 mu=+1.866e+01
+      forward-two_line-m32: [   16/32] radius=1.253e-01 residual=6.217e-01 mu=+1.866e+01
+      forward-two_line-m32: [   20/32] radius=1.932e-01 residual=6.225e-01 mu=+1.866e+01
+      forward-two_line-m32: [   24/32] radius=2.902e-01 residual=6.234e-01 mu=+1.866e+01
+      forward-two_line-m32: [   28/32] radius=4.287e-01 residual=6.233e-01 mu=+1.866e+01
+      forward-two_line-m32: [   32/32] radius=6.264e-01 residual=6.219e-01 mu=+1.866e+01
+  forward node=68: rO=6.247395e-01 r2P=6.263894e-01 endpoint lower=-1.238563e+00 pass=False
+      backward-oriented-m32: [    1/32] radius=8.310e-03 residual=6.195e-01 mu=+1.866e+01
+      backward-oriented-m32: [    4/32] radius=2.104e-02 residual=6.210e-01 mu=+1.866e+01
+      backward-oriented-m32: [    8/32] radius=4.428e-02 residual=6.212e-01 mu=+1.866e+01
+      backward-oriented-m32: [   12/32] radius=7.746e-02 residual=6.203e-01 mu=+1.866e+01
+      backward-oriented-m32: [   16/32] radius=1.248e-01 residual=6.199e-01 mu=+1.866e+01
+      backward-oriented-m32: [   20/32] radius=1.925e-01 residual=6.216e-01 mu=+1.866e+01
+      backward-oriented-m32: [   24/32] radius=2.891e-01 residual=6.224e-01 mu=+1.866e+01
+      backward-oriented-m32: [   28/32] radius=4.271e-01 residual=6.226e-01 mu=+1.866e+01
+      backward-oriented-m32: [   32/32] radius=6.241e-01 residual=6.210e-01 mu=+1.866e+01
+      backward-two_line-m32: [    1/32] radius=8.380e-03 residual=6.201e-01 mu=+1.866e+01
+      backward-two_line-m32: [    4/32] radius=2.114e-02 residual=6.217e-01 mu=+1.866e+01
+      backward-two_line-m32: [    8/32] radius=4.444e-02 residual=6.219e-01 mu=+1.866e+01
+      backward-two_line-m32: [   12/32] radius=7.771e-02 residual=6.209e-01 mu=+1.866e+01
+      backward-two_line-m32: [   16/32] radius=1.252e-01 residual=6.206e-01 mu=+1.866e+01
+      backward-two_line-m32: [   20/32] radius=1.930e-01 residual=6.222e-01 mu=+1.866e+01
+      backward-two_line-m32: [   24/32] radius=2.899e-01 residual=6.231e-01 mu=+1.866e+01
+      backward-two_line-m32: [   28/32] radius=4.282e-01 residual=6.232e-01 mu=+1.866e+01
+      backward-two_line-m32: [   32/32] radius=6.257e-01 residual=6.217e-01 mu=+1.866e+01
+  backward node=66: rO=6.241111e-01 r2P=6.257494e-01 endpoint lower=-1.237295e+00 pass=False
+==============================================================================
+subdivisions=128
+      forward-oriented-m128: [    1/128] radius=5.266e-03 residual=3.194e-01 mu=+1.850e+01
+      forward-oriented-m128: [   16/128] radius=1.624e-02 residual=3.930e-01 mu=+1.854e+01
+      forward-oriented-m128: [   32/128] radius=3.299e-02 residual=5.334e-01 mu=+1.861e+01
+      forward-oriented-m128: [   48/128] radius=5.674e-02 residual=4.425e-01 mu=+1.857e+01
+      forward-oriented-m128: [   64/128] radius=9.014e-02 residual=2.830e-01 mu=+1.848e+01
+      forward-oriented-m128: [   80/128] radius=1.379e-01 residual=4.091e-01 mu=+1.855e+01
+      forward-oriented-m128: [   96/128] radius=2.064e-01 residual=5.334e-01 mu=+1.861e+01
+      forward-oriented-m128: [  112/128] radius=3.039e-01 residual=4.266e-01 mu=+1.856e+01
+      forward-oriented-m128: [  128/128] radius=4.422e-01 residual=2.660e-01 mu=+1.847e+01
+      forward-two_line-m128: [    1/128] radius=5.328e-03 residual=3.198e-01 mu=+1.850e+01
+      forward-two_line-m128: [   16/128] radius=1.633e-02 residual=3.934e-01 mu=+1.854e+01
+      forward-two_line-m128: [   32/128] radius=3.314e-02 residual=5.340e-01 mu=+1.861e+01
+      forward-two_line-m128: [   48/128] radius=5.697e-02 residual=4.430e-01 mu=+1.857e+01
+      forward-two_line-m128: [   64/128] radius=9.047e-02 residual=2.833e-01 mu=+1.848e+01
+      forward-two_line-m128: [   80/128] radius=1.384e-01 residual=4.095e-01 mu=+1.855e+01
+      forward-two_line-m128: [   96/128] radius=2.071e-01 residual=5.340e-01 mu=+1.861e+01
+      forward-two_line-m128: [  112/128] radius=3.049e-01 residual=4.270e-01 mu=+1.856e+01
+      forward-two_line-m128: [  128/128] radius=4.437e-01 residual=2.663e-01 mu=+1.847e+01
+  forward node=68: rO=4.422446e-01 r2P=4.436769e-01 endpoint lower=-8.733552e-01 pass=False
+      backward-oriented-m128: [    1/128] radius=5.240e-03 residual=2.979e-01 mu=+1.849e+01
+      backward-oriented-m128: [   16/128] radius=1.616e-02 residual=3.711e-01 mu=+1.853e+01
+      backward-oriented-m128: [   32/128] radius=3.284e-02 residual=5.296e-01 mu=+1.861e+01
+      backward-oriented-m128: [   48/128] radius=5.655e-02 residual=4.628e-01 mu=+1.858e+01
+      backward-oriented-m128: [   64/128] radius=8.990e-02 residual=3.042e-01 mu=+1.849e+01
+      backward-oriented-m128: [   80/128] radius=1.375e-01 residual=3.873e-01 mu=+1.854e+01
+      backward-oriented-m128: [   96/128] radius=2.058e-01 residual=5.331e-01 mu=+1.861e+01
+      backward-oriented-m128: [  112/128] radius=3.031e-01 residual=4.480e-01 mu=+1.857e+01
+      backward-oriented-m128: [  128/128] radius=4.411e-01 residual=2.876e-01 mu=+1.849e+01
+      backward-two_line-m128: [    1/128] radius=5.302e-03 residual=2.983e-01 mu=+1.849e+01
+      backward-two_line-m128: [   16/128] radius=1.626e-02 residual=3.715e-01 mu=+1.853e+01
+      backward-two_line-m128: [   32/128] radius=3.299e-02 residual=5.302e-01 mu=+1.861e+01
+      backward-two_line-m128: [   48/128] radius=5.677e-02 residual=4.633e-01 mu=+1.858e+01
+      backward-two_line-m128: [   64/128] radius=9.023e-02 residual=3.045e-01 mu=+1.849e+01
+      backward-two_line-m128: [   80/128] radius=1.380e-01 residual=3.877e-01 mu=+1.854e+01
+      backward-two_line-m128: [   96/128] radius=2.065e-01 residual=5.337e-01 mu=+1.861e+01
+      backward-two_line-m128: [  112/128] radius=3.040e-01 residual=4.485e-01 mu=+1.857e+01
+      backward-two_line-m128: [  128/128] radius=4.425e-01 residual=2.879e-01 mu=+1.849e+01
+  backward node=66: rO=4.410953e-01 r2P=4.425215e-01 endpoint lower=-8.710516e-01 pass=False
+==============================================================================
+subdivisions=512
+      forward-oriented-m512: [    1/512] radius=4.840e-03 residual=1.324e-01 mu=+1.840e+01
+      forward-oriented-m512: [   64/512] radius=9.685e-03 residual=1.347e-01 mu=+1.840e+01
+      forward-oriented-m512: [  128/512] radius=1.668e-02 residual=1.353e-01 mu=+1.840e+01
+      forward-oriented-m512: [  192/512] radius=2.663e-02 residual=1.346e-01 mu=+1.840e+01
+      forward-oriented-m512: [  256/512] radius=4.074e-02 residual=1.336e-01 mu=+1.840e+01
+      forward-oriented-m512: [  320/512] radius=6.076e-02 residual=1.250e-01 mu=+1.840e+01
+      forward-oriented-m512: [  384/512] radius=8.926e-02 residual=1.351e-01 mu=+1.840e+01
+      forward-oriented-m512: [  448/512] radius=1.297e-01 residual=1.348e-01 mu=+1.840e+01
+      forward-oriented-m512: [  512/512] radius=1.872e-01 residual=1.326e-01 mu=+1.840e+01
+      forward-two_line-m512: [    1/512] radius=4.901e-03 residual=1.325e-01 mu=+1.840e+01
+      forward-two_line-m512: [   64/512] radius=9.775e-03 residual=1.349e-01 mu=+1.840e+01
+      forward-two_line-m512: [  128/512] radius=1.681e-02 residual=1.355e-01 mu=+1.840e+01
+      forward-two_line-m512: [  192/512] radius=2.682e-02 residual=1.348e-01 mu=+1.840e+01
+      forward-two_line-m512: [  256/512] radius=4.101e-02 residual=1.337e-01 mu=+1.840e+01
+      forward-two_line-m512: [  320/512] radius=6.115e-02 residual=1.251e-01 mu=+1.840e+01
+      forward-two_line-m512: [  384/512] radius=8.982e-02 residual=1.353e-01 mu=+1.840e+01
+      forward-two_line-m512: [  448/512] radius=1.305e-01 residual=1.349e-01 mu=+1.840e+01
+      forward-two_line-m512: [  512/512] radius=1.884e-01 residual=1.327e-01 mu=+1.840e+01
+  forward node=68: rO=1.872249e-01 r2P=1.883620e-01 endpoint lower=-3.630206e-01 pass=False
+      backward-oriented-m512: [    1/512] radius=4.840e-03 residual=1.324e-01 mu=+1.840e+01
+      backward-oriented-m512: [   64/512] radius=9.667e-03 residual=1.345e-01 mu=+1.840e+01
+      backward-oriented-m512: [  128/512] radius=1.666e-02 residual=1.320e-01 mu=+1.840e+01
+      backward-oriented-m512: [  192/512] radius=2.658e-02 residual=1.338e-01 mu=+1.840e+01
+      backward-oriented-m512: [  256/512] radius=4.065e-02 residual=1.334e-01 mu=+1.840e+01
+      backward-oriented-m512: [  320/512] radius=6.066e-02 residual=1.345e-01 mu=+1.840e+01
+      backward-oriented-m512: [  384/512] radius=8.910e-02 residual=1.353e-01 mu=+1.840e+01
+      backward-oriented-m512: [  448/512] radius=1.295e-01 residual=1.348e-01 mu=+1.840e+01
+      backward-oriented-m512: [  512/512] radius=1.869e-01 residual=1.325e-01 mu=+1.840e+01
+      backward-two_line-m512: [    1/512] radius=4.901e-03 residual=1.325e-01 mu=+1.840e+01
+      backward-two_line-m512: [   64/512] radius=9.756e-03 residual=1.346e-01 mu=+1.840e+01
+      backward-two_line-m512: [  128/512] radius=1.679e-02 residual=1.322e-01 mu=+1.840e+01
+      backward-two_line-m512: [  192/512] radius=2.677e-02 residual=1.340e-01 mu=+1.840e+01
+      backward-two_line-m512: [  256/512] radius=4.092e-02 residual=1.336e-01 mu=+1.840e+01
+      backward-two_line-m512: [  320/512] radius=6.105e-02 residual=1.347e-01 mu=+1.840e+01
+      backward-two_line-m512: [  384/512] radius=8.966e-02 residual=1.354e-01 mu=+1.840e+01
+      backward-two_line-m512: [  448/512] radius=1.303e-01 residual=1.350e-01 mu=+1.840e+01
+      backward-two_line-m512: [  512/512] radius=1.881e-01 residual=1.327e-01 mu=+1.840e+01
+  backward node=66: rO=1.869330e-01 r2P=1.880664e-01 endpoint lower=-3.624342e-01 pass=False
+==============================================================================
+Script version: 2026-08-06-q550-endpoint-bridge-lognorm-scaling-pilot-v1
+
+Q=550 ENDPOINT BRIDGE SPECTRAL-LOGNORM SCALING PILOT
+=====================================================
+
+seed index                         = 67
+subdivision sweep                  = [32, 128, 512]
+
+Rows
+----
+m=   32 forward  node=68 rO=6.247394731838e-01 r2P=6.263894084798e-01 lower=-1.238562624300e+00 muO=+1.866153e+01 mu2P=+1.866153e+01 width=2.098138e-01 pass=False
+m=   32 backward node=66 rO=6.241110562436e-01 r2P=6.257494056750e-01 lower=-1.237295256941e+00 muO=+1.866171e+01 mu2P=+1.866172e+01 width=2.095147e-01 pass=False
+m=  128 forward  node=68 rO=4.422445877360e-01 r2P=4.436769031091e-01 lower=-8.733552334818e-01 muO=+1.861485e+01 mu2P=+1.861485e+01 width=1.799456e-01 pass=False
+m=  128 backward node=66 rO=4.410953293124e-01 r2P=4.425215024224e-01 lower=-8.710516267570e-01 muO=+1.861494e+01 mu2P=+1.861495e+01 width=1.797986e-01 pass=False
+m=  512 forward  node=68 rO=1.872248722726e-01 r2P=1.883620203461e-01 lower=-3.630206352554e-01 muO=+1.840299e+01 mu2P=+1.840298e+01 width=4.498793e-02 pass=False
+m=  512 backward node=66 rO=1.869329534092e-01 r2P=1.880664497716e-01 lower=-3.624341982028e-01 muO=+1.840309e+01 mu2P=+1.840310e+01 width=4.495153e-02 pass=False
+
+classification = ONE-CELL ENDPOINT BRIDGE STILL OPEN AT LARGEST SUBDIVISION
+
+Scope: frozen-spline linear cocycle only; nonlinear orbit not yet validated.
+report = /root/elab1/hysteresis/support_q550_endpoint_bridge_lognorm_scaling_pilot_report.txt
+JSON   = /root/elab1/hysteresis/support_q550_endpoint_bridge_lognorm_scaling_pilot.json
+CSV    = /root/elab1/hysteresis/support_q550_endpoint_bridge_lognorm_scaling_pilot_rows.csv

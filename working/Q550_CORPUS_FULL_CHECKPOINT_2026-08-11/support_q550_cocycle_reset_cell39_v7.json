@@ -1,0 +1,83 @@
+{
+  "script_version": "2026-08-10-q550-cocycle-reset-corpus-bridge-v7",
+  "q": 550.0,
+  "scope": "continuous start-coordinate endpoint distinction in frozen-spline linear cocycle",
+  "cells": [
+    39
+  ],
+  "reset_sweep": [
+    32,
+    64,
+    128
+  ],
+  "transport_residual_subdivisions": 8,
+  "paired_subdivisions": 8,
+  "summaries": [
+    {
+      "reset_steps": 32,
+      "cell_index": 39,
+      "cell_width": 0.1527048611110331,
+      "minimum_continuous_lower": -5.460168718932697,
+      "first_bad_step": 3,
+      "first_bad_fraction": 0.09375,
+      "maximum_reset_T_radius": 1.4984630145318365,
+      "maximum_reset_C_radius": 0.9599020457722828,
+      "maximum_local_T_tube_radius": 2.0515128945868293,
+      "maximum_local_C_tube_radius": 1.3116482236382623,
+      "maximum_short_H_radius": 0.03972925564508503,
+      "maximum_H_inverse_q": 0.11659055243584526,
+      "maximum_increment_relative_eps": 0.0004879626877345837,
+      "maximum_local_rq": 0.1815480809856564,
+      "right_T_center_gap": 1.673871444676935e-08,
+      "right_C_center_gap": 7.934201164299392e-09,
+      "right_T_overlap_margin": 1.6547315422753262,
+      "right_C_overlap_margin": 1.0631512249278159,
+      "cell_pass": false
+    },
+    {
+      "reset_steps": 64,
+      "cell_index": 39,
+      "cell_width": 0.1527048611110331,
+      "minimum_continuous_lower": -1.6368156968657424,
+      "first_bad_step": 10,
+      "first_bad_fraction": 0.15625,
+      "maximum_reset_T_radius": 0.7847313498963372,
+      "maximum_reset_C_radius": 0.4706325325196143,
+      "maximum_local_T_tube_radius": 0.9080427693111035,
+      "maximum_local_C_tube_radius": 0.5435102931562369,
+      "maximum_short_H_radius": 0.020391221864519703,
+      "maximum_H_inverse_q": 0.06019127593258891,
+      "maximum_increment_relative_eps": 0.00012531863536418623,
+      "maximum_local_rq": 0.09074795139636901,
+      "right_T_center_gap": 2.1334065427455252e-09,
+      "right_C_center_gap": 3.0294310036750955e-09,
+      "right_T_overlap_margin": 0.8328355347300885,
+      "right_C_overlap_margin": 0.49383224671091547,
+      "cell_pass": false
+    },
+    {
+      "reset_steps": 128,
+      "cell_index": 39,
+      "cell_width": 0.1527048611110331,
+      "minimum_continuous_lower": -0.6391841492963422,
+      "first_bad_step": 29,
+      "first_bad_fraction": 0.2265625,
+      "maximum_reset_T_radius": 0.43998316471227655,
+      "maximum_reset_C_radius": 0.23287693423778744,
+      "maximum_local_T_tube_radius": 0.47248502492695016,
+      "maximum_local_C_tube_radius": 0.2496203374084485,
+      "maximum_short_H_radius": 0.010326907238086054,
+      "maximum_H_inverse_q": 0.03056937867215065,
+      "maximum_increment_relative_eps": 3.0664469331468955e-05,
+      "maximum_local_rq": 0.045369665336731764,
+      "right_T_center_gap": 5.555112099033777e-11,
+      "right_C_center_gap": 3.727637853848004e-11,
+      "right_T_overlap_margin": 0.46402756694965425,
+      "right_C_overlap_margin": 0.23836297086703043,
+      "cell_pass": false
+    }
+  ],
+  "largest_reset_cells_passed": 0,
+  "largest_reset_cells_tested": 1,
+  "classification": "COCYCLE-RESET CORPUS PILOT STILL OPEN"
+}

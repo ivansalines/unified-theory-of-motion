@@ -1,0 +1,30 @@
+Script version: 2026-08-07-q550-endpoint-nesting-dense-span-audit-v5
+
+Q=550 ENDPOINT-NESTING DENSE-START SPAN AUDIT
+=================================================
+
+dense starts                         = 0 .. 80 (81)
+P_oriented                           = 4.541666666667e-01
+2 P_line                             = 4.555555555556e-01
+edge cap DeltaP                      = 1.388888888889e-03
+body steps                           = 1308
+cap steps                            = 16
+subdivision sweep                    = [8, 16, 32]
+
+Architecture
+------------
+For each dense start independently:
+  T_2P = G_edge T_O, hence D=(I-G_edge)T_O.
+  The long-body uncertainty is charged once and attenuated by I-G_edge.
+  No uncertainty is chained from one start to the next.
+
+Summaries
+---------
+m=   8 passed= 81/81 minLower=+9.381511e-03 at i=25 maxR=1.674982e-03 maxDisc=3.292e-10 all=True
+m=  16 passed= 81/81 minLower=+1.022548e-02 at i=64 maxR=8.285589e-04 maxDisc=3.292e-10 all=True
+m=  32 passed= 81/81 minLower=+1.064161e-02 at i=64 maxR=4.120767e-04 maxDisc=3.292e-10 all=True
+
+classification = ENDPOINT-NESTING DENSE-START SPAN PASSED AT LARGEST SUBDIVISION
+
+Scope: dense start nodes only in the frozen-spline linear cocycle;
+continuous inter-node coverage and exact nonlinear-orbit validation remain open.

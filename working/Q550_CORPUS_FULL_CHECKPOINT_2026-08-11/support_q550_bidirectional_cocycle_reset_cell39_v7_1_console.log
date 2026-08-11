@@ -1,0 +1,33 @@
+
+Q=550: orbit=400 periods, tail=70 periods
+  Q=550: [   1/400]
+  Q=550: [ 100/400]
+  Q=550: [ 200/400]
+  Q=550: [ 300/400]
+  Q=550: [ 400/400]
+Script version          = 2026-08-10-q550-bidirectional-cocycle-reset-corpus-v7.1
+Q                       = 550
+selected cells          = [39]
+half-step sweep         = [64, 128, 256]
+P_oriented              = 4.541666666666667e-01
+2 P_line                = 4.555555555555555e-01
+edge cap DeltaP         = 1.388888888888884e-03
+v5 subdivision          = 32
+H/K residual subdivisions= 8
+local paired pieces     = 8
+left reset T            = H1*T_left*H0^{-1}
+left reset G            = H2*G_left*H1^{-1}
+right reset T           = K1^{-1}*T_right*K0
+right reset G           = K2^{-1}*G_right*K1
+coverage                = left anchor -> midpoint <- right anchor
+==============================================================================
+steps / half-cell=64
+cell=39 min=-6.055134e-02 badL=  29 badR=  29 resetRT=1.064e-01 tubeRT=1.150e-01 resetRC=2.881e-02 tubeRC=3.095e-02 rShort=3.182e-03 rq=4.537e-02 midGapT=5.65e-11 midGapC=3.30e-11 midOvT=+2.131e-01 midOvC=+6.017e-02 pass=False
+==============================================================================
+steps / half-cell=128
+cell=39 min=-2.467749e-02 badL=  79 badR=  79 resetRT=8.094e-02 tubeRT=8.395e-02 resetRC=1.468e-02 tubeRC=1.520e-02 rShort=1.609e-03 rq=2.269e-02 midGapT=1.17e-11 midGapC=1.21e-11 midOvT=+1.608e-01 midOvC=+2.997e-02 pass=False
+==============================================================================
+steps / half-cell=256
+cell=39 min=-7.593385e-03 badL= 208 badR= 208 resetRT=6.784e-02 tubeRT=6.904e-02 resetRC=7.404e-03 tubeRC=7.534e-03 rShort=8.088e-04 rq=1.134e-02 midGapT=1.02e-12 midGapC=7.58e-13 midOvT=+1.349e-01 midOvC=+1.495e-02 pass=False
+==============================================================================
+largest half-step summary: passed=0/1 classification=BIDIRECTIONAL COCYCLE-RESET CORPUS PILOT STILL OPEN

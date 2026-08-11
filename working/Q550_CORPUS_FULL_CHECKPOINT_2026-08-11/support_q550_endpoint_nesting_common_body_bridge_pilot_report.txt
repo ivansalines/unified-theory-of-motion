@@ -1,0 +1,31 @@
+Script version: 2026-08-07-q550-endpoint-nesting-common-body-bridge-v4
+
+Q=550 ENDPOINT-NESTING COMMON-BODY BRIDGE PILOT
+=================================================
+
+seed -> neighbor                    = 67 -> 68
+forward dense gap                   = 1.527048611111e-01
+P_oriented                          = 4.541666666667e-01
+2 P_line                            = 4.555555555556e-01
+edge cap DeltaP                     = 1.388888888889e-03
+short steps                         = 440
+cap steps                           = 16
+subdivision sweep                   = [16, 32, 64]
+
+Architecture
+------------
+T_2P = G_edge T_O, hence D = T_O - T_2P = (I-G_edge) T_O.
+Across the forward start cell: D1=(I-G1) H_O T_O,seed K_tail^{-1}.
+Only one long-body uncertainty is charged, and it is attenuated by I-G1.
+
+seed oriented relative eps          = 1.308722403569e-03
+
+Rows
+----
+m=  16 epsTail=2.742619e-03 epsHead=2.742633e-03 epsEdge=1.300555e-06 edgeRows=2.526599e-02 activeR=9.197537e-04 sep=1.107431e-02 lower=+1.015455e-02 pass=True
+m=  32 epsTail=1.371841e-03 epsHead=1.371848e-03 epsEdge=6.502402e-07 edgeRows=2.526599e-02 activeR=5.454009e-04 sep=1.107431e-02 lower=+1.052891e-02 pass=True
+m=  64 epsTail=6.860756e-04 epsHead=6.860789e-04 epsEdge=3.251109e-07 edgeRows=2.526599e-02 activeR=3.586988e-04 sep=1.107431e-02 lower=+1.071561e-02 pass=True
+
+classification = ENDPOINT-NESTING COMMON-BODY BRIDGE PASSED AT LARGEST SUBDIVISION
+
+Scope: frozen-spline linear cocycle only; nonlinear orbit not yet validated.

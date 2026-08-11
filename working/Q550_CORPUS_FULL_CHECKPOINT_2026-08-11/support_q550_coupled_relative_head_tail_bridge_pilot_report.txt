@@ -1,0 +1,28 @@
+Script version: 2026-08-07-q550-coupled-relative-head-tail-bridge-v3
+
+Q=550 COUPLED RELATIVE HEAD-TAIL BRIDGE PILOT
+===============================================
+
+seed -> neighbor                    = 67 -> 68
+forward dense gap                   = 1.527048611111e-01
+short steps                         = 440
+subdivision sweep                   = [16, 32, 64]
+
+Architecture
+------------
+H = U_H (I+E_H), T_seed = T_c (I+E_seed), K = U_K (I+E_K)
+The same uncertain K^{-1} is applied once to the endpoint difference.
+Only the active 2x2 difference is bounded; irrelevant global modes are not charged.
+
+seed oriented relative eps          = 1.308722403569e-03
+seed two_line relative eps          = 1.316362899430e-03
+
+Rows
+----
+m=  16 epsTail=2.742619e-03 epsHeadO=2.742633e-03 epsHead2P=2.742641e-03 activeR=4.012015e-02 sep=1.107431e-02 lower=-2.904584e-02 pass=False
+m=  32 epsTail=1.371841e-03 epsHeadO=1.371848e-03 epsHead2P=1.371852e-03 activeR=2.476480e-02 sep=1.107431e-02 lower=-1.369049e-02 pass=False
+m=  64 epsTail=6.860756e-04 epsHeadO=6.860789e-04 epsHead2P=6.860810e-04 activeR=1.710866e-02 sep=1.107431e-02 lower=-6.034353e-03 pass=False
+
+classification = COUPLED RELATIVE SHARED-TAIL BRIDGE STILL OPEN AT LARGEST SUBDIVISION
+
+Scope: frozen-spline linear cocycle only; nonlinear orbit not yet validated.

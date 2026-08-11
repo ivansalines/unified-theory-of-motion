@@ -1,0 +1,4 @@
+residual_subdivisions,starts_tested,starts_passed,all_starts_passed,minimum_endpoint_lower,minimum_endpoint_lower_index,maximum_active_radius,maximum_active_radius_index,maximum_center_relative_discrepancy,maximum_center_relative_discrepancy_index
+8,81,81,True,0.00938151138762713,25,0.0016749820235047936,25,3.292471088008415e-10,22
+16,81,81,True,0.01022548184779596,64,0.0008285589483772759,25,3.292471088008415e-10,22
+32,81,81,True,0.010641608362054768,64,0.000412076667850387,25,3.292471088008415e-10,22

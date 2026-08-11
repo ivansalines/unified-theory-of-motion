@@ -1,0 +1,106 @@
+
+Q=550: orbit=400 periods, tail=70 periods
+  Q=550: [   1/400]
+  Q=550: [ 100/400]
+  Q=550: [ 200/400]
+  Q=550: [ 300/400]
+  Q=550: [ 400/400]
+Script version          = 2026-08-10-q550-bidirectional-cocycle-reset-corpus-v7.1
+Q                       = 550
+selected cells          = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79]
+half-step sweep         = [512]
+P_oriented              = 4.541666666666667e-01
+2 P_line                = 4.555555555555555e-01
+edge cap DeltaP         = 1.388888888888884e-03
+v5 subdivision          = 32
+H/K residual subdivisions= 8
+local paired pieces     = 8
+left reset T            = H1*T_left*H0^{-1}
+left reset G            = H2*G_left*H1^{-1}
+right reset T           = K1^{-1}*T_right*K0
+right reset G           = K2^{-1}*G_right*K1
+coverage                = left anchor -> midpoint <- right anchor
+==============================================================================
+steps / half-cell=512
+cell= 0 min=+7.571831e-04 badL=  -1 badR=  -1 resetRT=6.117e-02 tubeRT=6.170e-02 resetRC=3.721e-03 tubeRC=3.754e-03 rShort=4.057e-04 rq=5.671e-03 midGapT=5.97e-13 midGapC=2.67e-14 midOvT=+1.219e-01 midOvC=+7.473e-03 pass=True
+cell= 1 min=+7.393349e-04 badL=  -1 badR=  -1 resetRT=6.106e-02 tubeRT=6.158e-02 resetRC=3.719e-03 tubeRC=3.751e-03 rShort=4.055e-04 rq=5.669e-03 midGapT=2.98e-13 midGapC=5.05e-14 midOvT=+1.218e-01 midOvC=+7.471e-03 pass=True
+cell= 2 min=+7.490482e-04 badL=  -1 badR=  -1 resetRT=6.116e-02 tubeRT=6.170e-02 resetRC=3.722e-03 tubeRC=3.754e-03 rShort=4.060e-04 rq=5.671e-03 midGapT=3.76e-13 midGapC=2.15e-14 midOvT=+1.217e-01 midOvC=+7.479e-03 pass=True
+cell= 3 min=+7.534096e-04 badL=  -1 badR=  -1 resetRT=6.124e-02 tubeRT=6.178e-02 resetRC=3.721e-03 tubeRC=3.753e-03 rShort=4.057e-04 rq=5.671e-03 midGapT=4.54e-13 midGapC=3.19e-14 midOvT=+1.219e-01 midOvC=+7.473e-03 pass=True
+cell= 4 min=+7.384863e-04 badL=  -1 badR=  -1 resetRT=6.107e-02 tubeRT=6.160e-02 resetRC=3.719e-03 tubeRC=3.751e-03 rShort=4.054e-04 rq=5.670e-03 midGapT=5.28e-13 midGapC=2.90e-14 midOvT=+1.218e-01 midOvC=+7.471e-03 pass=True
+cell= 5 min=+7.526533e-04 badL=  -1 badR=  -1 resetRT=6.110e-02 tubeRT=6.163e-02 resetRC=3.722e-03 tubeRC=3.755e-03 rShort=4.060e-04 rq=5.671e-03 midGapT=4.49e-13 midGapC=2.16e-14 midOvT=+1.217e-01 midOvC=+7.479e-03 pass=True
+cell= 6 min=+7.513716e-04 badL=  -1 badR=  -1 resetRT=6.128e-02 tubeRT=6.181e-02 resetRC=3.721e-03 tubeRC=3.753e-03 rShort=4.057e-04 rq=5.672e-03 midGapT=4.91e-13 midGapC=1.93e-14 midOvT=+1.219e-01 midOvC=+7.472e-03 pass=True
+cell= 7 min=+7.356540e-04 badL=  -1 badR=  -1 resetRT=6.114e-02 tubeRT=6.167e-02 resetRC=3.719e-03 tubeRC=3.751e-03 rShort=4.054e-04 rq=5.670e-03 midGapT=5.77e-13 midGapC=3.01e-14 midOvT=+1.219e-01 midOvC=+7.471e-03 pass=True
+cell= 8 min=+7.562595e-04 badL=  -1 badR=  -1 resetRT=6.103e-02 tubeRT=6.156e-02 resetRC=3.722e-03 tubeRC=3.755e-03 rShort=4.060e-04 rq=5.671e-03 midGapT=4.76e-13 midGapC=3.79e-14 midOvT=+1.217e-01 midOvC=+7.479e-03 pass=True
+cell= 9 min=+7.536526e-04 badL=  -1 badR=  -1 resetRT=6.121e-02 tubeRT=6.174e-02 resetRC=3.721e-03 tubeRC=3.753e-03 rShort=4.057e-04 rq=5.672e-03 midGapT=4.22e-13 midGapC=4.60e-14 midOvT=+1.218e-01 midOvC=+7.472e-03 pass=True
+cell=10 min=+7.327340e-04 badL=  -1 badR=  -1 resetRT=6.121e-02 tubeRT=6.174e-02 resetRC=3.719e-03 tubeRC=3.751e-03 rShort=4.055e-04 rq=5.670e-03 midGapT=4.02e-13 midGapC=1.53e-14 midOvT=+1.219e-01 midOvC=+7.471e-03 pass=True
+cell=11 min=+7.546459e-04 badL=  -1 badR=  -1 resetRT=6.108e-02 tubeRT=6.161e-02 resetRC=3.723e-03 tubeRC=3.755e-03 rShort=4.060e-04 rq=5.671e-03 midGapT=3.51e-13 midGapC=2.75e-14 midOvT=+1.218e-01 midOvC=+7.479e-03 pass=True
+cell=12 min=+7.558234e-04 badL=  -1 badR=  -1 resetRT=6.114e-02 tubeRT=6.168e-02 resetRC=3.721e-03 tubeRC=3.753e-03 rShort=4.056e-04 rq=5.672e-03 midGapT=3.75e-13 midGapC=3.78e-14 midOvT=+1.217e-01 midOvC=+7.472e-03 pass=True
+cell=13 min=+7.326365e-04 badL=  -1 badR=  -1 resetRT=6.120e-02 tubeRT=6.174e-02 resetRC=3.719e-03 tubeRC=3.751e-03 rShort=4.055e-04 rq=5.671e-03 midGapT=5.27e-13 midGapC=3.40e-14 midOvT=+1.219e-01 midOvC=+7.471e-03 pass=True
+cell=14 min=+7.523431e-04 badL=  -1 badR=  -1 resetRT=6.115e-02 tubeRT=6.168e-02 resetRC=3.723e-03 tubeRC=3.755e-03 rShort=4.060e-04 rq=5.671e-03 midGapT=4.60e-13 midGapC=3.63e-14 midOvT=+1.219e-01 midOvC=+7.479e-03 pass=True
+cell=15 min=+7.573207e-04 badL=  -1 badR=  -1 resetRT=6.109e-02 tubeRT=6.162e-02 resetRC=3.720e-03 tubeRC=3.753e-03 rShort=4.056e-04 rq=5.672e-03 midGapT=3.15e-13 midGapC=3.91e-14 midOvT=+1.218e-01 midOvC=+7.472e-03 pass=True
+cell=16 min=+7.355460e-04 badL=  -1 badR=  -1 resetRT=6.114e-02 tubeRT=6.167e-02 resetRC=3.719e-03 tubeRC=3.751e-03 rShort=4.055e-04 rq=5.670e-03 midGapT=5.69e-13 midGapC=4.56e-14 midOvT=+1.218e-01 midOvC=+7.471e-03 pass=True
+cell=17 min=+7.501477e-04 badL=  -1 badR=  -1 resetRT=6.122e-02 tubeRT=6.175e-02 resetRC=3.723e-03 tubeRC=3.755e-03 rShort=4.060e-04 rq=5.672e-03 midGapT=5.00e-13 midGapC=3.15e-14 midOvT=+1.219e-01 midOvC=+7.479e-03 pass=True
+cell=18 min=+7.538170e-04 badL=  -1 badR=  -1 resetRT=6.116e-02 tubeRT=6.169e-02 resetRC=3.720e-03 tubeRC=3.753e-03 rShort=4.056e-04 rq=5.672e-03 midGapT=4.91e-13 midGapC=1.52e-14 midOvT=+1.219e-01 midOvC=+7.472e-03 pass=True
+cell=19 min=+7.382414e-04 badL=  -1 badR=  -1 resetRT=6.107e-02 tubeRT=6.160e-02 resetRC=3.719e-03 tubeRC=3.751e-03 rShort=4.055e-04 rq=5.671e-03 midGapT=5.31e-13 midGapC=4.20e-14 midOvT=+1.218e-01 midOvC=+7.471e-03 pass=True
+cell=20 min=+7.518536e-04 badL=  -1 badR=  -1 resetRT=6.119e-02 tubeRT=6.171e-02 resetRC=3.723e-03 tubeRC=3.755e-03 rShort=4.060e-04 rq=5.672e-03 midGapT=5.58e-13 midGapC=3.09e-14 midOvT=+1.218e-01 midOvC=+7.480e-03 pass=True
+cell=21 min=+7.500552e-04 badL=  -1 badR=  -1 resetRT=6.123e-02 tubeRT=6.176e-02 resetRC=3.720e-03 tubeRC=3.752e-03 rShort=4.056e-04 rq=5.672e-03 midGapT=7.53e-13 midGapC=3.59e-14 midOvT=+1.219e-01 midOvC=+7.472e-03 pass=True
+cell=22 min=+7.392464e-04 badL=  -1 badR=  -1 resetRT=6.105e-02 tubeRT=6.158e-02 resetRC=3.719e-03 tubeRC=3.751e-03 rShort=4.055e-04 rq=5.671e-03 midGapT=5.23e-13 midGapC=3.05e-14 midOvT=+1.218e-01 midOvC=+7.471e-03 pass=True
+cell=23 min=+7.557209e-04 badL=  -1 badR=  -1 resetRT=6.112e-02 tubeRT=6.165e-02 resetRC=3.723e-03 tubeRC=3.756e-03 rShort=4.059e-04 rq=5.672e-03 midGapT=5.00e-13 midGapC=2.43e-14 midOvT=+1.217e-01 midOvC=+7.479e-03 pass=True
+cell=24 min=+7.465398e-04 badL=  -1 badR=  -1 resetRT=6.130e-02 tubeRT=6.183e-02 resetRC=3.720e-03 tubeRC=3.752e-03 rShort=4.056e-04 rq=5.672e-03 midGapT=3.64e-13 midGapC=2.78e-14 midOvT=+1.219e-01 midOvC=+7.471e-03 pass=True
+cell=25 min=+7.364060e-04 badL=  -1 badR=  -1 resetRT=6.112e-02 tubeRT=6.165e-02 resetRC=3.719e-03 tubeRC=3.751e-03 rShort=4.055e-04 rq=5.671e-03 midGapT=5.22e-13 midGapC=4.85e-14 midOvT=+1.219e-01 midOvC=+7.471e-03 pass=True
+cell=26 min=+7.592771e-04 badL=  -1 badR=  -1 resetRT=6.105e-02 tubeRT=6.158e-02 resetRC=3.723e-03 tubeRC=3.756e-03 rShort=4.059e-04 rq=5.672e-03 midGapT=3.78e-13 midGapC=5.26e-14 midOvT=+1.217e-01 midOvC=+7.480e-03 pass=True
+cell=27 min=+7.487826e-04 badL=  -1 badR=  -1 resetRT=6.123e-02 tubeRT=6.176e-02 resetRC=3.720e-03 tubeRC=3.752e-03 rShort=4.055e-04 rq=5.671e-03 midGapT=7.13e-13 midGapC=3.61e-14 midOvT=+1.218e-01 midOvC=+7.471e-03 pass=True
+cell=28 min=+7.334897e-04 badL=  -1 badR=  -1 resetRT=6.118e-02 tubeRT=6.172e-02 resetRC=3.719e-03 tubeRC=3.751e-03 rShort=4.055e-04 rq=5.671e-03 midGapT=5.86e-13 midGapC=3.60e-14 midOvT=+1.219e-01 midOvC=+7.471e-03 pass=True
+cell=29 min=+7.590472e-04 badL=  -1 badR=  -1 resetRT=6.107e-02 tubeRT=6.160e-02 resetRC=3.724e-03 tubeRC=3.756e-03 rShort=4.059e-04 rq=5.672e-03 midGapT=6.76e-13 midGapC=3.74e-14 midOvT=+1.218e-01 midOvC=+7.480e-03 pass=True
+cell=30 min=+7.509068e-04 badL=  -1 badR=  -1 resetRT=6.116e-02 tubeRT=6.169e-02 resetRC=3.720e-03 tubeRC=3.752e-03 rShort=4.055e-04 rq=5.672e-03 midGapT=1.01e-12 midGapC=3.14e-14 midOvT=+1.217e-01 midOvC=+7.471e-03 pass=True
+cell=31 min=+7.320690e-04 badL=  -1 badR=  -1 resetRT=6.122e-02 tubeRT=6.175e-02 resetRC=3.719e-03 tubeRC=3.751e-03 rShort=4.056e-04 rq=5.672e-03 midGapT=6.80e-13 midGapC=6.83e-14 midOvT=+1.219e-01 midOvC=+7.472e-03 pass=True
+cell=32 min=+7.566919e-04 badL=  -1 badR=  -1 resetRT=6.114e-02 tubeRT=6.167e-02 resetRC=3.724e-03 tubeRC=3.756e-03 rShort=4.059e-04 rq=5.672e-03 midGapT=3.35e-13 midGapC=4.27e-14 midOvT=+1.219e-01 midOvC=+7.480e-03 pass=True
+cell=33 min=+7.531455e-04 badL=  -1 badR=  -1 resetRT=6.109e-02 tubeRT=6.162e-02 resetRC=3.720e-03 tubeRC=3.752e-03 rShort=4.055e-04 rq=5.671e-03 midGapT=3.89e-13 midGapC=3.40e-14 midOvT=+1.217e-01 midOvC=+7.471e-03 pass=True
+cell=34 min=+7.351502e-04 badL=  -1 badR=  -1 resetRT=6.115e-02 tubeRT=6.168e-02 resetRC=3.719e-03 tubeRC=3.751e-03 rShort=4.056e-04 rq=5.671e-03 midGapT=3.56e-13 midGapC=3.64e-14 midOvT=+1.218e-01 midOvC=+7.472e-03 pass=True
+cell=35 min=+7.544449e-04 badL=  -1 badR=  -1 resetRT=6.121e-02 tubeRT=6.174e-02 resetRC=3.724e-03 tubeRC=3.756e-03 rShort=4.060e-04 rq=5.672e-03 midGapT=3.17e-13 midGapC=3.86e-14 midOvT=+1.219e-01 midOvC=+7.480e-03 pass=True
+cell=36 min=+7.503498e-04 badL=  -1 badR=  -1 resetRT=6.114e-02 tubeRT=6.167e-02 resetRC=3.720e-03 tubeRC=3.752e-03 rShort=4.055e-04 rq=5.671e-03 midGapT=8.18e-13 midGapC=3.85e-14 midOvT=+1.219e-01 midOvC=+7.471e-03 pass=True
+cell=37 min=+7.381936e-04 badL=  -1 badR=  -1 resetRT=6.108e-02 tubeRT=6.161e-02 resetRC=3.719e-03 tubeRC=3.751e-03 rShort=4.056e-04 rq=5.672e-03 midGapT=6.14e-13 midGapC=3.87e-14 midOvT=+1.217e-01 midOvC=+7.472e-03 pass=True
+cell=38 min=+7.543047e-04 badL=  -1 badR=  -1 resetRT=6.121e-02 tubeRT=6.174e-02 resetRC=3.724e-03 tubeRC=3.757e-03 rShort=4.060e-04 rq=5.672e-03 midGapT=3.98e-13 midGapC=2.27e-14 midOvT=+1.218e-01 midOvC=+7.480e-03 pass=True
+cell=39 min=+7.460753e-04 badL=  -1 badR=  -1 resetRT=6.121e-02 tubeRT=6.174e-02 resetRC=3.719e-03 tubeRC=3.752e-03 rShort=4.055e-04 rq=5.671e-03 midGapT=5.67e-13 midGapC=2.53e-14 midOvT=+1.219e-01 midOvC=+7.471e-03 pass=True
+cell=40 min=+7.403739e-04 badL=  -1 badR=  -1 resetRT=6.103e-02 tubeRT=6.156e-02 resetRC=3.719e-03 tubeRC=3.751e-03 rShort=4.056e-04 rq=5.672e-03 midGapT=5.19e-13 midGapC=3.70e-14 midOvT=+1.218e-01 midOvC=+7.472e-03 pass=True
+cell=41 min=+7.584061e-04 badL=  -1 badR=  -1 resetRT=6.114e-02 tubeRT=6.168e-02 resetRC=3.724e-03 tubeRC=3.756e-03 rShort=4.060e-04 rq=5.672e-03 midGapT=7.40e-13 midGapC=3.86e-14 midOvT=+1.217e-01 midOvC=+7.479e-03 pass=True
+cell=42 min=+7.430505e-04 badL=  -1 badR=  -1 resetRT=6.128e-02 tubeRT=6.181e-02 resetRC=3.719e-03 tubeRC=3.752e-03 rShort=4.055e-04 rq=5.671e-03 midGapT=4.17e-13 midGapC=4.40e-14 midOvT=+1.219e-01 midOvC=+7.471e-03 pass=True
+cell=43 min=+7.376299e-04 badL=  -1 badR=  -1 resetRT=6.110e-02 tubeRT=6.163e-02 resetRC=3.719e-03 tubeRC=3.751e-03 rShort=4.056e-04 rq=5.672e-03 midGapT=3.99e-13 midGapC=2.82e-14 midOvT=+1.219e-01 midOvC=+7.472e-03 pass=True
+cell=44 min=+7.618642e-04 badL=  -1 badR=  -1 resetRT=6.108e-02 tubeRT=6.161e-02 resetRC=3.724e-03 tubeRC=3.756e-03 rShort=4.060e-04 rq=5.672e-03 midGapT=8.36e-13 midGapC=5.08e-14 midOvT=+1.217e-01 midOvC=+7.479e-03 pass=True
+cell=45 min=+7.437442e-04 badL=  -1 badR=  -1 resetRT=6.124e-02 tubeRT=6.178e-02 resetRC=3.719e-03 tubeRC=3.752e-03 rShort=4.055e-04 rq=5.671e-03 midGapT=7.40e-13 midGapC=3.05e-14 midOvT=+1.218e-01 midOvC=+7.471e-03 pass=True
+cell=46 min=+7.347765e-04 badL=  -1 badR=  -1 resetRT=6.117e-02 tubeRT=6.170e-02 resetRC=3.719e-03 tubeRC=3.751e-03 rShort=4.056e-04 rq=5.672e-03 midGapT=5.28e-13 midGapC=3.53e-14 midOvT=+1.219e-01 midOvC=+7.473e-03 pass=True
+cell=47 min=+7.629928e-04 badL=  -1 badR=  -1 resetRT=6.106e-02 tubeRT=6.159e-02 resetRC=3.724e-03 tubeRC=3.756e-03 rShort=4.060e-04 rq=5.672e-03 midGapT=3.90e-13 midGapC=2.57e-14 midOvT=+1.218e-01 midOvC=+7.479e-03 pass=True
+cell=48 min=+7.459439e-04 badL=  -1 badR=  -1 resetRT=6.117e-02 tubeRT=6.171e-02 resetRC=3.719e-03 tubeRC=3.751e-03 rShort=4.055e-04 rq=5.671e-03 midGapT=5.52e-13 midGapC=4.02e-14 midOvT=+1.218e-01 midOvC=+7.470e-03 pass=True
+cell=49 min=+7.319723e-04 badL=  -1 badR=  -1 resetRT=6.123e-02 tubeRT=6.177e-02 resetRC=3.719e-03 tubeRC=3.751e-03 rShort=4.057e-04 rq=5.672e-03 midGapT=5.32e-13 midGapC=2.86e-14 midOvT=+1.219e-01 midOvC=+7.473e-03 pass=True
+cell=50 min=+7.605856e-04 badL=  -1 badR=  -1 resetRT=6.113e-02 tubeRT=6.166e-02 resetRC=3.724e-03 tubeRC=3.756e-03 rShort=4.060e-04 rq=5.672e-03 midGapT=8.67e-13 midGapC=5.52e-14 midOvT=+1.219e-01 midOvC=+7.479e-03 pass=True
+cell=51 min=+7.482810e-04 badL=  -1 badR=  -1 resetRT=6.110e-02 tubeRT=6.164e-02 resetRC=3.719e-03 tubeRC=3.751e-03 rShort=4.055e-04 rq=5.670e-03 midGapT=4.16e-13 midGapC=7.66e-14 midOvT=+1.218e-01 midOvC=+7.470e-03 pass=True
+cell=52 min=+7.351499e-04 badL=  -1 badR=  -1 resetRT=6.117e-02 tubeRT=6.170e-02 resetRC=3.719e-03 tubeRC=3.751e-03 rShort=4.057e-04 rq=5.672e-03 midGapT=2.32e-13 midGapC=5.65e-14 midOvT=+1.218e-01 midOvC=+7.473e-03 pass=True
+cell=53 min=+7.581851e-04 badL=  -1 badR=  -1 resetRT=6.120e-02 tubeRT=6.174e-02 resetRC=3.724e-03 tubeRC=3.757e-03 rShort=4.060e-04 rq=5.672e-03 midGapT=7.42e-13 midGapC=5.03e-14 midOvT=+1.219e-01 midOvC=+7.479e-03 pass=True
+cell=54 min=+7.469129e-04 badL=  -1 badR=  -1 resetRT=6.112e-02 tubeRT=6.165e-02 resetRC=3.719e-03 tubeRC=3.751e-03 rShort=4.054e-04 rq=5.671e-03 midGapT=6.20e-13 midGapC=5.37e-14 midOvT=+1.218e-01 midOvC=+7.470e-03 pass=True
+cell=55 min=+7.382726e-04 badL=  -1 badR=  -1 resetRT=6.110e-02 tubeRT=6.163e-02 resetRC=3.719e-03 tubeRC=3.752e-03 rShort=4.057e-04 rq=5.672e-03 midGapT=5.53e-13 midGapC=2.98e-14 midOvT=+1.217e-01 midOvC=+7.473e-03 pass=True
+cell=56 min=+7.571085e-04 badL=  -1 badR=  -1 resetRT=6.124e-02 tubeRT=6.177e-02 resetRC=3.725e-03 tubeRC=3.757e-03 rShort=4.061e-04 rq=5.672e-03 midGapT=3.37e-13 midGapC=1.44e-14 midOvT=+1.219e-01 midOvC=+7.479e-03 pass=True
+cell=57 min=+7.427013e-04 badL=  -1 badR=  -1 resetRT=6.119e-02 tubeRT=6.172e-02 resetRC=3.719e-03 tubeRC=3.752e-03 rShort=4.055e-04 rq=5.670e-03 midGapT=5.48e-13 midGapC=5.42e-14 midOvT=+1.219e-01 midOvC=+7.471e-03 pass=True
+cell=58 min=+7.410864e-04 badL=  -1 badR=  -1 resetRT=6.103e-02 tubeRT=6.156e-02 resetRC=3.719e-03 tubeRC=3.751e-03 rShort=4.058e-04 rq=5.672e-03 midGapT=7.31e-13 midGapC=3.36e-14 midOvT=+1.217e-01 midOvC=+7.473e-03 pass=True
+cell=59 min=+7.604590e-04 badL=  -1 badR=  -1 resetRT=6.117e-02 tubeRT=6.171e-02 resetRC=3.724e-03 tubeRC=3.757e-03 rShort=4.060e-04 rq=5.672e-03 midGapT=4.10e-13 midGapC=3.86e-14 midOvT=+1.217e-01 midOvC=+7.479e-03 pass=True
+cell=60 min=+7.397129e-04 badL=  -1 badR=  -1 resetRT=6.125e-02 tubeRT=6.179e-02 resetRC=3.719e-03 tubeRC=3.751e-03 rShort=4.054e-04 rq=5.670e-03 midGapT=5.00e-13 midGapC=2.54e-14 midOvT=+1.219e-01 midOvC=+7.470e-03 pass=True
+cell=61 min=+7.393061e-04 badL=  -1 badR=  -1 resetRT=6.108e-02 tubeRT=6.161e-02 resetRC=3.719e-03 tubeRC=3.751e-03 rShort=4.057e-04 rq=5.672e-03 midGapT=2.49e-13 midGapC=4.25e-14 midOvT=+1.219e-01 midOvC=+7.474e-03 pass=True
+cell=62 min=+7.636912e-04 badL=  -1 badR=  -1 resetRT=6.111e-02 tubeRT=6.164e-02 resetRC=3.724e-03 tubeRC=3.757e-03 rShort=4.060e-04 rq=5.672e-03 midGapT=4.22e-13 midGapC=2.71e-14 midOvT=+1.217e-01 midOvC=+7.479e-03 pass=True
+cell=63 min=+7.389731e-04 badL=  -1 badR=  -1 resetRT=6.125e-02 tubeRT=6.179e-02 resetRC=3.719e-03 tubeRC=3.751e-03 rShort=4.054e-04 rq=5.670e-03 midGapT=4.34e-13 midGapC=2.91e-14 midOvT=+1.219e-01 midOvC=+7.470e-03 pass=True
+cell=64 min=+7.365355e-04 badL=  -1 badR=  -1 resetRT=6.115e-02 tubeRT=6.168e-02 resetRC=3.719e-03 tubeRC=3.751e-03 rShort=4.058e-04 rq=5.672e-03 midGapT=7.33e-13 midGapC=6.25e-14 midOvT=+1.219e-01 midOvC=+7.474e-03 pass=True
+cell=65 min=+7.662002e-04 badL=  -1 badR=  -1 resetRT=6.106e-02 tubeRT=6.159e-02 resetRC=3.724e-03 tubeRC=3.757e-03 rShort=4.060e-04 rq=5.672e-03 midGapT=5.09e-13 midGapC=3.51e-14 midOvT=+1.217e-01 midOvC=+7.478e-03 pass=True
+cell=66 min=+7.412503e-04 badL=  -1 badR=  -1 resetRT=6.118e-02 tubeRT=6.172e-02 resetRC=3.719e-03 tubeRC=3.751e-03 rShort=4.054e-04 rq=5.669e-03 midGapT=6.19e-13 midGapC=3.40e-14 midOvT=+1.218e-01 midOvC=+7.470e-03 pass=True
+cell=67 min=+7.339162e-04 badL=  -1 badR=  -1 resetRT=6.122e-02 tubeRT=6.175e-02 resetRC=3.719e-03 tubeRC=3.751e-03 rShort=4.058e-04 rq=5.672e-03 midGapT=7.75e-13 midGapC=4.96e-14 midOvT=+1.219e-01 midOvC=+7.474e-03 pass=True
+cell=68 min=+7.636591e-04 badL=  -1 badR=  -1 resetRT=6.113e-02 tubeRT=6.166e-02 resetRC=3.724e-03 tubeRC=3.757e-03 rShort=4.060e-04 rq=5.672e-03 midGapT=4.64e-13 midGapC=3.54e-14 midOvT=+1.219e-01 midOvC=+7.478e-03 pass=True
+cell=69 min=+7.436776e-04 badL=  -1 badR=  -1 resetRT=6.111e-02 tubeRT=6.165e-02 resetRC=3.719e-03 tubeRC=3.751e-03 rShort=4.054e-04 rq=5.669e-03 midGapT=5.04e-13 midGapC=2.99e-14 midOvT=+1.218e-01 midOvC=+7.470e-03 pass=True
+cell=70 min=+7.357071e-04 badL=  -1 badR=  -1 resetRT=6.118e-02 tubeRT=6.172e-02 resetRC=3.719e-03 tubeRC=3.751e-03 rShort=4.058e-04 rq=5.672e-03 midGapT=3.49e-13 midGapC=2.91e-14 midOvT=+1.218e-01 midOvC=+7.474e-03 pass=True
+cell=71 min=+7.610189e-04 badL=  -1 badR=  -1 resetRT=6.120e-02 tubeRT=6.173e-02 resetRC=3.724e-03 tubeRC=3.757e-03 rShort=4.060e-04 rq=5.672e-03 midGapT=3.98e-13 midGapC=1.87e-14 midOvT=+1.219e-01 midOvC=+7.478e-03 pass=True
+cell=72 min=+7.438433e-04 badL=  -1 badR=  -1 resetRT=6.109e-02 tubeRT=6.163e-02 resetRC=3.719e-03 tubeRC=3.751e-03 rShort=4.054e-04 rq=5.669e-03 midGapT=4.21e-13 midGapC=5.47e-14 midOvT=+1.218e-01 midOvC=+7.470e-03 pass=True
+cell=73 min=+7.388683e-04 badL=  -1 badR=  -1 resetRT=6.111e-02 tubeRT=6.165e-02 resetRC=3.719e-03 tubeRC=3.752e-03 rShort=4.058e-04 rq=5.672e-03 midGapT=5.94e-13 midGapC=4.49e-14 midOvT=+1.217e-01 midOvC=+7.475e-03 pass=True
+cell=74 min=+7.582282e-04 badL=  -1 badR=  -1 resetRT=6.127e-02 tubeRT=6.180e-02 resetRC=3.725e-03 tubeRC=3.757e-03 rShort=4.061e-04 rq=5.672e-03 midGapT=5.47e-13 midGapC=2.94e-14 midOvT=+1.219e-01 midOvC=+7.478e-03 pass=True
+cell=75 min=+7.402609e-04 badL=  -1 badR=  -1 resetRT=6.116e-02 tubeRT=6.169e-02 resetRC=3.719e-03 tubeRC=3.751e-03 rShort=4.055e-04 rq=5.669e-03 midGapT=4.76e-13 midGapC=2.87e-14 midOvT=+1.220e-01 midOvC=+7.470e-03 pass=True
+cell=76 min=+7.419170e-04 badL=  -1 badR=  -1 resetRT=6.105e-02 tubeRT=6.158e-02 resetRC=3.720e-03 tubeRC=3.752e-03 rShort=4.059e-04 rq=5.672e-03 midGapT=4.74e-13 midGapC=3.58e-14 midOvT=+1.217e-01 midOvC=+7.475e-03 pass=True
+cell=77 min=+7.615495e-04 badL=  -1 badR=  -1 resetRT=6.120e-02 tubeRT=6.173e-02 resetRC=3.724e-03 tubeRC=3.757e-03 rShort=4.060e-04 rq=5.672e-03 midGapT=3.94e-13 midGapC=2.45e-14 midOvT=+1.218e-01 midOvC=+7.478e-03 pass=True
+cell=78 min=+7.368042e-04 badL=  -1 badR=  -1 resetRT=6.123e-02 tubeRT=6.176e-02 resetRC=3.719e-03 tubeRC=3.751e-03 rShort=4.054e-04 rq=5.668e-03 midGapT=6.58e-13 midGapC=2.33e-14 midOvT=+1.220e-01 midOvC=+7.470e-03 pass=True
+cell=79 min=+7.417217e-04 badL=  -1 badR=  -1 resetRT=6.106e-02 tubeRT=6.160e-02 resetRC=3.719e-03 tubeRC=3.752e-03 rShort=4.059e-04 rq=5.672e-03 midGapT=3.39e-13 midGapC=2.68e-14 midOvT=+1.218e-01 midOvC=+7.475e-03 pass=True
+==============================================================================
+largest half-step summary: passed=80/80 classification=BIDIRECTIONAL COCYCLE-RESET CORPUS PILOT PASSED AT LARGEST HALF-STEP RESOLUTION

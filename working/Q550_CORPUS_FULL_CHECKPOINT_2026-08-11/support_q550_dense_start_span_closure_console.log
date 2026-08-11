@@ -1,0 +1,110 @@
+
+Q=550: orbit=400 periods, tail=70 periods
+  Q=550: [   1/400]
+  Q=550: [ 100/400]
+  Q=550: [ 200/400]
+  Q=550: [ 300/400]
+  Q=550: [ 400/400]
+Script version = 2026-08-06-q550-dense-start-span-closure-audit-v1
+Q              = 550
+archive token  = Q550
+dense starts   = 81
+span           = [657.319187066000, 669.535575954889]
+uniform gap    = 1.527048611111e-01
+coarse/fine    = 240/480 RK4 steps per P_line
+    Q=550 dense coarse: [   1/81]
+    Q=550 dense coarse: [   8/81]
+    Q=550 dense coarse: [  16/81]
+    Q=550 dense coarse: [  24/81]
+    Q=550 dense coarse: [  32/81]
+    Q=550 dense coarse: [  40/81]
+    Q=550 dense coarse: [  48/81]
+    Q=550 dense coarse: [  56/81]
+    Q=550 dense coarse: [  64/81]
+    Q=550 dense coarse: [  72/81]
+    Q=550 dense coarse: [  80/81]
+    Q=550 dense coarse: [  81/81]
+    Q=550 dense fine: [   1/81]
+    Q=550 dense fine: [   8/81]
+    Q=550 dense fine: [  16/81]
+    Q=550 dense fine: [  24/81]
+    Q=550 dense fine: [  32/81]
+    Q=550 dense fine: [  40/81]
+    Q=550 dense fine: [  48/81]
+    Q=550 dense fine: [  56/81]
+    Q=550 dense fine: [  64/81]
+    Q=550 dense fine: [  72/81]
+    Q=550 dense fine: [  80/81]
+    Q=550 dense fine: [  81/81]
+==============================================================================
+Script version: 2026-08-06-q550-dense-start-span-closure-audit-v1
+
+Q=550 DENSE START-SPAN CLOSURE AUDIT
+====================================
+
+Input raw archive                     = support_oriented_endpoint_propagator_raw.npz
+Input SHA256                          = 66366077be919aacb49bc12248925c3ef25818b86e8266eceeb632e2eac84ffe
+Source orbit                          = support_feedback_q_curtain_cache/q_550_orbit.npz
+P_line                                = 0.227777777778
+P_oriented                            = 0.454166666667
+
+Dense start geometry
+  span                                = [657.319187066000, 669.535575954889]
+  span length                         = 1.221638888889e+01
+  uniform starts                      = 81
+  uniform center gap                  = 1.527048611111e-01
+  uniform half gap                    = 7.635243055557e-02
+
+Numerical consistency
+  maximum matrix convergence error    = 4.930280963974e-09
+  maximum composition residual        = 1.059349037950e-13
+  basis Gram error                    = 5.719965119736e-16
+
+Dense-center structural margins
+  active determinant range            = [-2.867011080853e-01, -2.862643211050e-01]
+  without-z determinant range         = [+5.362842537496e-02, +5.365832427432e-02]
+  active sigma minimum                = 3.214317965367e-01
+  without-z sigma minimum             = 6.083212154678e-02
+  planar failure ratio minimum        = 1.014839236521e+00
+  mediation margin at tau             = 6.143066129593e-02
+  oriented versus 2P separation min   = 1.254739728341e-02
+
+Sampled derivative envelope
+  active oriented maximum             = 9.795043254944e-03
+  without upper-z maximum             = 9.570972261707e-03
+  planar-only maximum                 = 3.988604689256e-04
+  2 P_line active maximum             = 9.939191864476e-03
+
+Robust cell budget
+  derivative inflation gamma          = 4.000000
+  certified half-cell radius          = 1.589546948169e-01
+  maximum certified center gap        = 3.179093896337e-01
+  actual dense center gap             = 1.527048611111e-01
+
+Worst-case lower bounds over every covered cell
+  active sigma lower bound            = 3.184402950971e-01
+  without-z sigma lower bound         = 5.790905356694e-02
+  mediation margin lower bound        = 5.547541762360e-02
+  endpoint separation lower bound     = 6.520370017315e-03
+
+Decisions
+  temporal convergence passed         = True
+  composition closure passed          = True
+  dense-center structure passed       = True
+  full-span conditional coverage      = True
+  all passed                          = True
+  classification                      = DENSE START-SPAN CONDITIONAL COVERAGE PASSED: the complete archived Q=550 start interval is covered under the requested derivative inflation.  The only remaining continuous-proof obligation is a rigorous interval enclosure of the generator and endpoint derivative suprema on these cells.
+
+Interpretation
+  This closes the finite-mesh inter-anchor gap at Q=550 under the
+  requested sampled-derivative inflation.  It is not yet an interval
+  proof of the continuous flow.  The remaining obligation is to enclose
+  B(s), B(s+L), and the endpoint derivative on every dense cell using
+  outward-rounded interval arithmetic.
+
+FILES
+  summary CSV = support_q550_dense_start_span_closure_summary.csv
+  samples CSV = support_q550_dense_start_span_closure_samples.csv
+  JSON        = support_q550_dense_start_span_closure.json
+  raw NPZ     = support_q550_dense_start_span_closure_raw.npz
+  report      = support_q550_dense_start_span_closure_report.txt

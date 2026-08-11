@@ -1,0 +1,31 @@
+Script version: 2026-08-10-q550-corpus-inter-node-bridge-v6.1-full-path-scaling
+
+Q=550 CORPUS INTER-NODE BRIDGE
+================================
+
+selection mode                    = explicit cells
+selected cells                    = [39]
+P_oriented                        = 4.541666666667e-01
+2 P_line                          = 4.555555555556e-01
+edge cap DeltaP                   = 1.388888888889e-03
+v5 anchor subdivision             = 32
+tube steps per half-cell          = 256
+paired B1-B2 pieces per step      = 256
+
+Corpus architecture
+-------------------
+D = C T, with C = I-G_edge and T=T_O.
+T' = B1 T - T B0.
+C' = (B1-B2) + B2 C - C B1.
+B1-B2 is evaluated on paired start-coordinate subintervals.
+Each dense cell is covered from both endpoints; no uncertainty is
+chained from one dense cell to the next.
+
+Cell summaries
+--------------
+cell=39 minLower=-6.001311e-02 maxRT=1.412451e+00 maxRC=4.785543e-03 rq=3.580119e-04 pass=False
+
+classification = CORPUS INTER-NODE COVERAGE STILL OPEN
+
+Scope: frozen natural-cubic-spline linear cocycle only; exact
+nonlinear-orbit interval validation remains open.

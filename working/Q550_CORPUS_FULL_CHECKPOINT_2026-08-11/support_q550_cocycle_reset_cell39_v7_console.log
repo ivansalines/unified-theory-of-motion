@@ -1,0 +1,31 @@
+
+Q=550: orbit=400 periods, tail=70 periods
+  Q=550: [   1/400]
+  Q=550: [ 100/400]
+  Q=550: [ 200/400]
+  Q=550: [ 300/400]
+  Q=550: [ 400/400]
+Script version         = 2026-08-10-q550-cocycle-reset-corpus-bridge-v7
+Q                      = 550
+selected cells         = [39]
+reset sweep            = [32, 64, 128]
+P_oriented             = 4.541666666666667e-01
+2 P_line               = 4.555555555555555e-01
+edge cap DeltaP        = 1.388888888888884e-03
+v5 subdivision         = 32
+H residual subdivisions= 8
+local paired pieces    = 8
+reset identity T       = H1*T_anchor*H0^{-1}
+reset identity G       = H2*G_anchor*H1^{-1}
+local tube             = v6.1 one-step only; endpoint ball discarded
+==============================================================================
+reset steps / full cell=32
+cell=39 min=-5.460169e+00 bad=   3 resetRT=1.498e+00 tubeRT=2.052e+00 resetRC=9.599e-01 tubeRC=1.312e+00 rH=3.973e-02 rq=1.815e-01 overlapT=+1.655e+00 overlapC=+1.063e+00 pass=False
+==============================================================================
+reset steps / full cell=64
+cell=39 min=-1.636816e+00 bad=  10 resetRT=7.847e-01 tubeRT=9.080e-01 resetRC=4.706e-01 tubeRC=5.435e-01 rH=2.039e-02 rq=9.075e-02 overlapT=+8.328e-01 overlapC=+4.938e-01 pass=False
+==============================================================================
+reset steps / full cell=128
+cell=39 min=-6.391841e-01 bad=  29 resetRT=4.400e-01 tubeRT=4.725e-01 resetRC=2.329e-01 tubeRC=2.496e-01 rH=1.033e-02 rq=4.537e-02 overlapT=+4.640e-01 overlapC=+2.384e-01 pass=False
+==============================================================================
+largest reset summary: passed=0/1 classification=COCYCLE-RESET CORPUS PILOT STILL OPEN

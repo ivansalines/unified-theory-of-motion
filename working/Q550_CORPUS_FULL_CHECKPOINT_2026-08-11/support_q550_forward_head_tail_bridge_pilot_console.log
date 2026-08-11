@@ -1,0 +1,159 @@
+
+Q=550: orbit=400 periods, tail=70 periods
+  Q=550: [   1/400]
+  Q=550: [ 100/400]
+  Q=550: [ 200/400]
+  Q=550: [ 300/400]
+  Q=550: [ 400/400]
+Script version       = 2026-08-07-q550-forward-head-tail-cocycle-bridge-v2
+seed -> neighbor     = 67 -> 68
+s0                   = 667.550412760444146
+s1                   = 667.703117621555293
+forward dense gap    = 1.527048611111468e-01
+short steps          = 440
+short step           = 3.470565025253336e-04
+subdivision sweep    = [16, 32, 64]
+architecture         = H_head * T_seed * K_tail^{-1}
+==============================================================================
+residual subdivisions=16
+    tail-m16: [    1/440] radius=1.287e-06 microboxes=16
+    tail-m16: [   44/440] radius=1.109e-04 microboxes=704
+    tail-m16: [   88/440] radius=3.605e-04 microboxes=1408
+    tail-m16: [  132/440] radius=7.820e-04 microboxes=2112
+    tail-m16: [  176/440] radius=1.413e-03 microboxes=2816
+    tail-m16: [  220/440] radius=2.291e-03 microboxes=3520
+    tail-m16: [  264/440] radius=3.415e-03 microboxes=4224
+    tail-m16: [  308/440] radius=5.049e-03 microboxes=4928
+    tail-m16: [  352/440] radius=7.172e-03 microboxes=5632
+    tail-m16: [  396/440] radius=9.481e-03 microboxes=6336
+    tail-m16: [  440/440] radius=1.172e-02 microboxes=7040
+    head-oriented-m16: [    1/440] radius=1.287e-06 microboxes=7056
+    head-oriented-m16: [   44/440] radius=1.109e-04 microboxes=7744
+    head-oriented-m16: [   88/440] radius=3.605e-04 microboxes=8448
+    head-oriented-m16: [  132/440] radius=7.820e-04 microboxes=9152
+    head-oriented-m16: [  176/440] radius=1.413e-03 microboxes=9856
+    head-oriented-m16: [  220/440] radius=2.291e-03 microboxes=10560
+    head-oriented-m16: [  264/440] radius=3.415e-03 microboxes=11264
+    head-oriented-m16: [  308/440] radius=5.049e-03 microboxes=11968
+    head-oriented-m16: [  352/440] radius=7.172e-03 microboxes=12672
+    head-oriented-m16: [  396/440] radius=9.482e-03 microboxes=13376
+    head-oriented-m16: [  440/440] radius=1.172e-02 microboxes=14080
+    head-two_line-m16: [    1/440] radius=1.287e-06 microboxes=14096
+    head-two_line-m16: [   44/440] radius=1.109e-04 microboxes=14784
+    head-two_line-m16: [   88/440] radius=3.605e-04 microboxes=15488
+    head-two_line-m16: [  132/440] radius=7.820e-04 microboxes=16192
+    head-two_line-m16: [  176/440] radius=1.413e-03 microboxes=16896
+    head-two_line-m16: [  220/440] radius=2.291e-03 microboxes=17600
+    head-two_line-m16: [  264/440] radius=3.416e-03 microboxes=18304
+    head-two_line-m16: [  308/440] radius=5.049e-03 microboxes=19008
+    head-two_line-m16: [  352/440] radius=7.172e-03 microboxes=19712
+    head-two_line-m16: [  396/440] radius=9.482e-03 microboxes=20416
+    head-two_line-m16: [  440/440] radius=1.172e-02 microboxes=21120
+  m=16: rTail=1.171987e-02 rHeadO=1.171992e-02 rHead2P=1.171997e-02
+           rO=2.118143e+00 r2P=2.118355e+00 sep_center=1.107431e-02 lower=-4.225424e+00 pass=False
+           archived discrepancies: O=2.325e-10 2P=2.337e-10 tail inverse eta=6.718e-02
+==============================================================================
+residual subdivisions=32
+    tail-m32: [    1/440] radius=6.433e-07 microboxes=21152
+    tail-m32: [   44/440] radius=5.556e-05 microboxes=22528
+    tail-m32: [   88/440] radius=1.807e-04 microboxes=23936
+    tail-m32: [  132/440] radius=3.914e-04 microboxes=25344
+    tail-m32: [  176/440] radius=7.074e-04 microboxes=26752
+    tail-m32: [  220/440] radius=1.147e-03 microboxes=28160
+    tail-m32: [  264/440] radius=1.709e-03 microboxes=29568
+    tail-m32: [  308/440] radius=2.527e-03 microboxes=30976
+    tail-m32: [  352/440] radius=3.590e-03 microboxes=32384
+    tail-m32: [  396/440] radius=4.743e-03 microboxes=33792
+    tail-m32: [  440/440] radius=5.862e-03 microboxes=35200
+    head-oriented-m32: [    1/440] radius=6.433e-07 microboxes=35232
+    head-oriented-m32: [   44/440] radius=5.556e-05 microboxes=36608
+    head-oriented-m32: [   88/440] radius=1.807e-04 microboxes=38016
+    head-oriented-m32: [  132/440] radius=3.914e-04 microboxes=39424
+    head-oriented-m32: [  176/440] radius=7.074e-04 microboxes=40832
+    head-oriented-m32: [  220/440] radius=1.147e-03 microboxes=42240
+    head-oriented-m32: [  264/440] radius=1.709e-03 microboxes=43648
+    head-oriented-m32: [  308/440] radius=2.527e-03 microboxes=45056
+    head-oriented-m32: [  352/440] radius=3.590e-03 microboxes=46464
+    head-oriented-m32: [  396/440] radius=4.743e-03 microboxes=47872
+    head-oriented-m32: [  440/440] radius=5.862e-03 microboxes=49280
+    head-two_line-m32: [    1/440] radius=6.433e-07 microboxes=49312
+    head-two_line-m32: [   44/440] radius=5.556e-05 microboxes=50688
+    head-two_line-m32: [   88/440] radius=1.807e-04 microboxes=52096
+    head-two_line-m32: [  132/440] radius=3.914e-04 microboxes=53504
+    head-two_line-m32: [  176/440] radius=7.074e-04 microboxes=54912
+    head-two_line-m32: [  220/440] radius=1.148e-03 microboxes=56320
+    head-two_line-m32: [  264/440] radius=1.709e-03 microboxes=57728
+    head-two_line-m32: [  308/440] radius=2.527e-03 microboxes=59136
+    head-two_line-m32: [  352/440] radius=3.590e-03 microboxes=60544
+    head-two_line-m32: [  396/440] radius=4.743e-03 microboxes=61952
+    head-two_line-m32: [  440/440] radius=5.862e-03 microboxes=63360
+  m=32: rTail=5.862206e-03 rHeadO=5.862232e-03 rHead2P=5.862257e-03
+           rO=1.083147e+00 r2P=1.084017e+00 sep_center=1.107431e-02 lower=-2.156090e+00 pass=False
+           archived discrepancies: O=2.325e-10 2P=2.337e-10 tail inverse eta=3.360e-02
+==============================================================================
+residual subdivisions=64
+    tail-m64: [    1/440] radius=3.216e-07 microboxes=63424
+    tail-m64: [   44/440] radius=2.781e-05 microboxes=66176
+    tail-m64: [   88/440] radius=9.045e-05 microboxes=68992
+    tail-m64: [  132/440] radius=1.958e-04 microboxes=71808
+    tail-m64: [  176/440] radius=3.540e-04 microboxes=74624
+    tail-m64: [  220/440] radius=5.742e-04 microboxes=77440
+    tail-m64: [  264/440] radius=8.549e-04 microboxes=80256
+    tail-m64: [  308/440] radius=1.264e-03 microboxes=83072
+    tail-m64: [  352/440] radius=1.796e-03 microboxes=85888
+    tail-m64: [  396/440] radius=2.372e-03 microboxes=88704
+    tail-m64: [  440/440] radius=2.932e-03 microboxes=91520
+    head-oriented-m64: [    1/440] radius=3.216e-07 microboxes=91584
+    head-oriented-m64: [   44/440] radius=2.781e-05 microboxes=94336
+    head-oriented-m64: [   88/440] radius=9.045e-05 microboxes=97152
+    head-oriented-m64: [  132/440] radius=1.958e-04 microboxes=99968
+    head-oriented-m64: [  176/440] radius=3.540e-04 microboxes=102784
+    head-oriented-m64: [  220/440] radius=5.742e-04 microboxes=105600
+    head-oriented-m64: [  264/440] radius=8.549e-04 microboxes=108416
+    head-oriented-m64: [  308/440] radius=1.264e-03 microboxes=111232
+    head-oriented-m64: [  352/440] radius=1.796e-03 microboxes=114048
+    head-oriented-m64: [  396/440] radius=2.372e-03 microboxes=116864
+    head-oriented-m64: [  440/440] radius=2.932e-03 microboxes=119680
+    head-two_line-m64: [    1/440] radius=3.216e-07 microboxes=119744
+    head-two_line-m64: [   44/440] radius=2.781e-05 microboxes=122496
+    head-two_line-m64: [   88/440] radius=9.045e-05 microboxes=125312
+    head-two_line-m64: [  132/440] radius=1.958e-04 microboxes=128128
+    head-two_line-m64: [  176/440] radius=3.540e-04 microboxes=130944
+    head-two_line-m64: [  220/440] radius=5.742e-04 microboxes=133760
+    head-two_line-m64: [  264/440] radius=8.549e-04 microboxes=136576
+    head-two_line-m64: [  308/440] radius=1.264e-03 microboxes=139392
+    head-two_line-m64: [  352/440] radius=1.796e-03 microboxes=142208
+    head-two_line-m64: [  396/440] radius=2.372e-03 microboxes=145024
+    head-two_line-m64: [  440/440] radius=2.932e-03 microboxes=147840
+  m=64: rTail=2.931765e-03 rHeadO=2.931778e-03 rHead2P=2.931791e-03
+           rO=5.918941e-01 r2P=5.930750e-01 sep_center=1.107431e-02 lower=-1.173895e+00 pass=False
+           archived discrepancies: O=2.325e-10 2P=2.337e-10 tail inverse eta=1.681e-02
+==============================================================================
+Script version: 2026-08-07-q550-forward-head-tail-cocycle-bridge-v2
+
+Q=550 FORWARD HEAD-TAIL COCOYCLE BRIDGE PILOT
+===============================================
+
+seed -> neighbor                    = 67 -> 68
+forward dense gap                   = 1.527048611111e-01
+short steps                         = 440
+subdivision sweep                   = [16, 32, 64]
+
+Identity used
+-------------
+T_L(s+delta) = H_head T_L(s) K_tail^{-1}
+Both H_head and K_tail are forward short transports.
+The seed radius is carried through the product as mechanical memory.
+
+Rows
+----
+m=  16 rTail=1.171987e-02 rHeadO=1.171992e-02 rHead2P=1.171997e-02 rO=2.118143e+00 r2P=2.118355e+00 lower=-4.225424e+00 pass=False
+m=  32 rTail=5.862206e-03 rHeadO=5.862232e-03 rHead2P=5.862257e-03 rO=1.083147e+00 r2P=1.084017e+00 lower=-2.156090e+00 pass=False
+m=  64 rTail=2.931765e-03 rHeadO=2.931778e-03 rHead2P=2.931791e-03 rO=5.918941e-01 r2P=5.930750e-01 lower=-1.173895e+00 pass=False
+
+classification = FORWARD HEAD-TAIL COCOYCLE BRIDGE STILL OPEN AT LARGEST SUBDIVISION
+
+Scope: frozen-spline linear cocycle only; nonlinear orbit not yet validated.
+report = /root/elab1/hysteresis/support_q550_forward_head_tail_bridge_pilot_report.txt
+JSON   = /root/elab1/hysteresis/support_q550_forward_head_tail_bridge_pilot.json
+CSV    = /root/elab1/hysteresis/support_q550_forward_head_tail_bridge_pilot_rows.csv

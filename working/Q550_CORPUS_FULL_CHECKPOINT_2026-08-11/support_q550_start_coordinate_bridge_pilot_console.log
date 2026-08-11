@@ -1,0 +1,93 @@
+
+Q=550: orbit=400 periods, tail=70 periods
+  Q=550: [   1/400]
+  Q=550: [ 100/400]
+  Q=550: [ 200/400]
+  Q=550: [ 300/400]
+  Q=550: [ 400/400]
+Script version       = 2026-08-06-q550-start-coordinate-bridge-pilot-v1.1
+seed center          = 67/80
+cells each side      = 4
+cell subdivisions    = 32
+dense gap            = 1.527048611111468e-01
+  line: seed radius=1.684493e-03, nodes [63,71]
+    forward 67->68 radius=1.952e+00 residual=6.406e-01 mu=+2.894e+01 width=2.098e-01
+    forward 68->69 radius=1.637e+02 residual=6.402e-01 mu=+2.894e+01 width=2.099e-01
+    forward 69->70 radius=1.358e+04 residual=6.402e-01 mu=+2.894e+01 width=2.099e-01
+    forward 70->71 radius=1.127e+06 residual=6.406e-01 mu=+2.894e+01 width=2.098e-01
+    backward 67->66 radius=1.949e+00 residual=6.407e-01 mu=+2.894e+01 width=2.099e-01
+    backward 66->65 radius=1.635e+02 residual=6.399e-01 mu=+2.894e+01 width=2.099e-01
+    backward 65->64 radius=1.357e+04 residual=6.413e-01 mu=+2.894e+01 width=2.098e-01
+    backward 64->63 radius=1.125e+06 residual=6.407e-01 mu=+2.894e+01 width=2.099e-01
+  second: seed radius=1.669822e-03, nodes [63,71]
+    forward 67->68 radius=1.949e+00 residual=6.404e-01 mu=+2.894e+01 width=2.098e-01
+    forward 68->69 radius=1.635e+02 residual=6.395e-01 mu=+2.894e+01 width=2.099e-01
+    forward 69->70 radius=1.357e+04 residual=6.404e-01 mu=+2.894e+01 width=2.099e-01
+    forward 70->71 radius=1.126e+06 residual=6.404e-01 mu=+2.894e+01 width=2.098e-01
+    backward 67->66 radius=1.948e+00 residual=6.409e-01 mu=+2.894e+01 width=2.099e-01
+    backward 66->65 radius=1.634e+02 residual=6.396e-01 mu=+2.894e+01 width=2.099e-01
+    backward 65->64 radius=1.356e+04 residual=6.408e-01 mu=+2.894e+01 width=2.098e-01
+    backward 64->63 radius=1.125e+06 residual=6.409e-01 mu=+2.894e+01 width=2.099e-01
+  oriented: seed radius=4.773810e-03, nodes [63,71]
+    forward 67->68 radius=2.156e+00 residual=6.231e-01 mu=+2.894e+01 width=2.098e-01
+    forward 68->69 radius=1.806e+02 residual=6.222e-01 mu=+2.894e+01 width=2.099e-01
+    forward 69->70 radius=1.499e+04 residual=6.223e-01 mu=+2.894e+01 width=2.095e-01
+    forward 70->71 radius=1.243e+06 residual=6.232e-01 mu=+2.894e+01 width=2.098e-01
+    backward 67->66 radius=2.154e+00 residual=6.229e-01 mu=+2.894e+01 width=2.095e-01
+    backward 66->65 radius=1.804e+02 residual=6.224e-01 mu=+2.894e+01 width=2.099e-01
+    backward 65->64 radius=1.497e+04 residual=6.234e-01 mu=+2.894e+01 width=2.098e-01
+    backward 64->63 radius=1.242e+06 residual=6.229e-01 mu=+2.894e+01 width=2.095e-01
+  two_line: seed radius=4.834315e-03, nodes [63,71]
+    forward 67->68 radius=2.163e+00 residual=6.238e-01 mu=+2.894e+01 width=2.098e-01
+    forward 68->69 radius=1.812e+02 residual=6.229e-01 mu=+2.894e+01 width=2.099e-01
+    forward 69->70 radius=1.503e+04 residual=6.229e-01 mu=+2.894e+01 width=2.095e-01
+    forward 70->71 radius=1.247e+06 residual=6.238e-01 mu=+2.894e+01 width=2.098e-01
+    backward 67->66 radius=2.161e+00 residual=6.235e-01 mu=+2.894e+01 width=2.095e-01
+    backward 66->65 radius=1.810e+02 residual=6.231e-01 mu=+2.894e+01 width=2.099e-01
+    backward 65->64 radius=1.502e+04 residual=6.241e-01 mu=+2.894e+01 width=2.098e-01
+    backward 64->63 radius=1.246e+06 residual=6.236e-01 mu=+2.894e+01 width=2.095e-01
+==============================================================================
+Script version: 2026-08-06-q550-start-coordinate-bridge-pilot-v1.1
+
+Q=550 START-COORDINATE BRIDGE PILOT
+=======================================
+
+seed index                         = 67
+validated node range               = [63,71]
+cell subdivisions                  = 32
+all structural nodes passed        = False
+
+line
+  maximum propagated radius        = 1.127267324941e+06
+  maximum cell residual            = 6.412978348108e-01
+  maximum logarithmic norm bound   = +2.893868193716e+01
+second
+  maximum propagated radius        = 1.125684260166e+06
+  maximum cell residual            = 6.409041823202e-01
+  maximum logarithmic norm bound   = +2.893866855892e+01
+oriented
+  maximum propagated radius        = 1.243395705114e+06
+  maximum cell residual            = 6.233780687275e-01
+  maximum logarithmic norm bound   = +2.893888354617e+01
+two_line
+  maximum propagated radius        = 1.247399397108e+06
+  maximum cell residual            = 6.241055168930e-01
+  maximum logarithmic norm bound   = +2.893888374942e+01
+
+Node structural decisions
+  index=63 active=False without_z=False mediation=False endpoint=False all=False
+  index=64 active=False without_z=False mediation=False endpoint=False all=False
+  index=65 active=False without_z=False mediation=False endpoint=False all=False
+  index=66 active=False without_z=False mediation=False endpoint=False all=False
+  index=67 active=True without_z=True mediation=True endpoint=True all=True
+  index=68 active=False without_z=False mediation=False endpoint=False all=False
+  index=69 active=False without_z=False mediation=False endpoint=False all=False
+  index=70 active=False without_z=False mediation=False endpoint=False all=False
+  index=71 active=False without_z=False mediation=False endpoint=False all=False
+
+classification = START-COORDINATE BRIDGE PILOT OPEN
+
+Scope: validated propagation for the frozen-spline linear cocycle only.
+report = /root/elab1/hysteresis/support_q550_start_coordinate_bridge_pilot_report.txt
+JSON   = /root/elab1/hysteresis/support_q550_start_coordinate_bridge_pilot.json
+raw    = /root/elab1/hysteresis/support_q550_start_coordinate_bridge_pilot_raw.npz

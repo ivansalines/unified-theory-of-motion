@@ -1,0 +1,26 @@
+Script version: 2026-08-10-q550-bidirectional-cocycle-reset-corpus-v7.1
+
+Q=550 BIDIRECTIONAL COCYCLE-RESET CORPUS PILOT
+==============================================
+
+cells                         = [39]
+half-step sweep               = [64, 128, 256]
+H/K residual subdivisions     = 8
+local paired pieces           = 8
+
+Architecture
+------------
+Left:  T=H1*T_left*H0^-1, G=H2*G_left*H1^-1
+Right: T=K1^-1*T_right*K0, G=K2^-1*G_right*K1
+Each endpoint anchor covers only its nearest half-cell.
+Local Picard endpoint balls are discarded after each slab.
+
+Summaries
+---------
+Nhalf=  64 cell=39 min=-6.055134e-02 badL=  29 badR=  29 resetRT=1.064304e-01 tubeRT=1.149835e-01 rShort=3.182074e-03 rq=4.536967e-02 pass=False
+Nhalf= 128 cell=39 min=-2.467749e-02 badL=  79 badR=  79 resetRT=8.094312e-02 tubeRT=8.395133e-02 rShort=1.608866e-03 rq=2.268508e-02 pass=False
+Nhalf= 256 cell=39 min=-7.593385e-03 badL= 208 badR= 208 resetRT=6.784477e-02 tubeRT=6.904329e-02 rShort=8.088061e-04 rq=1.134261e-02 pass=False
+
+classification = BIDIRECTIONAL COCYCLE-RESET CORPUS PILOT STILL OPEN
+
+Scope: frozen natural-cubic-spline linear cocycle only; exact nonlinear-orbit interval validation remains open.

@@ -1,0 +1,72 @@
+{
+  "classification": "FORWARD HEAD-TAIL COCOYCLE BRIDGE STILL OPEN AT LARGEST SUBDIVISION",
+  "forward_dense_gap": 0.15270486111114678,
+  "largest_subdivision_endpoint_passed": false,
+  "neighbor_index": 68,
+  "q": 550.0,
+  "rows": [
+    {
+      "archived_center_separation": 0.011074306906406373,
+      "endpoint_pass": false,
+      "endpoint_separation_lower": -4.225423919084546,
+      "oriented_archived_relative_discrepancy": 2.3249754557271131e-10,
+      "oriented_head_short_radius": 0.011719919242250586,
+      "oriented_propagated_radius": 2.1181428371029734,
+      "propagated_center_separation": 0.01107430690626819,
+      "residual_subdivisions": 16,
+      "seed_oriented_radius": 0.004773809884552815,
+      "seed_two_line_radius": 0.004834314927545984,
+      "tail_inverse_eta": 0.06718021144948584,
+      "tail_inverse_radius": 0.41282151702497305,
+      "tail_short_radius": 0.011719866290896372,
+      "two_line_archived_relative_discrepancy": 2.3369453325284647e-10,
+      "two_line_head_short_radius": 0.011719968974259698,
+      "two_line_propagated_radius": 2.118355388887841
+    },
+    {
+      "archived_center_separation": 0.011074306906406373,
+      "endpoint_pass": false,
+      "endpoint_separation_lower": -2.156089674010647,
+      "oriented_archived_relative_discrepancy": 2.3249754557271131e-10,
+      "oriented_head_short_radius": 0.005862232162238046,
+      "oriented_propagated_radius": 1.0831473889774434,
+      "propagated_center_separation": 0.01107430690626819,
+      "residual_subdivisions": 32,
+      "seed_oriented_radius": 0.004773809884552815,
+      "seed_two_line_radius": 0.004834314927545984,
+      "tail_inverse_eta": 0.033603132824362864,
+      "tail_inverse_radius": 0.19931636798686667,
+      "tail_short_radius": 0.005862205776962881,
+      "two_line_archived_relative_discrepancy": 2.3369453325284647e-10,
+      "two_line_head_short_radius": 0.0058622571202124165,
+      "two_line_propagated_radius": 1.084016591939472
+    },
+    {
+      "archived_center_separation": 0.011074306906406373,
+      "endpoint_pass": false,
+      "endpoint_separation_lower": -1.173894788482083,
+      "oriented_archived_relative_discrepancy": 2.3249754557271131e-10,
+      "oriented_head_short_radius": 0.0029317780057824677,
+      "oriented_propagated_radius": 0.5918941092349216,
+      "propagated_center_separation": 0.01107430690626819,
+      "residual_subdivisions": 64,
+      "seed_oriented_radius": 0.004773809884552815,
+      "seed_two_line_radius": 0.004834314927545984,
+      "tail_inverse_eta": 0.016805360766114205,
+      "tail_inverse_radius": 0.09797765652891381,
+      "tail_short_radius": 0.002931764829249309,
+      "two_line_archived_relative_discrepancy": 2.3369453325284647e-10,
+      "two_line_head_short_radius": 0.002931790527945814,
+      "two_line_propagated_radius": 0.5930749861534296
+    }
+  ],
+  "scope": "one-forward-cell frozen-spline head-tail cocycle bridge",
+  "script_version": "2026-08-07-q550-forward-head-tail-cocycle-bridge-v2",
+  "seed_index": 67,
+  "short_steps": 440,
+  "subdivision_sweep": [
+    16,
+    32,
+    64
+  ]
+}

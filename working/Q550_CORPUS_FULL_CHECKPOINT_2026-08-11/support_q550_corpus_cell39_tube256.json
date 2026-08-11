@@ -1,0 +1,51 @@
+{
+  "script_version": "2026-08-10-q550-corpus-inter-node-bridge-v6.1-full-path-scaling",
+  "q": 550.0,
+  "scope": "continuous start-coordinate endpoint distinction in frozen-spline linear cocycle",
+  "selection_mode": "explicit cells",
+  "selected_cells": [
+    39
+  ],
+  "pilot_reasons": {
+    "worst_v5_lower_node": 64,
+    "worst_v5_radius_node": 25,
+    "largest_archived_D_finite_slope_cell": 39
+  },
+  "p_line": 0.22777777777777777,
+  "p_oriented": 0.45416666666666666,
+  "p_two_line": 0.45555555555555555,
+  "edge_cap_length": 0.001388888888888884,
+  "v5_subdivision": 32,
+  "tube_steps_per_half": 256,
+  "paired_generator_subdivisions": 256,
+  "cells_passed": 0,
+  "cells_tested": 1,
+  "minimum_continuous_lower": -0.06001310961971046,
+  "minimum_continuous_lower_cell": 39,
+  "classification": "CORPUS INTER-NODE COVERAGE STILL OPEN",
+  "cells": [
+    {
+      "cell_index": 39,
+      "start_left": 663.2746766493331,
+      "start_right": 663.4273815104441,
+      "cell_width": 0.1527048611110331,
+      "midpoint": 663.3510290798886,
+      "left_anchor_v5_lower": 0.010666430754709971,
+      "right_anchor_v5_lower": 0.010643331018920956,
+      "left_minimum_continuous_lower": -0.05994983805210891,
+      "right_minimum_continuous_lower": -0.06001310961971046,
+      "minimum_continuous_lower": -0.06001310961971046,
+      "maximum_T_tube_radius": 1.4124508893864796,
+      "maximum_C_tube_radius": 0.004785542771949193,
+      "maximum_paired_generator_radius": 0.0003580119377103966,
+      "maximum_picard_iterations": 7.0,
+      "left_steps_completed": 256,
+      "right_steps_completed": 256,
+      "first_bad_side": "left",
+      "first_bad_step": 151,
+      "first_bad_left_step": 151,
+      "first_bad_right_step": 151,
+      "cell_pass": false
+    }
+  ]
+}

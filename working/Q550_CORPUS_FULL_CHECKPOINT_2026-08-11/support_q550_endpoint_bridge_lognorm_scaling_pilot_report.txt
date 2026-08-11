@@ -1,0 +1,20 @@
+Script version: 2026-08-06-q550-endpoint-bridge-lognorm-scaling-pilot-v1
+
+Q=550 ENDPOINT BRIDGE SPECTRAL-LOGNORM SCALING PILOT
+=====================================================
+
+seed index                         = 67
+subdivision sweep                  = [32, 128, 512]
+
+Rows
+----
+m=   32 forward  node=68 rO=6.247394731838e-01 r2P=6.263894084798e-01 lower=-1.238562624300e+00 muO=+1.866153e+01 mu2P=+1.866153e+01 width=2.098138e-01 pass=False
+m=   32 backward node=66 rO=6.241110562436e-01 r2P=6.257494056750e-01 lower=-1.237295256941e+00 muO=+1.866171e+01 mu2P=+1.866172e+01 width=2.095147e-01 pass=False
+m=  128 forward  node=68 rO=4.422445877360e-01 r2P=4.436769031091e-01 lower=-8.733552334818e-01 muO=+1.861485e+01 mu2P=+1.861485e+01 width=1.799456e-01 pass=False
+m=  128 backward node=66 rO=4.410953293124e-01 r2P=4.425215024224e-01 lower=-8.710516267570e-01 muO=+1.861494e+01 mu2P=+1.861495e+01 width=1.797986e-01 pass=False
+m=  512 forward  node=68 rO=1.872248722726e-01 r2P=1.883620203461e-01 lower=-3.630206352554e-01 muO=+1.840299e+01 mu2P=+1.840298e+01 width=4.498793e-02 pass=False
+m=  512 backward node=66 rO=1.869329534092e-01 r2P=1.880664497716e-01 lower=-3.624341982028e-01 muO=+1.840309e+01 mu2P=+1.840310e+01 width=4.495153e-02 pass=False
+
+classification = ONE-CELL ENDPOINT BRIDGE STILL OPEN AT LARGEST SUBDIVISION
+
+Scope: frozen-spline linear cocycle only; nonlinear orbit not yet validated.

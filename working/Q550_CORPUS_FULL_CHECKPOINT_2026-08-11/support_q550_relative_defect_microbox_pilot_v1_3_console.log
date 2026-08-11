@@ -1,0 +1,160 @@
+Script version       = 2026-08-06-q550-relative-defect-microbox-pilot-v1.3
+selected center      = 67/80
+selected start       = 667.550412760444146
+steps per P_line     = 656
+common step          = 3.472222222222222e-04
+step counts          = {'line': 656, 'second': 652, 'oriented': 1308, 'two_line': 1312}
+residual subdivisions= 4
+mp.dps               = 80
+
+Q=550: orbit=400 periods, tail=70 periods
+  Q=550: [   1/400]
+  Q=550: [ 100/400]
+  Q=550: [ 200/400]
+  Q=550: [ 300/400]
+  Q=550: [ 400/400]
+  validating line
+    line: [    1/656] radius=5.160e-06 microboxes=21
+    line: [   65/656] radius=8.339e-04 microboxes=277
+    line: [  130/656] radius=3.010e-03 microboxes=537
+    line: [  195/656] radius=7.009e-03 microboxes=797
+    line: [  260/656] radius=1.312e-02 microboxes=1057
+    line: [  325/656] radius=2.322e-02 microboxes=1317
+    line: [  390/656] radius=3.652e-02 microboxes=1577
+    line: [  455/656] radius=4.956e-02 microboxes=1837
+    line: [  520/656] radius=6.051e-02 microboxes=2097
+    line: [  585/656] radius=6.889e-02 microboxes=2357
+    line: [  650/656] radius=7.999e-02 microboxes=2617
+    line: [  656/656] radius=8.093e-02 microboxes=2641
+  line done: radius=8.092738e-02, archived discrepancy=1.440e-10
+  validating second
+    second: [    1/652] radius=5.167e-06 microboxes=2645
+    second: [   65/652] radius=8.350e-04 microboxes=2901
+    second: [  130/652] radius=3.013e-03 microboxes=3161
+    second: [  195/652] radius=7.014e-03 microboxes=3421
+    second: [  260/652] radius=1.312e-02 microboxes=3681
+    second: [  325/652] radius=2.322e-02 microboxes=3941
+    second: [  390/652] radius=3.650e-02 microboxes=4201
+    second: [  455/652] radius=4.953e-02 microboxes=4461
+    second: [  520/652] radius=6.047e-02 microboxes=4721
+    second: [  585/652] radius=6.885e-02 microboxes=4981
+    second: [  650/652] radius=7.990e-02 microboxes=5241
+    second: [  652/652] radius=8.021e-02 microboxes=5249
+  second done: radius=8.021379e-02, archived discrepancy=1.417e-10
+  validating oriented
+    oriented: [    1/1308] radius=5.160e-06 microboxes=5249
+    oriented: [  130/1308] radius=3.010e-03 microboxes=5249
+    oriented: [  260/1308] radius=1.312e-02 microboxes=5249
+    oriented: [  390/1308] radius=3.652e-02 microboxes=5249
+    oriented: [  520/1308] radius=6.051e-02 microboxes=5249
+    oriented: [  650/1308] radius=7.999e-02 microboxes=5249
+    oriented: [  780/1308] radius=1.081e-01 microboxes=5333
+    oriented: [  910/1308] radius=1.243e-01 microboxes=5405
+    oriented: [ 1040/1308] radius=1.539e-01 microboxes=5489
+    oriented: [ 1170/1308] radius=1.905e-01 microboxes=5573
+    oriented: [ 1300/1308] radius=2.285e-01 microboxes=5657
+    oriented: [ 1308/1308] radius=2.348e-01 microboxes=5657
+  oriented done: radius=2.348050e-01, archived discrepancy=2.322e-10
+  validating two_line
+    two_line: [    1/1312] radius=5.160e-06 microboxes=5657
+    two_line: [  131/1312] radius=3.054e-03 microboxes=5657
+    two_line: [  262/1312] radius=1.334e-02 microboxes=5657
+    two_line: [  393/1312] radius=3.714e-02 microboxes=5657
+    two_line: [  524/1312] radius=6.106e-02 microboxes=5657
+    two_line: [  655/1312] radius=8.077e-02 microboxes=5657
+    two_line: [  786/1312] radius=1.094e-01 microboxes=5657
+    two_line: [  917/1312] radius=1.250e-01 microboxes=5657
+    two_line: [ 1048/1312] radius=1.577e-01 microboxes=5657
+    two_line: [ 1179/1312] radius=1.893e-01 microboxes=5657
+    two_line: [ 1310/1312] radius=2.363e-01 microboxes=5665
+    two_line: [ 1312/1312] radius=2.378e-01 microboxes=5673
+  two_line done: radius=2.378304e-01, archived discrepancy=2.336e-10
+==============================================================================
+Script version: 2026-08-06-q550-relative-defect-microbox-pilot-v1.3
+
+Q=550 RELATIVE-DEFECT MICRO-BOX PILOT
+======================================
+
+scope                              = one-start validated frozen cubic-spline linear cocycle; nonlinear orbit cache not yet validated
+dense raw                          = support_q550_dense_start_span_closure_raw.npz
+orbit cache                        = support_feedback_q_curtain_cache/q_550_orbit.npz
+selected center index              = 67
+selected start                     = 667.550412760444146
+P_line                            = 0.227777777777778
+P_oriented                        = 0.454166666666667
+common step                        = 3.472222222222222e-04
+steps per P_line                  = 656
+residual subdivisions             = 4
+
+Validated transport radii
+---------------------------
+line
+  steps                            = 656
+  radius                           = 8.092737553921e-02
+  archived relative discrepancy   = 1.439836153039e-10
+  max micro generator width       = 1.309444727400e-02
+  max Banach inverse residual             = 9.245426987669e-03
+  max relative defect rate        = 1.362401433190e-01
+  accumulated relative defect     = 2.067636693312e-02
+  max local relative error        = 4.730569104176e-05
+  max local absolute radius       = 2.003772915241e-04
+second
+  steps                            = 652
+  radius                           = 8.021379445367e-02
+  archived relative discrepancy   = 1.416593539107e-10
+  max micro generator width       = 1.309258303418e-02
+  max Banach inverse residual             = 9.249811526563e-03
+  max relative defect rate        = 1.360162603175e-01
+  accumulated relative defect     = 2.047299108408e-02
+  max local relative error        = 4.722789205859e-05
+  max local absolute radius       = 2.000805587059e-04
+oriented
+  steps                            = 1308
+  radius                           = 2.348050420770e-01
+  archived relative discrepancy   = 2.322207228261e-10
+  max micro generator width       = 1.309444727400e-02
+  max Banach inverse residual             = 1.490528692728e-02
+  max relative defect rate        = 2.659369541264e-01
+  accumulated relative defect     = 6.238395589377e-02
+  max local relative error        = 9.223070347084e-05
+  max local absolute radius       = 3.364287511908e-04
+two_line
+  steps                            = 1312
+  radius                           = 2.378304036989e-01
+  archived relative discrepancy   = 2.335920909685e-10
+  max micro generator width       = 1.309444727400e-02
+  max Banach inverse residual             = 1.520227168999e-02
+  max relative defect rate        = 2.698698034030e-01
+  accumulated relative defect     = 6.274959360019e-02
+  max local relative error        = 9.357317231629e-05
+  max local absolute radius       = 3.436454977135e-04
+
+Structural lower bounds at the selected center
+------------------------------------------------
+active determinant center          = -2.863632670420e-01
+active sigma lower                 = +8.664008241128e-02
+without-z determinant center       = +5.364496203956e-02
+without-z sigma lower              = -1.579039953207e-01
+mediation margin lower             = -4.412861029901e-01
+endpoint separation lower          = -4.600880484942e-01
+composition enclosure upper        = 6.161307276347e-01
+
+Decisions
+---------
+active orientation passed          = True
+without-z orientation passed       = False
+mediation passed                   = False
+endpoint separation passed         = False
+all structural passed              = False
+pilot target passed                = False
+classification                     = PILOT OPEN: exact micro-boxes and relative-defect validation improved the architecture but do not yet preserve every structural margin at the selected start.
+
+Interpretation
+--------------
+This pilot validates one frozen-spline start.  A pass shows that exact
+microinterval boxes plus a moving-frame relative defect can produce
+radii small enough for the structural margins.  It does not yet cover
+all 81 starts or validate the archived nonlinear orbit.
+report = /root/elab1/hysteresis/support_q550_relative_defect_microbox_pilot_report.txt
+JSON   = /root/elab1/hysteresis/support_q550_relative_defect_microbox_pilot.json
+raw    = /root/elab1/hysteresis/support_q550_relative_defect_microbox_pilot_raw.npz

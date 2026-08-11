@@ -1,0 +1,25 @@
+Script version: 2026-08-07-q550-forward-head-tail-cocycle-bridge-v2
+
+Q=550 FORWARD HEAD-TAIL COCOYCLE BRIDGE PILOT
+===============================================
+
+seed -> neighbor                    = 67 -> 68
+forward dense gap                   = 1.527048611111e-01
+short steps                         = 440
+subdivision sweep                   = [16, 32, 64]
+
+Identity used
+-------------
+T_L(s+delta) = H_head T_L(s) K_tail^{-1}
+Both H_head and K_tail are forward short transports.
+The seed radius is carried through the product as mechanical memory.
+
+Rows
+----
+m=  16 rTail=1.171987e-02 rHeadO=1.171992e-02 rHead2P=1.171997e-02 rO=2.118143e+00 r2P=2.118355e+00 lower=-4.225424e+00 pass=False
+m=  32 rTail=5.862206e-03 rHeadO=5.862232e-03 rHead2P=5.862257e-03 rO=1.083147e+00 r2P=1.084017e+00 lower=-2.156090e+00 pass=False
+m=  64 rTail=2.931765e-03 rHeadO=2.931778e-03 rHead2P=2.931791e-03 rO=5.918941e-01 r2P=5.930750e-01 lower=-1.173895e+00 pass=False
+
+classification = FORWARD HEAD-TAIL COCOYCLE BRIDGE STILL OPEN AT LARGEST SUBDIVISION
+
+Scope: frozen-spline linear cocycle only; nonlinear orbit not yet validated.

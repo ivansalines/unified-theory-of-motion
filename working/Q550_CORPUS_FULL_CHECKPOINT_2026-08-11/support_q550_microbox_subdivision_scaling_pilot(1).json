@@ -1,0 +1,61 @@
+{
+  "basis_gram_error": 5.719965119736176e-16,
+  "center_index": 67,
+  "classification": "SCALING MEASURED; USE THE FIT TO CHOOSE THE NEXT VALIDATED SUBDIVISION COUNT",
+  "common_step": 0.00034722222222222224,
+  "log_fit_r2": 0.9999713784142903,
+  "power_exponent": 1.0090266935646388,
+  "power_prefactor": 0.9469419488680809,
+  "predicted_subdivisions_for_target": 151,
+  "q": 550.0,
+  "rows": [
+    {
+      "accumulated_relative_defect": 0.06238395589377324,
+      "archived_relative_discrepancy": 2.3222072282613699e-10,
+      "maximum_microbox_width": 0.013094447274002396,
+      "maximum_relative_defect_rate": 0.26593695412640167,
+      "radius": 0.2348050420769874,
+      "residual_subdivisions": 4,
+      "reused_prior_result": true,
+      "transport": "oriented"
+    },
+    {
+      "accumulated_relative_defect": 0.031137959203823447,
+      "archived_relative_discrepancy": 2.3222072282613699e-10,
+      "maximum_microbox_width": 0.0065472253198739835,
+      "maximum_relative_defect_rate": 0.1319592048149034,
+      "radius": 0.11536838003566802,
+      "residual_subdivisions": 8,
+      "reused_prior_result": false,
+      "transport": "oriented"
+    },
+    {
+      "accumulated_relative_defect": 0.01571279455575881,
+      "archived_relative_discrepancy": 2.3222072282613699e-10,
+      "maximum_microbox_width": 0.0032736138083238,
+      "maximum_relative_defect_rate": 0.06572999892155028,
+      "radius": 0.05776801864446404,
+      "residual_subdivisions": 16,
+      "reused_prior_result": false,
+      "transport": "oriented"
+    },
+    {
+      "accumulated_relative_defect": 0.007845618229492455,
+      "archived_relative_discrepancy": 2.3222072282613699e-10,
+      "maximum_microbox_width": 0.0016368070715236062,
+      "maximum_relative_defect_rate": 0.03280293611179163,
+      "radius": 0.02873091927796685,
+      "residual_subdivisions": 32,
+      "reused_prior_result": false,
+      "transport": "oriented"
+    }
+  ],
+  "scope": "one-start subdivision scaling for the frozen-spline relative-defect enclosure",
+  "script_version": "2026-08-06-q550-microbox-subdivision-scaling-pilot-v1",
+  "start": 667.5504127604441,
+  "steps": 1308,
+  "steps_per_line": 656,
+  "target_radius": 0.006,
+  "target_reached_in_sweep": false,
+  "transport": "oriented"
+}

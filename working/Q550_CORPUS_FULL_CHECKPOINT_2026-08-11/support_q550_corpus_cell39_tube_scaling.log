@@ -1,0 +1,140 @@
+
+Q=550: orbit=400 periods, tail=70 periods
+  Q=550: [   1/400]
+  Q=550: [ 100/400]
+  Q=550: [ 200/400]
+  Q=550: [ 300/400]
+  Q=550: [ 400/400]
+Script version       = 2026-08-10-q550-corpus-inter-node-bridge-v6.1-full-path-scaling
+Q                    = 550
+dense starts         = 81
+dense cells          = 80
+selection mode       = explicit cells
+selected cells       = [39]
+pilot reasons        = {'worst_v5_lower_node': 64, 'worst_v5_radius_node': 25, 'largest_archived_D_finite_slope_cell': 39}
+P_oriented           = 4.541666666666667e-01
+2 P_line             = 4.555555555555555e-01
+edge cap DeltaP      = 1.388888888888884e-03
+v5 subdivision       = 32
+tube steps / half    = 16
+paired B1-B2 pieces  = 256
+corpus factorization = D=C*T, C=I-G_edge
+start ODE T           = B1*T - T*B0
+start ODE C           = (B1-B2) + B2*C - C*B1
+==============================================================================
+[  1/1] cell=39 width=1.527049e-01 left=-5.517124e-01 right=-5.495021e-01 min=-5.517124e-01 maxRT=4.646e+00 maxRC=5.721e-02 rq=5.705e-03 picard=22 badL=5 badR=5 pass=False
+==============================================================================
+summary: passed=0/1 minContinuousLower=-5.517124e-01 at cell=39
+classification = CORPUS INTER-NODE COVERAGE STILL OPEN
+
+Q=550: orbit=400 periods, tail=70 periods
+  Q=550: [   1/400]
+  Q=550: [ 100/400]
+  Q=550: [ 200/400]
+  Q=550: [ 300/400]
+  Q=550: [ 400/400]
+Script version       = 2026-08-10-q550-corpus-inter-node-bridge-v6.1-full-path-scaling
+Q                    = 550
+dense starts         = 81
+dense cells          = 80
+selection mode       = explicit cells
+selected cells       = [39]
+pilot reasons        = {'worst_v5_lower_node': 64, 'worst_v5_radius_node': 25, 'largest_archived_D_finite_slope_cell': 39}
+P_oriented           = 4.541666666666667e-01
+2 P_line             = 4.555555555555555e-01
+edge cap DeltaP      = 1.388888888888884e-03
+v5 subdivision       = 32
+tube steps / half    = 32
+paired B1-B2 pieces  = 256
+corpus factorization = D=C*T, C=I-G_edge
+start ODE T           = B1*T - T*B0
+start ODE C           = (B1-B2) + B2*C - C*B1
+==============================================================================
+[  1/1] cell=39 width=1.527049e-01 left=-2.803526e-01 right=-2.774249e-01 min=-2.803526e-01 maxRT=3.111e+00 maxRC=3.316e-02 rq=2.859e-03 picard=14 badL=12 badR=12 pass=False
+==============================================================================
+summary: passed=0/1 minContinuousLower=-2.803526e-01 at cell=39
+classification = CORPUS INTER-NODE COVERAGE STILL OPEN
+
+Q=550: orbit=400 periods, tail=70 periods
+  Q=550: [   1/400]
+  Q=550: [ 100/400]
+  Q=550: [ 200/400]
+  Q=550: [ 300/400]
+  Q=550: [ 400/400]
+Script version       = 2026-08-10-q550-corpus-inter-node-bridge-v6.1-full-path-scaling
+Q                    = 550
+dense starts         = 81
+dense cells          = 80
+selection mode       = explicit cells
+selected cells       = [39]
+pilot reasons        = {'worst_v5_lower_node': 64, 'worst_v5_radius_node': 25, 'largest_archived_D_finite_slope_cell': 39}
+P_oriented           = 4.541666666666667e-01
+2 P_line             = 4.555555555555555e-01
+edge cap DeltaP      = 1.388888888888884e-03
+v5 subdivision       = 32
+tube steps / half    = 64
+paired B1-B2 pieces  = 256
+corpus factorization = D=C*T, C=I-G_edge
+start ODE T           = B1*T - T*B0
+start ODE C           = (B1-B2) + B2*C - C*B1
+==============================================================================
+[  1/1] cell=39 width=1.527049e-01 left=-1.518511e-01 right=-1.538562e-01 min=-1.538562e-01 maxRT=2.223e+00 maxRC=1.850e-02 rq=1.431e-03 picard=11 badL=29 badR=29 pass=False
+==============================================================================
+summary: passed=0/1 minContinuousLower=-1.538562e-01 at cell=39
+classification = CORPUS INTER-NODE COVERAGE STILL OPEN
+
+Q=550: orbit=400 periods, tail=70 periods
+  Q=550: [   1/400]
+  Q=550: [ 100/400]
+  Q=550: [ 200/400]
+  Q=550: [ 300/400]
+  Q=550: [ 400/400]
+Script version       = 2026-08-10-q550-corpus-inter-node-bridge-v6.1-full-path-scaling
+Q                    = 550
+dense starts         = 81
+dense cells          = 80
+selection mode       = explicit cells
+selected cells       = [39]
+pilot reasons        = {'worst_v5_lower_node': 64, 'worst_v5_radius_node': 25, 'largest_archived_D_finite_slope_cell': 39}
+P_oriented           = 4.541666666666667e-01
+2 P_line             = 4.555555555555555e-01
+edge cap DeltaP      = 1.388888888888884e-03
+v5 subdivision       = 32
+tube steps / half    = 128
+paired B1-B2 pieces  = 256
+corpus factorization = D=C*T, C=I-G_edge
+start ODE T           = B1*T - T*B0
+start ODE C           = (B1-B2) + B2*C - C*B1
+==============================================================================
+[  1/1] cell=39 width=1.527049e-01 left=-8.927558e-02 right=-8.967595e-02 min=-8.967595e-02 maxRT=1.690e+00 maxRC=9.495e-03 rq=7.159e-04 picard=9 badL=68 badR=68 pass=False
+==============================================================================
+summary: passed=0/1 minContinuousLower=-8.967595e-02 at cell=39
+classification = CORPUS INTER-NODE COVERAGE STILL OPEN
+
+Q=550: orbit=400 periods, tail=70 periods
+  Q=550: [   1/400]
+  Q=550: [ 100/400]
+  Q=550: [ 200/400]
+  Q=550: [ 300/400]
+  Q=550: [ 400/400]
+Script version       = 2026-08-10-q550-corpus-inter-node-bridge-v6.1-full-path-scaling
+Q                    = 550
+dense starts         = 81
+dense cells          = 80
+selection mode       = explicit cells
+selected cells       = [39]
+pilot reasons        = {'worst_v5_lower_node': 64, 'worst_v5_radius_node': 25, 'largest_archived_D_finite_slope_cell': 39}
+P_oriented           = 4.541666666666667e-01
+2 P_line             = 4.555555555555555e-01
+edge cap DeltaP      = 1.388888888888884e-03
+v5 subdivision       = 32
+tube steps / half    = 256
+paired B1-B2 pieces  = 256
+corpus factorization = D=C*T, C=I-G_edge
+start ODE T           = B1*T - T*B0
+start ODE C           = (B1-B2) + B2*C - C*B1
+==============================================================================
+[  1/1] cell=39 width=1.527049e-01 left=-5.994984e-02 right=-6.001311e-02 min=-6.001311e-02 maxRT=1.412e+00 maxRC=4.786e-03 rq=3.580e-04 picard=7 badL=151 badR=151 pass=False
+==============================================================================
+summary: passed=0/1 minContinuousLower=-6.001311e-02 at cell=39
+classification = CORPUS INTER-NODE COVERAGE STILL OPEN

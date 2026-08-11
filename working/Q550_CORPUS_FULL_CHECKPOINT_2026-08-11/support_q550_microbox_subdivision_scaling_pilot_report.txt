@@ -1,0 +1,36 @@
+Script version: 2026-08-06-q550-microbox-subdivision-scaling-pilot-v1
+
+Q=550 MICRO-BOX SUBDIVISION SCALING PILOT
+============================================
+
+transport                         = oriented
+selected center                   = 67
+selected start                    = 667.550412760444146
+steps per P_line                  = 656
+target radius                     = 6.000000000000e-03
+basis Gram error                  = 5.719965119736e-16
+
+Measured radii
+--------------
+m=   4  radius=2.348050420770e-01  defect=6.238395589377e-02  width=1.309444727400e-02
+m=   8  radius=1.153683800357e-01  defect=3.113795920382e-02  width=6.547225319874e-03
+m=  16  radius=5.776801864446e-02  defect=1.571279455576e-02  width=3.273613808324e-03
+m=  32  radius=2.873091927797e-02  defect=7.845618229492e-03  width=1.636807071524e-03
+
+Log-log fit
+-----------
+radius approximately C * m^(-p)
+p                                  = 1.009026694
+C                                  = 9.469419488681e-01
+R^2                                = 0.999971378
+predicted m for target             = 151
+
+classification                     = SCALING MEASURED; USE THE FIT TO CHOOSE THE NEXT VALIDATED SUBDIVISION COUNT
+
+Interpretation
+--------------
+If p is close to one, interval generator variation is still the dominant
+loss and brute micro-subdivision has predictable linear cost.  If the
+radius plateaus or p collapses, further subdivision is not the right tool
+and the next proof layer must preserve time correlation with a Taylor or
+affine model of the generator.

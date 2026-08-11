@@ -1,0 +1,85 @@
+Script version: 2026-08-06-q550-relative-defect-microbox-pilot-v1.3
+
+Q=550 RELATIVE-DEFECT MICRO-BOX PILOT
+======================================
+
+scope                              = one-start validated frozen cubic-spline linear cocycle; nonlinear orbit cache not yet validated
+dense raw                          = support_q550_dense_start_span_closure_raw.npz
+orbit cache                        = support_feedback_q_curtain_cache/q_550_orbit.npz
+selected center index              = 67
+selected start                     = 667.550412760444146
+P_line                            = 0.227777777777778
+P_oriented                        = 0.454166666666667
+common step                        = 3.472222222222222e-04
+steps per P_line                  = 656
+residual subdivisions             = 4
+
+Validated transport radii
+---------------------------
+line
+  steps                            = 656
+  radius                           = 8.092737553921e-02
+  archived relative discrepancy   = 1.439836153039e-10
+  max micro generator width       = 1.309444727400e-02
+  max Banach inverse residual             = 9.245426987669e-03
+  max relative defect rate        = 1.362401433190e-01
+  accumulated relative defect     = 2.067636693312e-02
+  max local relative error        = 4.730569104176e-05
+  max local absolute radius       = 2.003772915241e-04
+second
+  steps                            = 652
+  radius                           = 8.021379445367e-02
+  archived relative discrepancy   = 1.416593539107e-10
+  max micro generator width       = 1.309258303418e-02
+  max Banach inverse residual             = 9.249811526563e-03
+  max relative defect rate        = 1.360162603175e-01
+  accumulated relative defect     = 2.047299108408e-02
+  max local relative error        = 4.722789205859e-05
+  max local absolute radius       = 2.000805587059e-04
+oriented
+  steps                            = 1308
+  radius                           = 2.348050420770e-01
+  archived relative discrepancy   = 2.322207228261e-10
+  max micro generator width       = 1.309444727400e-02
+  max Banach inverse residual             = 1.490528692728e-02
+  max relative defect rate        = 2.659369541264e-01
+  accumulated relative defect     = 6.238395589377e-02
+  max local relative error        = 9.223070347084e-05
+  max local absolute radius       = 3.364287511908e-04
+two_line
+  steps                            = 1312
+  radius                           = 2.378304036989e-01
+  archived relative discrepancy   = 2.335920909685e-10
+  max micro generator width       = 1.309444727400e-02
+  max Banach inverse residual             = 1.520227168999e-02
+  max relative defect rate        = 2.698698034030e-01
+  accumulated relative defect     = 6.274959360019e-02
+  max local relative error        = 9.357317231629e-05
+  max local absolute radius       = 3.436454977135e-04
+
+Structural lower bounds at the selected center
+------------------------------------------------
+active determinant center          = -2.863632670420e-01
+active sigma lower                 = +8.664008241128e-02
+without-z determinant center       = +5.364496203956e-02
+without-z sigma lower              = -1.579039953207e-01
+mediation margin lower             = -4.412861029901e-01
+endpoint separation lower          = -4.600880484942e-01
+composition enclosure upper        = 6.161307276347e-01
+
+Decisions
+---------
+active orientation passed          = True
+without-z orientation passed       = False
+mediation passed                   = False
+endpoint separation passed         = False
+all structural passed              = False
+pilot target passed                = False
+classification                     = PILOT OPEN: exact micro-boxes and relative-defect validation improved the architecture but do not yet preserve every structural margin at the selected start.
+
+Interpretation
+--------------
+This pilot validates one frozen-spline start.  A pass shows that exact
+microinterval boxes plus a moving-frame relative defect can produce
+radii small enough for the structural margins.  It does not yet cover
+all 81 starts or validate the archived nonlinear orbit.

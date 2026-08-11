@@ -1,0 +1,61 @@
+{
+  "script_version": "2026-08-10-q550-bidirectional-cocycle-reset-corpus-v7.1",
+  "q": 550.0,
+  "scope": "continuous start-coordinate endpoint distinction in frozen-spline linear cocycle",
+  "cells": [
+    39
+  ],
+  "half_step_sweep": [
+    512,
+    1024
+  ],
+  "transport_residual_subdivisions": 8,
+  "paired_subdivisions": 8,
+  "summaries": [
+    {
+      "half_steps": 512,
+      "cell_index": 39,
+      "cell_width": 0.1527048611110331,
+      "minimum_continuous_lower": 0.0007460753321194539,
+      "left_minimum_lower": 0.000760131758316386,
+      "right_minimum_lower": 0.0007460753321194539,
+      "left_first_bad_step": -1,
+      "right_first_bad_step": -1,
+      "maximum_reset_T_radius": 0.061210463141514695,
+      "maximum_reset_C_radius": 0.0037194038945231544,
+      "maximum_local_T_tube_radius": 0.061740097222762656,
+      "maximum_local_C_tube_radius": 0.003751706134007008,
+      "maximum_short_transport_radius": 0.00040549602452604947,
+      "maximum_local_rq": 0.0056713086658605845,
+      "maximum_inverse_q": 0.0008467632810010652,
+      "midpoint_T_center_gap": 5.673187517147278e-13,
+      "midpoint_C_center_gap": 2.5327420792080636e-14,
+      "midpoint_T_overlap_margin": 0.12193936474693542,
+      "midpoint_C_overlap_margin": 0.0074706760561081284,
+      "cell_pass": true
+    },
+    {
+      "half_steps": 1024,
+      "cell_index": 39,
+      "cell_width": 0.1527048611110331,
+      "minimum_continuous_lower": 0.004868956214766917,
+      "left_minimum_lower": 0.004875169941904657,
+      "right_minimum_lower": 0.004868956214766917,
+      "left_first_bad_step": -1,
+      "right_first_bad_step": -1,
+      "maximum_reset_T_radius": 0.057870716139966326,
+      "maximum_reset_C_radius": 0.0018645406975411347,
+      "maximum_local_T_tube_radius": 0.058119169368812514,
+      "maximum_local_C_tube_radius": 0.001872612828945199,
+      "maximum_short_transport_radius": 0.00020298842397583412,
+      "maximum_local_rq": 0.0028356547814443506,
+      "maximum_inverse_q": 0.00042411467786627473,
+      "midpoint_T_center_gap": 5.565789125868497e-13,
+      "midpoint_C_center_gap": 4.045824441315129e-14,
+      "midpoint_T_overlap_margin": 0.1154816574408369,
+      "midpoint_C_overlap_margin": 0.0037349237598642733,
+      "cell_pass": true
+    }
+  ],
+  "classification": "BIDIRECTIONAL COCYCLE-RESET CORPUS PILOT PASSED AT LARGEST HALF-STEP RESOLUTION"
+}

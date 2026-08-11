@@ -1,0 +1,101 @@
+Script version       = 2026-08-06-q550-microbox-subdivision-scaling-pilot-v1
+transport            = oriented
+selected center      = 67/80
+selected start       = 667.550412760444146
+steps                = 1308
+subdivision sweep    = [8, 16, 32]
+target radius        = 6.000000e-03
+
+Q=550: orbit=400 periods, tail=70 periods
+  Q=550: [   1/400]
+  Q=550: [ 100/400]
+  Q=550: [ 200/400]
+  Q=550: [ 300/400]
+  Q=550: [ 400/400]
+reused prior m=4 result
+==============================================================================
+validating oriented with residual subdivisions=8
+    oriented-m8: [    1/1308] radius=2.578e-06 microboxes=8
+    oriented-m8: [  130/1308] radius=1.507e-03 microboxes=1040
+    oriented-m8: [  260/1308] radius=6.558e-03 microboxes=2080
+    oriented-m8: [  390/1308] radius=1.823e-02 microboxes=3120
+    oriented-m8: [  520/1308] radius=3.015e-02 microboxes=4160
+    oriented-m8: [  650/1308] radius=3.978e-02 microboxes=5200
+    oriented-m8: [  780/1308] radius=5.366e-02 microboxes=6240
+    oriented-m8: [  910/1308] radius=6.151e-02 microboxes=7280
+    oriented-m8: [ 1040/1308] radius=7.601e-02 microboxes=8320
+    oriented-m8: [ 1170/1308] radius=9.387e-02 microboxes=9360
+    oriented-m8: [ 1300/1308] radius=1.123e-01 microboxes=10400
+    oriented-m8: [ 1308/1308] radius=1.154e-01 microboxes=10464
+m=8: radius=1.153683800357e-01, defect=3.113795920382e-02, width=6.547225319874e-03
+==============================================================================
+validating oriented with residual subdivisions=16
+    oriented-m16: [    1/1308] radius=1.288e-06 microboxes=10480
+    oriented-m16: [  130/1308] radius=7.614e-04 microboxes=12544
+    oriented-m16: [  260/1308] radius=3.313e-03 microboxes=14624
+    oriented-m16: [  390/1308] radius=9.197e-03 microboxes=16704
+    oriented-m16: [  520/1308] radius=1.520e-02 microboxes=18784
+    oriented-m16: [  650/1308] radius=2.004e-02 microboxes=20864
+    oriented-m16: [  780/1308] radius=2.700e-02 microboxes=22944
+    oriented-m16: [  910/1308] radius=3.091e-02 microboxes=25024
+    oriented-m16: [ 1040/1308] radius=3.815e-02 microboxes=27104
+    oriented-m16: [ 1170/1308] radius=4.706e-02 microboxes=29184
+    oriented-m16: [ 1300/1308] radius=5.624e-02 microboxes=31264
+    oriented-m16: [ 1308/1308] radius=5.777e-02 microboxes=31392
+m=16: radius=5.776801864446e-02, defect=1.571279455576e-02, width=3.273613808324e-03
+==============================================================================
+validating oriented with residual subdivisions=32
+    oriented-m32: [    1/1308] radius=6.440e-07 microboxes=31424
+    oriented-m32: [  130/1308] radius=3.805e-04 microboxes=35552
+    oriented-m32: [  260/1308] radius=1.655e-03 microboxes=39712
+    oriented-m32: [  390/1308] radius=4.592e-03 microboxes=43872
+    oriented-m32: [  520/1308] radius=7.585e-03 microboxes=48032
+    oriented-m32: [  650/1308] radius=9.997e-03 microboxes=52192
+    oriented-m32: [  780/1308] radius=1.346e-02 microboxes=56352
+    oriented-m32: [  910/1308] radius=1.540e-02 microboxes=60512
+    oriented-m32: [ 1040/1308] radius=1.900e-02 microboxes=64672
+    oriented-m32: [ 1170/1308] radius=2.342e-02 microboxes=68832
+    oriented-m32: [ 1300/1308] radius=2.797e-02 microboxes=72992
+    oriented-m32: [ 1308/1308] radius=2.873e-02 microboxes=73248
+m=32: radius=2.873091927797e-02, defect=7.845618229492e-03, width=1.636807071524e-03
+==============================================================================
+Script version: 2026-08-06-q550-microbox-subdivision-scaling-pilot-v1
+
+Q=550 MICRO-BOX SUBDIVISION SCALING PILOT
+============================================
+
+transport                         = oriented
+selected center                   = 67
+selected start                    = 667.550412760444146
+steps per P_line                  = 656
+target radius                     = 6.000000000000e-03
+basis Gram error                  = 5.719965119736e-16
+
+Measured radii
+--------------
+m=   4  radius=2.348050420770e-01  defect=6.238395589377e-02  width=1.309444727400e-02
+m=   8  radius=1.153683800357e-01  defect=3.113795920382e-02  width=6.547225319874e-03
+m=  16  radius=5.776801864446e-02  defect=1.571279455576e-02  width=3.273613808324e-03
+m=  32  radius=2.873091927797e-02  defect=7.845618229492e-03  width=1.636807071524e-03
+
+Log-log fit
+-----------
+radius approximately C * m^(-p)
+p                                  = 1.009026694
+C                                  = 9.469419488681e-01
+R^2                                = 0.999971378
+predicted m for target             = 151
+
+classification                     = SCALING MEASURED; USE THE FIT TO CHOOSE THE NEXT VALIDATED SUBDIVISION COUNT
+
+Interpretation
+--------------
+If p is close to one, interval generator variation is still the dominant
+loss and brute micro-subdivision has predictable linear cost.  If the
+radius plateaus or p collapses, further subdivision is not the right tool
+and the next proof layer must preserve time correlation with a Taylor or
+affine model of the generator.
+
+rows CSV = /root/elab1/hysteresis/support_q550_microbox_subdivision_scaling_pilot_rows.csv
+JSON     = /root/elab1/hysteresis/support_q550_microbox_subdivision_scaling_pilot.json
+report   = /root/elab1/hysteresis/support_q550_microbox_subdivision_scaling_pilot_report.txt

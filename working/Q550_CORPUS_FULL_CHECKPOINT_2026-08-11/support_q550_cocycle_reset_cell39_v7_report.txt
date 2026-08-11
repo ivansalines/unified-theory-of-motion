@@ -1,0 +1,26 @@
+Script version: 2026-08-10-q550-cocycle-reset-corpus-bridge-v7
+
+Q=550 COCYCLE-RESET CORPUS INTER-NODE PILOT
+===========================================
+
+cells                         = [39]
+reset sweep                   = [32, 64, 128]
+H residual subdivisions       = 8
+local paired pieces           = 8
+
+Architecture
+------------
+T(x) = H1(x) T(anchor) H0(x)^(-1)
+G(x) = H2(x) G(anchor) H1(x)^(-1)
+C(x) = I-G(x), D(x)=C(x)T(x)
+Each local Picard tube is discarded at its endpoint; the next slab is rebuilt from the original v5 anchor through short validated cocycle transports.
+
+Summaries
+---------
+N=  32 cell=39 min=-5.460169e+00 bad=   3 resetRT=1.498463e+00 tubeRT=2.051513e+00 rH=3.972926e-02 rq=1.815481e-01 pass=False
+N=  64 cell=39 min=-1.636816e+00 bad=  10 resetRT=7.847313e-01 tubeRT=9.080428e-01 rH=2.039122e-02 rq=9.074795e-02 pass=False
+N= 128 cell=39 min=-6.391841e-01 bad=  29 resetRT=4.399832e-01 tubeRT=4.724850e-01 rH=1.032691e-02 rq=4.536967e-02 pass=False
+
+classification = COCYCLE-RESET CORPUS PILOT STILL OPEN
+
+Scope: frozen natural-cubic-spline linear cocycle only; exact nonlinear-orbit interval validation remains open.

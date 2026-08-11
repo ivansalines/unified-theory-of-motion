@@ -1,0 +1,30 @@
+
+Q=550: orbit=400 periods, tail=70 periods
+  Q=550: [   1/400]
+  Q=550: [ 100/400]
+  Q=550: [ 200/400]
+  Q=550: [ 300/400]
+  Q=550: [ 400/400]
+Script version          = 2026-08-10-q550-bidirectional-cocycle-reset-corpus-v7.1
+Q                       = 550
+selected cells          = [39]
+half-step sweep         = [512, 1024]
+P_oriented              = 4.541666666666667e-01
+2 P_line                = 4.555555555555555e-01
+edge cap DeltaP         = 1.388888888888884e-03
+v5 subdivision          = 32
+H/K residual subdivisions= 8
+local paired pieces     = 8
+left reset T            = H1*T_left*H0^{-1}
+left reset G            = H2*G_left*H1^{-1}
+right reset T           = K1^{-1}*T_right*K0
+right reset G           = K2^{-1}*G_right*K1
+coverage                = left anchor -> midpoint <- right anchor
+==============================================================================
+steps / half-cell=512
+cell=39 min=+7.460753e-04 badL=  -1 badR=  -1 resetRT=6.121e-02 tubeRT=6.174e-02 resetRC=3.719e-03 tubeRC=3.752e-03 rShort=4.055e-04 rq=5.671e-03 midGapT=5.67e-13 midGapC=2.53e-14 midOvT=+1.219e-01 midOvC=+7.471e-03 pass=True
+==============================================================================
+steps / half-cell=1024
+cell=39 min=+4.868956e-03 badL=  -1 badR=  -1 resetRT=5.787e-02 tubeRT=5.812e-02 resetRC=1.865e-03 tubeRC=1.873e-03 rShort=2.030e-04 rq=2.836e-03 midGapT=5.57e-13 midGapC=4.05e-14 midOvT=+1.155e-01 midOvC=+3.735e-03 pass=True
+==============================================================================
+largest half-step summary: passed=1/1 classification=BIDIRECTIONAL COCYCLE-RESET CORPUS PILOT PASSED AT LARGEST HALF-STEP RESOLUTION

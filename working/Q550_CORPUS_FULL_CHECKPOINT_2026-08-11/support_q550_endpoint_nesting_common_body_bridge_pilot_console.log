@@ -1,0 +1,187 @@
+
+Q=550: orbit=400 periods, tail=70 periods
+  Q=550: [   1/400]
+  Q=550: [ 100/400]
+  Q=550: [ 200/400]
+  Q=550: [ 300/400]
+  Q=550: [ 400/400]
+Script version       = 2026-08-07-q550-endpoint-nesting-common-body-bridge-v4
+seed -> neighbor     = 67 -> 68
+s0                   = 667.550412760444146
+s1                   = 667.703117621555293
+forward dense gap    = 1.527048611111468e-01
+P_oriented           = 4.541666666666667e-01
+2 P_line             = 4.555555555555555e-01
+edge cap DeltaP      = 1.388888888888884e-03
+short steps          = 440
+cap steps            = 16
+subdivision sweep    = [16, 32, 64]
+architecture         = (I-G_edge) * H_oriented * T_seed * K_tail^{-1}
+seed oriented eps    = 1.308722403569e-03 (m192 accumulated relative defect)
+==============================================================================
+residual subdivisions=16
+    tail-m16: [    1/440] radius=1.287e-06 microboxes=16
+    tail-m16: [   44/440] radius=1.109e-04 microboxes=704
+    tail-m16: [   88/440] radius=3.605e-04 microboxes=1408
+    tail-m16: [  132/440] radius=7.820e-04 microboxes=2112
+    tail-m16: [  176/440] radius=1.413e-03 microboxes=2816
+    tail-m16: [  220/440] radius=2.291e-03 microboxes=3520
+    tail-m16: [  264/440] radius=3.415e-03 microboxes=4224
+    tail-m16: [  308/440] radius=5.049e-03 microboxes=4928
+    tail-m16: [  352/440] radius=7.172e-03 microboxes=5632
+    tail-m16: [  396/440] radius=9.481e-03 microboxes=6336
+    tail-m16: [  440/440] radius=1.172e-02 microboxes=7040
+    head-oriented-m16: [    1/440] radius=1.287e-06 microboxes=7056
+    head-oriented-m16: [   44/440] radius=1.109e-04 microboxes=7744
+    head-oriented-m16: [   88/440] radius=3.605e-04 microboxes=8448
+    head-oriented-m16: [  132/440] radius=7.820e-04 microboxes=9152
+    head-oriented-m16: [  176/440] radius=1.413e-03 microboxes=9856
+    head-oriented-m16: [  220/440] radius=2.291e-03 microboxes=10560
+    head-oriented-m16: [  264/440] radius=3.415e-03 microboxes=11264
+    head-oriented-m16: [  308/440] radius=5.049e-03 microboxes=11968
+    head-oriented-m16: [  352/440] radius=7.172e-03 microboxes=12672
+    head-oriented-m16: [  396/440] radius=9.482e-03 microboxes=13376
+    head-oriented-m16: [  440/440] radius=1.172e-02 microboxes=14080
+    edge-cap-m16: [    1/16] radius=7.944e-08 microboxes=14096
+    edge-cap-m16: [    2/16] radius=1.597e-07 microboxes=14112
+    edge-cap-m16: [    3/16] radius=2.407e-07 microboxes=14128
+    edge-cap-m16: [    4/16] radius=3.224e-07 microboxes=14144
+    edge-cap-m16: [    5/16] radius=4.050e-07 microboxes=14160
+    edge-cap-m16: [    6/16] radius=4.883e-07 microboxes=14176
+    edge-cap-m16: [    7/16] radius=5.724e-07 microboxes=14192
+    edge-cap-m16: [    8/16] radius=6.573e-07 microboxes=14208
+    edge-cap-m16: [    9/16] radius=7.430e-07 microboxes=14224
+    edge-cap-m16: [   10/16] radius=8.291e-07 microboxes=14240
+    edge-cap-m16: [   11/16] radius=9.164e-07 microboxes=14256
+    edge-cap-m16: [   12/16] radius=1.004e-06 microboxes=14272
+    edge-cap-m16: [   13/16] radius=1.093e-06 microboxes=14288
+    edge-cap-m16: [   14/16] radius=1.183e-06 microboxes=14304
+    edge-cap-m16: [   15/16] radius=1.274e-06 microboxes=14320
+    edge-cap-m16: [   16/16] radius=1.365e-06 microboxes=14336
+  m=16: epsTail=2.742619e-03 epsHead=2.742633e-03 epsEdge=1.300555e-06
+           edgeRows=2.526599e-02 bodyR=1.593550e-02 edgeBodyR=4.064249e-04 sharedTailR=8.164356e-03
+           sep_center=1.107431e-02 activeR=9.197537e-04 lower=+1.015455e-02 pass=True
+           archived sep=1.107431e-02 center discrepancy=3.235e-10 tail inverse q=4.323e-14
+==============================================================================
+residual subdivisions=32
+    tail-m32: [    1/440] radius=6.433e-07 microboxes=14368
+    tail-m32: [   44/440] radius=5.556e-05 microboxes=15744
+    tail-m32: [   88/440] radius=1.807e-04 microboxes=17152
+    tail-m32: [  132/440] radius=3.914e-04 microboxes=18560
+    tail-m32: [  176/440] radius=7.074e-04 microboxes=19968
+    tail-m32: [  220/440] radius=1.147e-03 microboxes=21376
+    tail-m32: [  264/440] radius=1.709e-03 microboxes=22784
+    tail-m32: [  308/440] radius=2.527e-03 microboxes=24192
+    tail-m32: [  352/440] radius=3.590e-03 microboxes=25600
+    tail-m32: [  396/440] radius=4.743e-03 microboxes=27008
+    tail-m32: [  440/440] radius=5.862e-03 microboxes=28416
+    head-oriented-m32: [    1/440] radius=6.433e-07 microboxes=28448
+    head-oriented-m32: [   44/440] radius=5.556e-05 microboxes=29824
+    head-oriented-m32: [   88/440] radius=1.807e-04 microboxes=31232
+    head-oriented-m32: [  132/440] radius=3.914e-04 microboxes=32640
+    head-oriented-m32: [  176/440] radius=7.074e-04 microboxes=34048
+    head-oriented-m32: [  220/440] radius=1.147e-03 microboxes=35456
+    head-oriented-m32: [  264/440] radius=1.709e-03 microboxes=36864
+    head-oriented-m32: [  308/440] radius=2.527e-03 microboxes=38272
+    head-oriented-m32: [  352/440] radius=3.590e-03 microboxes=39680
+    head-oriented-m32: [  396/440] radius=4.743e-03 microboxes=41088
+    head-oriented-m32: [  440/440] radius=5.862e-03 microboxes=42496
+    edge-cap-m32: [    1/16] radius=3.972e-08 microboxes=42528
+    edge-cap-m32: [    2/16] radius=7.983e-08 microboxes=42560
+    edge-cap-m32: [    3/16] radius=1.203e-07 microboxes=42592
+    edge-cap-m32: [    4/16] radius=1.612e-07 microboxes=42624
+    edge-cap-m32: [    5/16] radius=2.025e-07 microboxes=42656
+    edge-cap-m32: [    6/16] radius=2.441e-07 microboxes=42688
+    edge-cap-m32: [    7/16] radius=2.862e-07 microboxes=42720
+    edge-cap-m32: [    8/16] radius=3.287e-07 microboxes=42752
+    edge-cap-m32: [    9/16] radius=3.715e-07 microboxes=42784
+    edge-cap-m32: [   10/16] radius=4.145e-07 microboxes=42816
+    edge-cap-m32: [   11/16] radius=4.582e-07 microboxes=42848
+    edge-cap-m32: [   12/16] radius=5.022e-07 microboxes=42880
+    edge-cap-m32: [   13/16] radius=5.466e-07 microboxes=42912
+    edge-cap-m32: [   14/16] radius=5.915e-07 microboxes=42944
+    edge-cap-m32: [   15/16] radius=6.367e-07 microboxes=42976
+    edge-cap-m32: [   16/16] radius=6.824e-07 microboxes=43008
+  m=32: epsTail=1.371841e-03 epsHead=1.371848e-03 epsEdge=6.502402e-07
+           edgeRows=2.526599e-02 bodyR=9.851742e-03 edgeBodyR=2.508093e-04 sharedTailR=4.078156e-03
+           sep_center=1.107431e-02 activeR=5.454009e-04 lower=+1.052891e-02 pass=True
+           archived sep=1.107431e-02 center discrepancy=3.235e-10 tail inverse q=4.323e-14
+==============================================================================
+residual subdivisions=64
+    tail-m64: [    1/440] radius=3.216e-07 microboxes=43072
+    tail-m64: [   44/440] radius=2.781e-05 microboxes=45824
+    tail-m64: [   88/440] radius=9.045e-05 microboxes=48640
+    tail-m64: [  132/440] radius=1.958e-04 microboxes=51456
+    tail-m64: [  176/440] radius=3.540e-04 microboxes=54272
+    tail-m64: [  220/440] radius=5.742e-04 microboxes=57088
+    tail-m64: [  264/440] radius=8.549e-04 microboxes=59904
+    tail-m64: [  308/440] radius=1.264e-03 microboxes=62720
+    tail-m64: [  352/440] radius=1.796e-03 microboxes=65536
+    tail-m64: [  396/440] radius=2.372e-03 microboxes=68352
+    tail-m64: [  440/440] radius=2.932e-03 microboxes=71168
+    head-oriented-m64: [    1/440] radius=3.216e-07 microboxes=71232
+    head-oriented-m64: [   44/440] radius=2.781e-05 microboxes=73984
+    head-oriented-m64: [   88/440] radius=9.045e-05 microboxes=76800
+    head-oriented-m64: [  132/440] radius=1.958e-04 microboxes=79616
+    head-oriented-m64: [  176/440] radius=3.540e-04 microboxes=82432
+    head-oriented-m64: [  220/440] radius=5.742e-04 microboxes=85248
+    head-oriented-m64: [  264/440] radius=8.549e-04 microboxes=88064
+    head-oriented-m64: [  308/440] radius=1.264e-03 microboxes=90880
+    head-oriented-m64: [  352/440] radius=1.796e-03 microboxes=93696
+    head-oriented-m64: [  396/440] radius=2.372e-03 microboxes=96512
+    head-oriented-m64: [  440/440] radius=2.932e-03 microboxes=99328
+    edge-cap-m64: [    1/16] radius=1.986e-08 microboxes=99392
+    edge-cap-m64: [    2/16] radius=3.991e-08 microboxes=99456
+    edge-cap-m64: [    3/16] radius=6.016e-08 microboxes=99520
+    edge-cap-m64: [    4/16] radius=8.060e-08 microboxes=99584
+    edge-cap-m64: [    5/16] radius=1.012e-07 microboxes=99648
+    edge-cap-m64: [    6/16] radius=1.221e-07 microboxes=99712
+    edge-cap-m64: [    7/16] radius=1.431e-07 microboxes=99776
+    edge-cap-m64: [    8/16] radius=1.643e-07 microboxes=99840
+    edge-cap-m64: [    9/16] radius=1.857e-07 microboxes=99904
+    edge-cap-m64: [   10/16] radius=2.073e-07 microboxes=99968
+    edge-cap-m64: [   11/16] radius=2.291e-07 microboxes=100032
+    edge-cap-m64: [   12/16] radius=2.511e-07 microboxes=100096
+    edge-cap-m64: [   13/16] radius=2.733e-07 microboxes=100160
+    edge-cap-m64: [   14/16] radius=2.957e-07 microboxes=100224
+    edge-cap-m64: [   15/16] radius=3.184e-07 microboxes=100288
+    edge-cap-m64: [   16/16] radius=3.412e-07 microboxes=100352
+  m=64: epsTail=6.860756e-04 epsHead=6.860789e-04 epsEdge=3.251109e-07
+           edgeRows=2.526599e-02 bodyR=6.808191e-03 edgeBodyR=1.729623e-04 sharedTailR=2.038139e-03
+           sep_center=1.107431e-02 activeR=3.586988e-04 lower=+1.071561e-02 pass=True
+           archived sep=1.107431e-02 center discrepancy=3.235e-10 tail inverse q=4.323e-14
+==============================================================================
+Script version: 2026-08-07-q550-endpoint-nesting-common-body-bridge-v4
+
+Q=550 ENDPOINT-NESTING COMMON-BODY BRIDGE PILOT
+=================================================
+
+seed -> neighbor                    = 67 -> 68
+forward dense gap                   = 1.527048611111e-01
+P_oriented                          = 4.541666666667e-01
+2 P_line                            = 4.555555555556e-01
+edge cap DeltaP                     = 1.388888888889e-03
+short steps                         = 440
+cap steps                           = 16
+subdivision sweep                   = [16, 32, 64]
+
+Architecture
+------------
+T_2P = G_edge T_O, hence D = T_O - T_2P = (I-G_edge) T_O.
+Across the forward start cell: D1=(I-G1) H_O T_O,seed K_tail^{-1}.
+Only one long-body uncertainty is charged, and it is attenuated by I-G1.
+
+seed oriented relative eps          = 1.308722403569e-03
+
+Rows
+----
+m=  16 epsTail=2.742619e-03 epsHead=2.742633e-03 epsEdge=1.300555e-06 edgeRows=2.526599e-02 activeR=9.197537e-04 sep=1.107431e-02 lower=+1.015455e-02 pass=True
+m=  32 epsTail=1.371841e-03 epsHead=1.371848e-03 epsEdge=6.502402e-07 edgeRows=2.526599e-02 activeR=5.454009e-04 sep=1.107431e-02 lower=+1.052891e-02 pass=True
+m=  64 epsTail=6.860756e-04 epsHead=6.860789e-04 epsEdge=3.251109e-07 edgeRows=2.526599e-02 activeR=3.586988e-04 sep=1.107431e-02 lower=+1.071561e-02 pass=True
+
+classification = ENDPOINT-NESTING COMMON-BODY BRIDGE PASSED AT LARGEST SUBDIVISION
+
+Scope: frozen-spline linear cocycle only; nonlinear orbit not yet validated.
+report = /root/elab1/hysteresis/support_q550_endpoint_nesting_common_body_bridge_pilot_report.txt
+JSON   = /root/elab1/hysteresis/support_q550_endpoint_nesting_common_body_bridge_pilot.json
+CSV    = /root/elab1/hysteresis/support_q550_endpoint_nesting_common_body_bridge_pilot_rows.csv
